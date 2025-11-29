@@ -34,6 +34,6 @@ mounts:
     target: content/
     lang: zh
   - source: content/_papers
-    target: content/zh/publications/
+    target: content/publications/
     lang: zh
 
