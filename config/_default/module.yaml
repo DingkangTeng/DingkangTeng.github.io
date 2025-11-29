@@ -33,7 +33,7 @@ mounts:
   - source: content/zh
     target: content/
     lang: zh
-  - source: content/_papers
+  - source: content/publications
     target: content/zh/publications/
     lang: zh
 

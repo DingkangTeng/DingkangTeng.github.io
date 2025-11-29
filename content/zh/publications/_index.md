@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: 主要成果
 cms_exclude: true
 
 # View.
