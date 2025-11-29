@@ -118,69 +118,103 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 技能
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
+      - name: ArcGIS & QGIS
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+        icon: code-bracket
+      - name: 机器学习和大数据
         description: ''
-        percent: 85
+        percent: 80
+        icon: chart-bar
+      - name: 云计算（AWS/GCP）
+        description: ''
+        percent: 70
         icon: cloud
-  - name: Hobbies
+  - name: 编程语言
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Python
+        description: ''
+        percent: 100
+        icon: brands/python
+      - name: SQL
         description: ''
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        icon: brands/sql
+      - name: HTML & PHP & JavaScript
         description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
+        percent: 50
         icon: book-open
+      - name: Java & C/C++
+        description: ''
+        percent: 40
+        icon: cpu-chip
 
 languages:
-  - name: English
+  - name: 中文\n(普通话)
     percent: 100
-  - name: Spanish
+  - name: 中文\n(粤语)
     percent: 50
+  - name: English
+    percent: 90
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+  - title: 协会会长
+    url: ''
+    date: '2016 to 2018'
+    awarder: 华中农业大学土地研究协会
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      于土地研究协会策划举办了新生舞会、校园规划大赛等活动
+  - title: 一等奖
+    url: ''
+    date: '2018'
+    awarder: 华中农业大学“永业行杯”土地资源管理本科生村级土地利用规划技能大赛
+    icon: hero/trophy
+    summary: |
+      领导龙马村土地利用规划，管理团队协调，撰写项目报告
+  - title: 二等奖
+    url: ''
+    date: '2018'
+    awarder: “华夏土地杯”第一届全国大学生土地利用规划技能大赛
+    icon: hero/trophy
+    summary: |
+      作为龙马村项目的团队负责人，我牵头负责了龙马村土地利用规划的优化工作，运用 ArcGIS 完成了核心的数据分析工作，并承担团队内的协调任务
+  - title: 三等奖
+    url: ''
+    date: '2018'
+    awarder: 第二届全国土地资源管理专业大学生不动产估价技能大赛
+    icon: hero/trophy
+    summary: |
+      编制了房地产评估报告，并使用模糊层次分析法进行数据分析
+  - title: 荣誉称号
+    url: ''
+    date: '2017'
+    awarder: 2017年华中农业大学暑期社会实践“先进个人”
+    icon: hero/trophy
+    summary: |
+      带领团队成员承担了国家大学生创新创业训练计划的子项目
+  - title: 二等奖
+    url: ''
+    date: '2017'
+    awarder: 华中农业大学第二届“苍穹数码杯”土地信息系统技能竞赛
+    icon: hero/trophy
+    summary: |
+      运用 ArcGIS 对东京部分地区进行了数据分析与土地等级划分
+  # - title: Outstanding PhD Thesis
+  #   url: https://www.stanford.edu/
+  #   date: '2019-06-30'
+  #   awarder: Stanford University
+  #   icon: hero/currency-dollar
+  #   summary: |
+  #     Recognized for contributions to scaling laws in deep learning.
 ---
 
-Dingkang Teng is a part-time Research Assistant in LSGI, PolyU under the supervision of Dr. Zhuge and is also a Master student in Urban Informatics and Smart Cities at the Hong Kong Polytechnic University. He obtained his bachelor's degree in Land Resources Management from Huazhong Agricultural University. His research interests include urban transportation infrastructure, land use, and big data analytics.
+目前，我在香港理工大学土地及空间研究院（LSGI）担任兼职研究助理，师从诸葛老师，并于此同时攻读城市信息学与智慧城市的硕士学位。我的学术训练始于华中农业大学的土地资源管理专业，而今，我的研究聚焦于城市交通基础设施、土地利用与大数据分析的交叉领域。

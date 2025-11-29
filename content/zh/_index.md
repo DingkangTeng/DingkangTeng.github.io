@@ -31,7 +31,7 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 我的研究'
       subtitle: ''
       text: |-
         我目前是香港理工大学的在读硕士研究生，我的研究专注于了解新兴交通技术——从智能网联系统到电动车——如何重塑我们周边的空间与社区。
@@ -52,7 +52,7 @@ sections:
   #     columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: 主要成果
       text: ''
       filters:
         folders:

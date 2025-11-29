@@ -117,6 +117,9 @@
 - id: interests
   translation: 兴趣爱好
 
+- id: about_me
+  translation: 关于我
+
 - id: education
   translation: 教育经历
 

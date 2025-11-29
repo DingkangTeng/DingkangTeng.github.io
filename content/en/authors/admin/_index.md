@@ -121,67 +121,101 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
+      - name: ArcGIS & QGIS
         description: ''
         percent: 100
+        icon: code-bracket
+      - name: Machine Learning & Big Data
+        description: ''
+        percent: 80
         icon: chart-bar
       - name: Cloud Computing (AWS/GCP)
         description: ''
-        percent: 85
+        percent: 70
         icon: cloud
-  - name: Hobbies
+  - name: Programming Language
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Python
+        description: ''
+        percent: 100
+        icon: brands/python
+      - name: SQL
         description: ''
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        icon: brands/sql
+      - name: HTML & PHP & JavaScript
         description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
+        percent: 50
         icon: book-open
+      - name: Java & C/C++
+        description: ''
+        percent: 40
+        icon: cpu-chip
 
 languages:
-  - name: English
+  - name: Chinese\n(Putonghua)
     percent: 100
-  - name: Spanish
+  - name: Chinese\n(Cantonese)
     percent: 50
+  - name: English
+    percent: 90
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+  - title: Association Chair
+    url: ''
+    date: '2016 to 2018'
+    awarder: School of Land Management Student Association, Huazhong Agricultural University
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Orchestrated the College Freshmen Party and the Campus Planning Competition
+  - title: First prize
+    url: ''
+    date: '2018'
+    awarder: Yongyehang Cup Undergraduate land use planning competition
+    icon: hero/trophy
+    summary: |
+      Led the land use plan for Longma Village, managed team coordination, and authored the project report
+  - title: Second prize
+    url: ''
+    date: '2018'
+    awarder: Chinese Land Cup national undergraduate land use planning competition
+    icon: hero/trophy
+    summary: |
+      Upgraded the land use plan as the team leader for Longma Village, conducted data analysis in ArcGIS and took charge of coordination within the team
+  - title: Third prize
+    url: ''
+    date: '2018'
+    awarder: National college students real estate appraisal competition
+    icon: hero/trophy
+    summary: |
+      Prepared an appraisal report of an estate and carried out data analysis using FAHP
+  - title: Outstanding Individual
+    url: ''
+    date: '2017'
+    awarder: 2017 summer practice of Huazhong Agricultural University
+    icon: hero/trophy
+    summary: |
+      Led the other team members to undertake the sub-projects under the National Innovation and Entrepreneurship Training Program for College Students.
+  - title: Second prize
+    url: ''
+    date: '2017'
+    awarder: KQ Geo Technologies Cup GIS competition
+    icon: hero/trophy
+    summary: |
+      Conducted the data analysis in ArcGIS and classified the land rank in some parts of Tokyo
+  # - title: Outstanding PhD Thesis
+  #   url: https://www.stanford.edu/
+  #   date: '2019-06-30'
+  #   awarder: Stanford University
+  #   icon: hero/currency-dollar
+  #   summary: |
+  #     Recognized for contributions to scaling laws in deep learning.
 ---
 
 Dingkang Teng is a part-time Research Assistant in LSGI, PolyU under the supervision of Dr. Zhuge and is also a Master student in Urban Informatics and Smart Cities at the Hong Kong Polytechnic University. He obtained his bachelor's degree in Land Resources Management from Huazhong Agricultural University. His research interests include urban transportation infrastructure, land use, and big data analytics.
