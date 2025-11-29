@@ -169,11 +169,11 @@ languages:
 awards:
   - title: Association Chair
     url: ''
-    date: '2016 to 2018'
+    date: '2016'
     awarder: School of Land Management Student Association, Huazhong Agricultural University
     icon: hero/academic-cap
     summary: |
-      Orchestrated the College Freshmen Party and the Campus Planning Competition
+      Served as association chair of the School of Land Management Student Association form 2016 to 2018. Orchestrated the College Freshmen Party and the Campus Planning Competition
   - title: First prize
     url: ''
     date: '2018'

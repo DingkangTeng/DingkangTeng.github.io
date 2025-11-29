@@ -168,11 +168,11 @@ languages:
 awards:
   - title: 协会会长
     url: ''
-    date: '2016 to 2018'
+    date: '2016'
     awarder: 华中农业大学土地研究协会
     icon: hero/academic-cap
     summary: |
-      于土地研究协会策划举办了新生舞会、校园规划大赛等活动
+      在2016至2018年间担任华中农业大学土地研究协会会长，并策划举办了新生舞会、校园规划大赛等活动
   - title: 一等奖
     url: ''
     date: '2018'
