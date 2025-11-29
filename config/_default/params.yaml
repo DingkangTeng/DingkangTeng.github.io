@@ -36,7 +36,7 @@ header:
     show_theme_chooser: true
     logo:
       text: 'Dingkang Teng 滕定康'
-      filename: "logo.svg" # Place in assets/media/
+      # filename: "logo.svg" # Place in assets/media/
 
 # Site footer
 footer:
