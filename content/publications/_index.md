@@ -1,7 +1,6 @@
 ---
 title: Publications
-date: 2022-10-24
-type: landing
+cms_exclude: true
 
 # View.
 view: citation

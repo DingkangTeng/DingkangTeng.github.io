@@ -24,12 +24,12 @@ mounts:
   - source: assets
     target: assets
   # Common publications
-  - source: content/zh
-    target: content/zh/
-    lang: zh
-  - source: content/publications
-    target: content/zh/publications/
-    lang: zh
+  # - source: content/zh
+  #   target: content/zh/
+  #   lang: zh
+  # - source: content/publications
+  #   target: content/zh/publications/
+  #   lang: zh
   - source: content/en
     target: content/
     lang: en
