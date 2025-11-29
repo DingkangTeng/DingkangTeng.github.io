@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
   - name: 主要成果
-    url: publications/
+    url: /../publications/
     weight: 11
   # - name: Talks_zh
   #   url: /#talks
