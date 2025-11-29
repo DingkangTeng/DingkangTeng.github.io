@@ -144,7 +144,7 @@ skills:
       - name: SQL
         description: ''
         percent: 80
-        icon: brands/sql
+        icon: code-bracket
       - name: HTML & PHP & JavaScript
         description: ''
         percent: 50
@@ -155,9 +155,9 @@ skills:
         icon: cpu-chip
 
 languages:
-  - name: Chinese\n(Putonghua)
+  - name: Chinese<br>(Putonghua)
     percent: 100
-  - name: Chinese\n(Cantonese)
+  - name: Chinese<br>(Cantonese)
     percent: 50
   - name: English
     percent: 90
