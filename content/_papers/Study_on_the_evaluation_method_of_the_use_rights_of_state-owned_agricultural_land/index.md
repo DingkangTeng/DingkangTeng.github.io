@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: '国有农用地使用权评估方法研究 *[Translation: Study on the evaluation method of the use rights of state-owned agricultural land]*'
 authors:
 - admin
 - Robert Ford
