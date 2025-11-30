@@ -38,5 +38,5 @@ mounts:
     lang: zh
   # Customize CSS
   - source: assets/css
-  - target: assets/css/
+  - target: assets/
 
