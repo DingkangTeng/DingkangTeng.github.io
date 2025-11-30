@@ -9,7 +9,7 @@ tags:
   - Analytic Hierarchy Process
 ---
 
-{{< partial "contentCard.html" >}}
+{{< _partial "contentCard.html" >}}
 
 <div class="education-card">
   <h3 class="university">Huazhong Agricultural University</h3>
