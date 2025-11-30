@@ -22,8 +22,9 @@ Further event details, including [page elements](https://docs.hugoblox.com/refer
 06/2017—06/2019
 Huazhong Agricultural University
 Study on influencing factors of paid withdrawal of homestead
-	Designed questionnaires, utilized AHP for in-depth data analysis and drew accurate and weighted conclusions.
-	Synthesized the collected data and findings. Drafted a detailed, evidence-based report.
-
+<ul>
+  <li>Designed questionnaires, utilized AHP for in-depth data analysis and drew accurate and weighted conclusions. </li>
+  <li>Synthesized the collected data and findings. Drafted a detailed, evidence-based report. </li>
+</ul> -->
 
 <!--more-->
