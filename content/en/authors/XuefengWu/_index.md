@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Siyu Chen
+title: Xiaoming Lei
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Siyu
-last_name: Chen
+first_name: Xiaoming
+last_name: Lei
 
 # Pronouns (optional)
 pronouns: he/him

@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Siyu Chen
+title: Xuefeng Wu
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Siyu
-last_name: Chen
+first_name: Xuefeng
+last_name: Wu
 
 # Pronouns (optional)
 pronouns: he/him

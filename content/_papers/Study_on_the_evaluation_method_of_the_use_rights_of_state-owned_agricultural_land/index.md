@@ -33,11 +33,11 @@ featured: false
 
 hugoblox:
   ids:
-    url: https://bit.ly/3U2EoVu
+    url: https://kns.cnki.net/kcms2/article/abstract?v=QSPvTk9Jgi1GF-L-zJF-RZWSyxAPMHzZISuqA8Pewvus95dciGOxdk7hC6apFtW6aUVR-RSw2bm4EMKQd_UWGdbqvhY4YWSkdMV9_1JhY7zjj4_4WegLEIaDpcWgNOXCJfnG48bJ4H13YRlwehEbHM2ND89T_-H5o_YwqpM3uLA=&uniplatform=NZKPT
 
 links:
   - type: pdf
-    url: https://bit.ly/3U2EoVu
+    url: https://kns.cnki.net/kcms2/article/abstract?v=QSPvTk9Jgi1GF-L-zJF-RZWSyxAPMHzZISuqA8Pewvus95dciGOxdk7hC6apFtW6aUVR-RSw2bm4EMKQd_UWGdbqvhY4YWSkdMV9_1JhY7zjj4_4WegLEIaDpcWgNOXCJfnG48bJ4H13YRlwehEbHM2ND89T_-H5o_YwqpM3uLA=&uniplatform=NZKPT
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -47,3 +47,7 @@ image:
   preview_only: false
 
 ---
+
+**Reference (Translation)**
+
+This paper focuses on the valuation methods for the use rights of state-owned agricultural land. By analyzing the ownership system and implications of state-owned agricultural land, it can be concluded that the use rights of state-owned agricultural land are not strictly statutory property rights. However, it is clear that the holder of the use rights of state-owned agricultural land is the registrant after legal registration of the land. Finally, the paper conducts an empirical evaluation using the example of a state-owned farm in Wuhan, demonstrating that the cost approach and the income capitalization method can most accurately reflect the price of the use rights of state-owned agricultural land. Additionally, whether comprehensive and accurate foundational data is available is a crucial guarantee for the precision of the valuation conclusion.

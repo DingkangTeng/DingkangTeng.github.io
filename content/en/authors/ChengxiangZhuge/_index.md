@@ -1,13 +1,12 @@
 ---
 # Display name
-title: Siyu Chen
-
+title: Dr. Chengxiang Zhuge
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Siyu
-last_name: Chen
+first_name: Chengxiang
+last_name: Zhuge
 
 # Pronouns (optional)
 pronouns: he/him

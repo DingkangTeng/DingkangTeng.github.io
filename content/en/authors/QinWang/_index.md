@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Siyu Chen
+title: Qin Wang
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Siyu
-last_name: Chen
+first_name: Qin
+last_name: Wang
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: her/his
 ---

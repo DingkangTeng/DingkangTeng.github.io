@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Siyu Chen
+title: Shibing Pan
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Siyu
-last_name: Chen
+first_name: Shibing
+last_name: Pan
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: her/his
 ---
