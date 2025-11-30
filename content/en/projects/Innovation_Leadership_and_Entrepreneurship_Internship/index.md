@@ -9,101 +9,103 @@ tags:
   - Analytic Hierarchy Process
 ---
 
+
 <style>
   .header h1 {
-      color: #2c3e50;
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
   }
   
   .header p {
-      color: #7f8c8d;
-      font-size: 1.1rem;
+    color: #7f8c8d;
+    font-size: 1.1rem;
   }
   
   .education-card {
-      background-color: white;
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 30px;
   }
   
   .education-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
   }
   
   .university {
-      color: #2c3e50;
-      font-size: 1.8rem;
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-      border-bottom: 2px solid #f0f0f0;
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
   }
   
   .study-topic {
-      color: #4a6ee0;
-      font-weight: 500;
-      font-size: 1.3rem;
-      margin-bottom: 15px;
+    color: #4a6ee0;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
   }
   
   .date-container {
-      margin-bottom: 25px;
+    margin-bottom: 25px;
   }
   
   .date {
-      display: inline-block;
-      background: linear-gradient(135deg, #4a6ee0 0%, #3a56c4 100%);
-      color: white;
-      padding: 8px 20px;
-      border-radius: 20px;
-      font-weight: 600;
-      font-size: 1.1rem;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    background: linear-gradient(135deg, #4a6ee0 0%, #3a56c4 100%);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .responsibilities {
-      margin-top: 20px;
+    margin-top: 20px;
   }
   
   .responsibilities ul {
-      list-style-type: none;
-      padding-left: 0;
+    list-style-type: none;
+    padding-left: 0;
   }
   
   .responsibilities li {
-      position: relative;
-      padding-left: 35px;
-      margin-bottom: 15px;
-      font-size: 1.05rem;
-      color: #555;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+    color: #555;
   }
   
   .responsibilities li i {
-      position: absolute;
-      left: 0;
-      top: 3px;
-      color: #4a6ee0;
-      font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    color: #4a6ee0;
+    font-size: 1.2rem;
   }
   
   @media (max-width: 768px) {
-      .education-card {
-          padding: 20px;
-      }
-      
-      .university {
-          font-size: 1.5rem;
-      }
-      
-      .study-topic {
-          font-size: 1.1rem;
-      }
+    .education-card {
+      padding: 20px;
+    }
+    
+    .university {
+      font-size: 1.5rem;
+    }
+    
+    .study-topic {
+      font-size: 1.1rem;
+    }
   }
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <div class="education-card">
   <h3 class="university">Huazhong Agricultural University</h3>
