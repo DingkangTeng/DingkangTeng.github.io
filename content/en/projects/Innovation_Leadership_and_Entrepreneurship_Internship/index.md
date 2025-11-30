@@ -1,6 +1,7 @@
 ---
-title: Pandas
-date: 2023-10-26
+title: Innovation Leadership and Entrepreneurship Internship
+date_start: 2025-01-01
+date_end: ''
 links:
   - type: site
     url: https://github.com/pandas-dev/pandas
