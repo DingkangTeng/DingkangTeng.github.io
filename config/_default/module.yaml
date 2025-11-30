@@ -36,4 +36,7 @@ mounts:
   - source: content/_papers
     target: content/publications/
     lang: zh
+  # Customize CSS
+  - source: assets/css
+  - target: assets/css/
 
