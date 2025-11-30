@@ -9,8 +9,8 @@ tags:
   - Analytic Hierarchy Process
 ---
 
-{{ $style := resources.Get "css/education.css" | minify | fingerprint }}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+{{< contentCard >}}
 
 <div class="education-card">
   <h3 class="university">Huazhong Agricultural University</h3>
