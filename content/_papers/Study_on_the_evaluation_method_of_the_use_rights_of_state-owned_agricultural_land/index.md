@@ -1,11 +1,11 @@
 ---
 title: '国有农用地使用权评估方法研究 *[Translation: Study on the evaluation method of the use rights of state-owned agricultural land]*'
+
 authors:
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
+- HuaGuo
+- JingZhang
+
 date: "2015-09-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
