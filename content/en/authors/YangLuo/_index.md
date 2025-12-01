@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Ruichen Ma
+title: Yang Luo
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Ruichen
-last_name: Ma
+first_name: Yang
+last_name: Luo
 
 # Pronouns (optional)
 pronouns: he/him
