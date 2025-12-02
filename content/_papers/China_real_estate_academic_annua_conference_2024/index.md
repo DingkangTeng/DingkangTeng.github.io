@@ -45,6 +45,6 @@ links:
 
 ---
 
-**Reference (Translation)**
+**Abstract (Translation)**
 
 This study uses a sample of 6,154 residential real estate transaction records in Wuhan in March 2024, obtained through web scraping, to investigate how machine learning techniques, combined with big data analysis, can be used to segment the real estate market. The study selects the market average price as the feature variable for segmenting the real estate market, explores the application of neural networks and the K-means model in this segmentation, and further investigates how to improve the K-means model into a spatial segmentation model based on the K-means price and coordinate separation model. It ultimately concludes that the K-means price and coordinate separation model is an effective approach for real estate market segmentation. By utilizing normalized mutual information, the results of the K-means price and coordinate separation model are compared with Wuhan’s current "Real Estate Market Regional Segmentation" and the traditional Kriging interpolation method, validating the model’s effectiveness and practicality. The study demonstrates that the machine learning-based "K-means price and coordinate separation model" holds significant importance for the analysis and management of the real estate market.

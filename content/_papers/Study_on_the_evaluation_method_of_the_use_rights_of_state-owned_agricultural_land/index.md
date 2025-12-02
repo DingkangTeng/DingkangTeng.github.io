@@ -48,6 +48,6 @@ image:
 
 ---
 
-**Reference (Translation)**
+**Abstract (Translation)**
 
 This paper focuses on the valuation methods for the use rights of state-owned agricultural land. By analyzing the ownership system and implications of state-owned agricultural land, it can be concluded that the use rights of state-owned agricultural land are not strictly statutory property rights. However, it is clear that the holder of the use rights of state-owned agricultural land is the registrant after legal registration of the land. Finally, the paper conducts an empirical evaluation using the example of a state-owned farm in Wuhan, demonstrating that the cost approach and the income capitalization method can most accurately reflect the price of the use rights of state-owned agricultural land. Additionally, whether comprehensive and accurate foundational data is available is a crucial guarantee for the precision of the valuation conclusion.
