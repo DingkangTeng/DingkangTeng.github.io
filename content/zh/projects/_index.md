@@ -11,15 +11,15 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: 精选项目
+      text: 以下是我近年来参与的部分项目。
       filters:
         folders:
           - projects
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 4
       show_date: false
       show_read_time: false
       show_read_more: false
