@@ -1,0 +1,52 @@
+{{/* 获取页面和块配置 */}}
+{{ $page := .page }}
+{{ $block := .block }}
+
+{{/* 获取用户名和内容 */}}
+{{ $username := $block.content.username | default "" }}
+{{ $title := $block.content.title | default "Certifications" }}
+
+{{/* 获取设计选项 */}}
+{{ $show_date := $block.design.show_date | default true }}
+{{ $date_format := $block.design.date_format | default "Jan 2006" }}
+
+{{/* 获取作者信息 */}}
+{{ $author_path := printf "authors/%s" $username }}
+{{ $author_page := site.GetPage $author_path }}
+
+{{/* 获取认证数据 */}}
+{{ $certifications := slice }}
+{{ if $author_page }}
+  {{/* 尝试从作者页面的 params 获取 */}}
+  {{ if $author_page.Params.certifications }}
+    {{ $certifications = $author_page.Params.certifications }}
+  {{ else }}
+    {{/* 尝试从单独的 certifications.md 文件获取 */}}
+    {{ $certifications_file := printf "authors/%s/certifications.md" $username }}
+    {{ $certifications_page := site.GetPage $certifications_file }}
+    {{ if $certifications_page }}
+      {{ $certifications = $certifications_page.Params.items }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* 显示认证部分 */}}
+<section id="{{ anchorize $title }}" class="resume-section certifications-section">
+  <div class="resume-section-content">
+    <h2 class="mb-4">{{ $title }}</h2>
+    
+    {{ if $certifications }}
+      <div class="certifications-list">
+        {{ range $cert := $certifications }}
+          {{ partial "blox/resume-certifications/certification.html" (dict 
+            "cert" $cert
+            "show_date" $show_date
+            "date_format" $date_format
+          ) }}
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="text-muted">No certifications found.</p>
+    {{ end }}
+  </div>
+</section>
