@@ -24,10 +24,6 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
-  # - block: resume-qualify
-  #   content:
-  #     title: Qualification
-  #     username: admin
   - block: resume-awards
     content:
       title: Qualification

@@ -202,7 +202,7 @@ awards:
     url: ''
     date: '2017-12-14'
     awarder: 2017年华中农业大学暑期社会实践“先进个人”
-    icon: hero/trophy
+    icon: hero/document-text
     summary: |
       带领团队成员承担了国家大学生创新创业训练计划的子项目
   - title: 二等奖

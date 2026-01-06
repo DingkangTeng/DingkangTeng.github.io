@@ -204,7 +204,7 @@ awards:
     url: ''
     date: '2017-12-14'
     awarder: 2017 summer practice of Huazhong Agricultural University
-    icon: hero/trophy
+    icon: hero/document-text
     summary: |
       Led the other team members to undertake the sub-projects under the National Innovation and Entrepreneurship Training Program for College Students.
   - title: Second prize

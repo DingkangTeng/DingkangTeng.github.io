@@ -26,6 +26,10 @@ sections:
       show_skill_percentage: false
   - block: resume-awards
     content:
+      title: 职业资格
+      username: _qualification
+  - block: resume-awards
+    content:
       title: 主要荣誉
       username: admin
   - block: resume-languages
