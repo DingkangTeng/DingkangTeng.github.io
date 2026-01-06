@@ -20,7 +20,7 @@ sections:
       is_education_first: true
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Skills
       username: admin
     design:
       show_skill_percentage: false
@@ -28,13 +28,6 @@ sections:
   #   content:
   #     title: Qualification
   #     username: admin
-  - block: resume-certifications
-    content:
-      title: Qualification
-      username: admin
-    design:
-      show_date: true
-      date_format: 'Jan 2006'
   - block: resume-awards
     content:
       title: Awards

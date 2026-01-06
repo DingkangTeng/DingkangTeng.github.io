@@ -20,16 +20,16 @@ sections:
       is_education_first: true
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: 主要技能
       username: admin
     design:
       show_skill_percentage: false
   - block: resume-awards
     content:
-      title: Awards
+      title: 主要荣誉
       username: admin
   - block: resume-languages
     content:
-      title: Languages
+      title: 主要语言
       username: admin
 ---
