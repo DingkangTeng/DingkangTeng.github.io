@@ -7,6 +7,9 @@ main:
   - name: 个人简介
     url: /
     weight: 10
+  - name: 个人履历
+    url: experience/
+    weight: 20
   - name: 主要成果
     url: publications/
     weight: 11
@@ -16,9 +19,6 @@ main:
   # - name: News_zh
   #   url: /#news
   #   weight: 13
-  - name: 个人履历
-    url: experience/
-    weight: 20
   - name: 项目经验
     url: projects/
     weight: 30

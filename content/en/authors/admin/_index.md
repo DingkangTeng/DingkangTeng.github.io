@@ -167,6 +167,15 @@ languages:
   - name: English
     percent: 90
 
+qualify:
+  - title: xxx
+    url: ''
+    date: '2016-06-01'
+    awarder: School of Land Management Student Association, Huazhong Agricultural University
+    icon: hero/academic-cap
+    summary: |
+      Joind School of Land Management Student Association in 2016 and served as association chair of the School of Land Management Student Association form 2017 to 2018. Orchestrated the College Freshmen Party and the Campus Planning Competition
+
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
