@@ -28,13 +28,10 @@ sections:
   #   content:
   #     title: Qualification
   #     username: admin
-  - block: resume-certifications
+  - block: resume-awards
     content:
-      title: Certifications
-      username: admin
-    design:
-      show_date: true
-      date_format: 'January 2006'
+      title: Qualification
+      username: _qualification
   - block: resume-awards
     content:
       title: Awards

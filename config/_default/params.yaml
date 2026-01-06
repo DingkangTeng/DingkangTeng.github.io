@@ -59,3 +59,7 @@ features:
     enable: false
   privacy_pack:
     enable: false
+    
+hugoblox:
+  identity:
+    name: Dingkang Teng
