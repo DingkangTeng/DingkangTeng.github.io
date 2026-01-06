@@ -24,10 +24,17 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
-  - block: resume-qualify
+  # - block: resume-qualify
+  #   content:
+  #     title: Qualification
+  #     username: admin
+  - block: resume-certifications
     content:
       title: Qualification
       username: admin
+    design:
+      show_date: true
+      date_format: 'Jan 2006'
   - block: resume-awards
     content:
       title: Awards
