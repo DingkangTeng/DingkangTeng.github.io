@@ -2,7 +2,7 @@
 title: "Working Papers"
 authors:
 - admin
-date: "2025-12-02T00:00:00Z"
+date: "2026-12-31T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
