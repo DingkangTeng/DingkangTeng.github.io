@@ -30,7 +30,6 @@ image:
 > [!NOTE]
 > 本页面列举了所有尚未发表的工作论文
 
-- **Teng, D.**, Tang, J.H.C.G., Ma, R., Yang, X., & Zhuge, C. A global insight into integration of metro and electric vehicle charging stations. (已提交). *[拟投期刊： Sustainable Cities and Society]*
-- **Teng, D.**, Tang, J.H.C.G., Ma, R., Yang, X., He, M., Wei, B., Li, Y., Peng, Z., & Zhuge, C. Advancing accessibility and equity of public electric vehicle charging stations in China. (已提交). *[拟投期刊： Nature Cities]*
+- **Teng, D.**, Tang, J.H.C.G., Ma, R., Yang, X., He, M., Wei, B., Li, Y., Peng, Z., & Zhuge, C. Advancing accessibility and equity of public electric vehicle charging stations in China. (已提交). *[拟投期刊： PNAS]*
 - Ma, R., **Teng, D.**, Yang, X., Zhao, J., Chen, D., Tang, J.H.C.G., & Zhuge, C. Global Patterns in Public Electric Vehicle Charging Infrastructure Deployment. (有论文草稿). *[拟投期刊： Transportation Research Part D]*
 - **Teng, D.**, Tang, J.H.C.G., Ma, R., Yang, X., & Zhuge, C. The potential influences of flooding on accessibility and equity of public electric vehicle charging infrastructure: A global insight. (准备中). *[拟投期刊： Nature Cities]*
