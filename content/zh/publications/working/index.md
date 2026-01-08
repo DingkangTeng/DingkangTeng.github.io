@@ -2,7 +2,7 @@
 title: "工作论文（未发表）"
 authors:
 - admin
-date: "2026-12-31T00:00:00Z"
+date: "2026-01-09T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
