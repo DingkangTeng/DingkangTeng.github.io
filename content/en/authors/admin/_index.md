@@ -47,7 +47,7 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0009-0000-2008-2101
   - icon: "custom/person"
-    url: https://tengdingkang.fun/nas.php
+    url: https://home.tengdingkang.fun/nas.php
 
 interests:
   - Spatial Analysis
