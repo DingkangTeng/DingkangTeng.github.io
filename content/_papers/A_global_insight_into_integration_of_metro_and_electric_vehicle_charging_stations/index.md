@@ -18,7 +18,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Sustainable Cities and Society"
-publication_short: "Sustain. Cities Soc."
+publication_short: "Sustain. Cities Soc"
 
 abstract: This study investigates the potential of park-charge-ride (PCR) worldwide in the era of transportation electrification, covering 153 urban study units across the United States, Europe and China. This research uses a set of spatial analysis methods to profile the proximity, density, and clustering patterns of electric vehicle charging stations (EVCS) and parking lots relative to metro stations. The results reveal several substantial regional disparities. The United States demonstrates strong yet uneven PCR implementation with remarkable EVCS aggregation; Europe reaches balanced improvement of PCR services; and China, though possessing the greater metro infrastructure, demonstrates limited EVCS integration metro stations nearby. Intriguingly, the study found no significant policy-driven prioritization of PCR deployment by several types of metro stations (i.e., normal, interchange, terminal). These findings stress the necessity for spatial planning to optimize the coverage of PCR, foster multimodal transport efficiency, and advance sustainable mobility objectives worldwide.
 
@@ -61,7 +61,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: "**Distribution of EVCS and parking lots by metro station type**"
   focal_point: ""
   preview_only: false
 
@@ -70,11 +70,17 @@ image:
 > [!NOTE]
 > This paper is **In Press**.
 
-**Highlights**
+> [!TIP]
+> **Highlights**
+> - A global geodataset of EV charging stations (EVCS) and metro stations is provided.
+> - The U.S. leads in EVCS aggregation near metro stations, yet development is uneven.
+> - Europe shows balanced co-development of parking facilities and EVCS.
+> - China shows strong potential to upgrade park-and-ride to park-charge-ride services.
 
-<ul>
-  <li>A global geodataset of EV charging stations (EVCS) and metro stations is provided. </li>
-  <li>The U.S. leads in EVCS aggregation near metro stations, yet development is uneven. </li>
-  <li>Europe shows balanced co-development of parking facilities and EVCS. </li>
-  <li>China shows strong potential to upgrade park-and-ride to park-charge-ride services. </li>
-</ul>
+This study provides one of the first comprehensive, data-driven assessments of the emerging Park-Charge-Ride (PCR) concept across 153 urban areas in the United States, Europe, and China. By analyzing the spatial proximity, density, and clustering patterns of electric vehicle charging stations (EVCS) and parking lots relative to metro stations, we reveal significant regional disparities in the readiness and development of integrated electric mobility hubs:
+
+- Substantial regional contrasts: The United States shows strong but uneven aggregation of EVCS near metro stations; Europe achieves a more balanced integration of EVCS and parking facilities; while China, despite its extensive metro networks, exhibits limited EVCS integration near transit nodes.
+- No significant link to station type: The distribution of EVCS does not significantly align with metro station types (normal, interchange, or terminal), indicating a missed opportunity for targeted infrastructure planning.
+- Divergence between PCR and P&R development: The U.S. shows stronger development of PCR relative to traditional Park-and-Ride (P&R), whereas China has strong P&R presence but significant potential to upgrade to PCR. Europe maintains parity between the two.
+
+The research underscores that integrating EV charging with transit systems is highly context-dependent and should align strategically with local urban development goals. It provides evidence-based insights to help policymakers, transport planners, and urban developers optimize charging infrastructure placement, enhance multimodal connectivity, and support the global shift toward sustainable electric mobility.
