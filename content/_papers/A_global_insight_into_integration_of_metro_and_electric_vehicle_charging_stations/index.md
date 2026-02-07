@@ -1,12 +1,12 @@
 ---
-title: "A global insight into integration of metro and electric vehicle charging stations (Under Review)"
+title: "A global insight into integration of metro and electric vehicle charging stations"
 authors:
 - admin
 - JHCGTang
 - RuichenMa
 - XiongYang
 - ChengxiangZhuge
-date: "2026-01-08T00:00:00Z"
+date: "2026-02-06T00:00:00Z"
 
 # # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -20,7 +20,7 @@ publication_types: ["article-journal"]
 publication: "Sustainable Cities and Society"
 publication_short: "Sustain. Cities Soc."
 
-# abstract: Equitable access to electric vehicle (EV) chargers across different population groups is critical for reducing barriers and promoting widespread EV adoption. While recent studies have examined social disparities of charging accessibility in the United States, they typically focus on a single year, leaving unclear whether social equity has improved over the past decade. In this study, we propose a novel framework to evaluate the temporal dynamics of charging accessibility across different charger types and the evolution of social disparities among gender, race, and age groups nationwide. Our results indicate that charger access is higher in counties with above-median household income, larger populations, and greater shares of multi-unit dwellings. Counties with higher proportions of males, Asian, Black Americans, and younger adults generally experience lower EV charging accessibility. Temporal analysis further reveals that Asian Americans have gained increased overall charging accessibility after 2020, although they remain disadvantaged in fast charger access.
+abstract: This study investigates the potential of park-charge-ride (PCR) worldwide in the era of transportation electrification, covering 153 urban study units across the United States, Europe and China. This research uses a set of spatial analysis methods to profile the proximity, density, and clustering patterns of electric vehicle charging stations (EVCS) and parking lots relative to metro stations. The results reveal several substantial regional disparities. The United States demonstrates strong yet uneven PCR implementation with remarkable EVCS aggregation; Europe reaches balanced improvement of PCR services; and China, though possessing the greater metro infrastructure, demonstrates limited EVCS integration metro stations nearby. Intriguingly, the study found no significant policy-driven prioritization of PCR deployment by several types of metro stations (i.e., normal, interchange, terminal). These findings stress the necessity for spatial planning to optimize the coverage of PCR, foster multimodal transport efficiency, and advance sustainable mobility objectives worldwide.
 
 # Summary. An optional shortened abstract.
 summary: This study reveals substantial regional disparities in park-charge-ride integration around metro stations across the US, Europe, and China, underscoring the need for targeted spatial planning to advance sustainable mobility.
@@ -34,16 +34,16 @@ tags:
 
 featured: true
 
-# hugoblox:
-#   ids:
-#     doi: 1512.04133v1
+hugoblox:
+  ids:
+    doi: 10.1016/j.scs.2026.107217
 
-# links:
+links:
 # - type: preprint
 #   provider: arxiv
 #   id: 1512.04133v1
-# - type: code
-#   url: https://github.com/HugoBlox/hugo-blox-builder
+- type: code
+  url: https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool
 # - type: slides
 #   url: https://www.slideshare.net/
 # - type: dataset
@@ -68,13 +68,13 @@ image:
 ---
 
 > [!NOTE]
-> This paper is **Under Review**.
+> This paper is **In Press**.
 
-<!-- **Highlights**
+**Highlights**
 
 <ul>
-  <li>Charger deployment favored wealthier and more populated counties with high MUD shares. </li>
-  <li>Asian Americans gained increased total charging accessibility after 2020 but remained disadvantaged in DC chargers. </li>
-  <li>White Americans benefit more from DC chargers, Black Americans from AC chargers. </li>
-  <li>Elderly populations have greater access to both DC and AC chargers than younger adults. </li>
-</ul> -->
+  <li>A global geodataset of EV charging stations (EVCS) and metro stations is provided. </li>
+  <li>The U.S. leads in EVCS aggregation near metro stations, yet development is uneven. </li>
+  <li>Europe shows balanced co-development of parking facilities and EVCS. </li>
+  <li>China shows strong potential to upgrade park-and-ride to park-charge-ride services. </li>
+</ul>
