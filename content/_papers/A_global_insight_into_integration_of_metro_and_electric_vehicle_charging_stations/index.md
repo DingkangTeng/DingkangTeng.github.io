@@ -39,24 +39,12 @@ hugoblox:
     doi: 10.1016/j.scs.2026.107217
 
 links:
-# - type: preprint
-#   provider: arxiv
-#   id: 1512.04133v1
 - type: code
   url: https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool
-# - type: slides
-#   url: https://www.slideshare.net/
-# - type: dataset
-#   url: "#"
+- type: dataset
+  url: https://globalevdata.github.io/News/2025-11-27.html
 # - type: poster
 #   url: "#"
-# - type: source
-#   url: "#"
-# - type: video
-#   url: https://youtube.com
-# - type: custom
-#   label: Custom Link
-#   url: http://example.org
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

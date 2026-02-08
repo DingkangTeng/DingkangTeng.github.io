@@ -40,8 +40,8 @@ profiles:
   #   url: https://twitter.com/AlexAIResearch
   - icon: brands/github
     url: https://github.com/DingkangTeng
-  # - icon: brands/linkedin
-  #   url: https://www.linkedin.com/in/alexjohnsonai/
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/dingkang-teng-72b3b8347/
   # - icon: academicons/google-scholar
   #   url: https://scholar.google.com/citations?user=alexjohnson
   - icon: academicons/orcid
