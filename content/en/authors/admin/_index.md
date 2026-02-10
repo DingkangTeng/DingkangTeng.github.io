@@ -42,8 +42,8 @@ profiles:
     url: https://github.com/DingkangTeng
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/dingkang-teng-72b3b8347/
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/citations?user=alexjohnson
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=G6W9RUYAAAAJ&hl=en
   - icon: academicons/orcid
     url: https://orcid.org/0009-0000-2008-2101
   - icon: "custom/person"
