@@ -5,16 +5,16 @@ type: landing
 
 cascade:
   - target:
-      path: '{/courses/*/**}'
+      path: '{/toolkit/*/**}'
     type: docs
     params:
       show_breadcrumb: true
 
 sections:
   - block: collection
-    id: courses
+    # id: courses
     content:
-      title: Courses
+      title: Code Toolkit for Research
       filters:
         tag: Course
         kinds:
@@ -25,4 +25,5 @@ sections:
       show_date: false
       show_read_more: true
       columns: 3
+      fill_image: false
 ---

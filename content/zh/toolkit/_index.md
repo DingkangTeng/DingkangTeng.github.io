@@ -5,7 +5,7 @@ type: landing
 
 cascade:
   - target:
-      path: '{/courses/*/**}'
+      path: '{/toolkit/*/**}'
     type: docs
     params:
       show_breadcrumb: true
@@ -14,7 +14,7 @@ sections:
   - block: collection
     id: courses
     content:
-      title: Courses
+      title: 代码工具箱 | 为科研而生
       filters:
         tag: Course
         kinds:
