@@ -1,5 +1,5 @@
 ---
-title: 'Projects'
+title: '精选项目'
 date: 2024-05-19
 type: landing
 
@@ -15,7 +15,7 @@ sections:
       text: 以下是我近年来参与的部分项目。
       filters:
         folders:
-          - Buffer-Analysis-Tool
+          - projects
     design:
       view: article-grid
       fill_image: false
