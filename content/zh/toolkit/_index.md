@@ -12,7 +12,7 @@ cascade:
 
 sections:
   - block: collection
-    id: courses
+    # id: courses
     content:
       title: 代码工具箱 | 为科研而生
       filters:
@@ -21,9 +21,9 @@ sections:
           - section
     design:
       view: article-grid
-      fill_image: false
       show_read_time: false
       show_date: false
       show_read_more: true
       columns: 3
+      fill_image: false
 ---

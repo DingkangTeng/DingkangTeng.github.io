@@ -8,7 +8,11 @@ cascade:
       path: '{/toolkit/*/**}'
     type: docs
     params:
-      show_breadcrumb: true
+      show_breadcrumb: false
+
+design:
+  # Section spacing
+  spacing: '5rem'
 
 sections:
   - block: collection
@@ -21,9 +25,9 @@ sections:
           - section
     design:
       view: article-grid
-      fill_image: false
       show_read_time: false
       show_date: false
       show_read_more: true
       columns: 3
+      fill_image: false
 ---
