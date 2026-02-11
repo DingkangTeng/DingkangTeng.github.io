@@ -3,20 +3,16 @@ title: Research Toolkit
 summary: Code Toolkit for Research
 type: landing
 
-cascade:
-  - target:
-      path: '{/toolkit/*/**}'
-    type: docs
-    params:
-      show_breadcrumb: false
-
-design:
-  # Section spacing
-  spacing: '5rem'
+# cascade:
+#   - target:
+#       path: '{/toolkit/*/**}'
+#     type: docs
+#     params:
+#       show_breadcrumb: false
 
 sections:
   - block: collection
-    # id: courses
+    id: courses
     content:
       title: Code Toolkit for Research
       filters:

@@ -12,11 +12,11 @@ cascade:
 
 sections:
   - block: collection
-    # id: courses
+    id: courses
     content:
       title: 代码工具箱 | 为科研而生
       filters:
-        tag: Toolkits
+        tag: 开源工具
         kinds:
           - section
     design:
