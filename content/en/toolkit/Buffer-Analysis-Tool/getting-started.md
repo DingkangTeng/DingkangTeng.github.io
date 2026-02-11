@@ -1,11 +1,14 @@
 ---
 title: Getting Started
-date: 2024-02-17
+date: 2026-02-10
 weight: 1
 type: docs
 ---
 
-## Quick Start from Template
+> [!WARNING]
+> This context is **In Progress**.
+
+<!-- ## Quick Start from Template
 
 {{% steps %}}
 
@@ -35,4 +38,4 @@ Let's customize your new site:
   {{< card url="../guide/project-structure" title="Project Structure" icon="document-duplicate" >}}
   {{< card url="../guide/configuration" title="Configuration" icon="adjustments-vertical" >}}
   {{< card url="../guide/formatting" title="Create content" icon="document-duplicate" >}}
-{{< /cards >}}
+{{< /cards >}} -->

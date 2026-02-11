@@ -9,19 +9,19 @@ main:
     weight: 10
   - name: 个人履历
     url: experience/
-    weight: 20
+    weight: 11
   - name: 主要成果
     url: publications/
-    weight: 11
+    weight: 12
   # - name: Talks_zh
   #   url: /#talks
-  #   weight: 12
+  #   weight: 13
   # - name: News_zh
   #   url: /#news
-  #   weight: 13
+  #   weight: 14
   - name: 项目经验
     url: projects/
-    weight: 30
-  # - name: Courses_zh
-  #   url: courses/
-  #   weight: 40
+    weight: 15
+  - name: 开源工具
+    url: toolkit/
+    weight: 16

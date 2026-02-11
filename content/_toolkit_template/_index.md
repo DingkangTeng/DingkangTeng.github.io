@@ -1,11 +1,11 @@
 ---
-title: Courses
-summary: My courses
+title: Research Toolkit
+summary: Code Toolkit for Research
 type: landing
 
 cascade:
   - target:
-      path: '{/courses/*/**}'
+      path: '{/toolkit/*/**}'
     type: docs
     params:
       show_breadcrumb: true
@@ -23,6 +23,6 @@ sections:
       view: article-grid
       show_read_time: false
       show_date: false
-      show_read_more: false
-      columns: 1
+      show_read_more: true
+      columns: 3
 ---
