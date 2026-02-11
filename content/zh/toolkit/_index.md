@@ -15,7 +15,7 @@ sections:
       text: 以下是我近年来参与的部分项目。
       filters:
         folders:
-          - Buffer-Analysis-Tool
+          - toolkit
     design:
       view: article-grid
       fill_image: false
