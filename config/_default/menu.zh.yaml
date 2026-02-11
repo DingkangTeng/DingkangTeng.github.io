@@ -23,5 +23,5 @@ main:
     url: projects/
     weight: 15
   - name: 开源工具
-    url: toolkit/
+    url: courses/
     weight: 16

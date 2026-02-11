@@ -23,5 +23,5 @@ main:
     url: projects/
     weight: 15
   - name: Toolkit
-    url: toolkit/
+    url: courses/
     weight: 16

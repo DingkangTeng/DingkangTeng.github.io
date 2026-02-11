@@ -1,22 +1,22 @@
 ---
-title: 开源工具
-summary: 代码工具箱 | 为科研而生
+title: Research Toolkit
+summary: Code Toolkit for Research
 type: landing
 
 cascade:
   - target:
-      path: '{/toolkit/*/**}'
+      path: '{/courses/*/**}'
     type: docs
     params:
       show_breadcrumb: true
 
 sections:
   - block: collection
-    id: toolkit
+    id: courses
     content:
-      title: Toolkit
+      title: Courses
       filters:
-        tag: Toolkit
+        tag: Course
         kinds:
           - section
     design:
