@@ -3,12 +3,12 @@ title: Research Toolkit
 summary: Code Toolkit for Research
 type: landing
 
-# cascade:
-#   - target:
-#       path: '{/toolkit/*/**}'
-#     type: docs
-#     params:
-#       show_breadcrumb: false
+cascade:
+  - target:
+      path: '{/toolkit/*/**}'
+    type: docs
+    params:
+      show_breadcrumb: false
 
 sections:
   - block: collection
@@ -24,6 +24,6 @@ sections:
       show_read_time: false
       show_date: false
       show_read_more: true
-      columns: 3
+      columns: 1
       fill_image: false
 ---
