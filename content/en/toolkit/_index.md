@@ -12,11 +12,11 @@ cascade:
 
 sections:
   - block: collection
-    id: courses
+    id: toolkit
     content:
-      title: Courses
+      title: Toolkit
       filters:
-        tag: Course
+        tag: Toolkit
         kinds:
           - section
     design:
