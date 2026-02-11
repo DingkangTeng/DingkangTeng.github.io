@@ -6,7 +6,7 @@ type: docs
 
 tags:
   - ArcGIS Pro
-  - 开源工具
+  - Toolkits
 
 content_meta:
   content_type: 'ArcGIS Toolbox'

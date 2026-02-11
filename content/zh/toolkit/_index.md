@@ -16,7 +16,7 @@ sections:
     content:
       title: 代码工具箱 | 为科研而生
       filters:
-        tag: 开源工具
+        tag: Toolkits
         kinds:
           - section
     design:
