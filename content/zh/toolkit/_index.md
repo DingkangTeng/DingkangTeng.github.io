@@ -1,26 +1,29 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: 开源工具
+summary: 代码工具箱 | 为科研而生
 type: landing
 
-design:
-  # Section spacing
-  spacing: '5rem'
+cascade:
+  - target:
+      path: '{/toolkit/*/**}'
+    type: docs
+    params:
+      show_breadcrumb: true
 
-# Page sections
 sections:
   - block: collection
+    # id: courses
     content:
-      title: 精选项目
-      text: 以下是我近年来参与的部分项目。
+      title: 代码工具箱 | 为科研而生
       filters:
-        folders:
-          - toolkit
+        tag: 开源工具
+        kinds:
+          - section
     design:
       view: article-grid
-      fill_image: false
-      columns: 4
-      show_date: false
       show_read_time: false
-      show_read_more: false
+      show_date: false
+      show_read_more: true
+      columns: 3
+      fill_image: false
 ---
