@@ -12,7 +12,7 @@ cascade:
 
 sections:
   - block: collection
-    id: courses
+    id: toolkits
     content:
       title: Code Toolkit for Research
       filters:
