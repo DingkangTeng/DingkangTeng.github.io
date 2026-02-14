@@ -10,7 +10,7 @@ tags:
 
 content_meta:
   content_type: 'ArcGIS Toolbox'
-  difficulty: 'Beginner'
+  # difficulty: 'Beginner'
   prerequisites: ['ArcGIS Pro']
   trending: false
 ---

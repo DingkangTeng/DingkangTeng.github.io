@@ -20,7 +20,7 @@ sections:
         kinds:
           - section
     design:
-      view: article-grid
+      view: compact
       show_read_time: false
       show_date: false
       show_read_more: true
