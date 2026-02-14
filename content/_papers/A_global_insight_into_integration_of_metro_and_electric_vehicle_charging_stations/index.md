@@ -43,7 +43,8 @@ links:
   url: https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool
 - type: dataset
   url: https://globalevdata.github.io/News/2025-11-27.html
-- type: project
+- type: custom
+  label: ToolKit
   url: "toolkit/buffer-analysis-tool"
 # - type: poster
 #   url: "#"

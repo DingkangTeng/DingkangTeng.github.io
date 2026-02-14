@@ -47,6 +47,6 @@ links:
 
 ---
 
-**Abstract (Translation)**
+## Abstract (Translation)
 
 The present application relates to a method and system for natural resource asset inventory, which pertain to the technical field of asset inventory. The method includes: obtaining the total area and location information of the region to be inventoried; acquiring terrestrial spatial planning scope data and marine spatial planning scope data for the region to be inventoried; determining whether there is an overlapping area between the region covered by the terrestrial spatial planning scope data and the region covered by the marine spatial planning scope data within the region to be inventoried; if so, dividing the region to be inventoried into a marine zone, a land-sea zone, and a land zone; obtaining the planned use of the land-sea zone according to the terrestrial spatial planning scope data, recorded as the first use; obtaining the planned use of the land-sea zone according to the marine spatial planning scope data, recorded as the second use; and determining the planned use of the land-sea zone based on the first use and the second use.
