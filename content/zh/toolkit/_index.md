@@ -20,8 +20,8 @@ sections:
       title: 代码工具箱 | 为科研而生
       filters:
         tag: Toolkits
-        kinds:
-          - section
+        # kinds:
+        #   - section
     design:
       view: article-grid
       show_read_time: false
