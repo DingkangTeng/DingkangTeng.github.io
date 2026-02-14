@@ -20,10 +20,11 @@ sections:
         kinds:
           - section
     design:
-      view: article-grid
+      # view: article-grid
+      view: compact
       show_read_time: false
       show_date: false
       show_read_more: true
-      columns: 1
+      columns: 3
       fill_image: false
 ---

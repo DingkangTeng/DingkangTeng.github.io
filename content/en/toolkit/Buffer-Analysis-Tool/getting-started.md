@@ -6,36 +6,45 @@ type: docs
 ---
 
 > [!WARNING]
-> This context is **In Progress**.
+> This document is **under construction**.
 
-<!-- ## Quick Start from Template
+## Quick Start from Template
 
 {{% steps %}}
 
-### Create a site
+### Download the toolbox
 
-[Click to choose your starting template](https://hugoblox.com/templates)
+Download the Buffer Analysis Tool from my [github](https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool/releases)
 
-### Configure your new site
+### Unzip the Buffer Analysis Tool
 
-[Configure your site name, description, and menu.](https://docs.hugoblox.com/tutorial/blog/)
+Unzip the Buffer Analysis Tool to any location of your choice. It is recommended to place it in the root folder of your ArcGIS Pro project for convenience, as shown in the figure below.
+![My diagram](toolkits/001/ArcGIS_Project_Root.png)
 
-### Add your content
+### Open tookbox in ArcGIS
 
-[Edit the homepage and add your documentation pages.](https://docs.hugoblox.com/tutorial/blog/)
+It may take a few seconds to initialize the toolkit when you first open it.
 
-### Publish your site
+There are three scripts in the toolbox:
 
-Your site will automatically publish ~1-5 minutes after you commit (save) changes to files in your GitHub repository.
+- **Buffer Analysis**: the main script for performing buffer analysis.
+- **Buffer Analysis (Area)**: a specialized script that performs buffer analysis based solely on the buffer area.
+- **District Divid**: an auxiliary script that divides POIs by polygon for buffer analysis.
+
+![My diagram](toolkits/001/toolbox.png)
+
+> [!NOTE]  
+> ArcGIS Pro may warn you that opening a Python toolbox runs third-party code. Simply click "Yes" to proceed.
+> ![My diagram](toolkits/001/toolbox_Warning.png)
 
 {{% /steps %}}
 
 ## Next
 
-Let's customize your new site:
+The following sections will describe the specific usage of these scripts:
 
 {{< cards >}}
-  {{< card url="../guide/project-structure" title="Project Structure" icon="document-duplicate" >}}
-  {{< card url="../guide/configuration" title="Configuration" icon="adjustments-vertical" >}}
-  {{< card url="../guide/formatting" title="Create content" icon="document-duplicate" >}}
-{{< /cards >}} -->
+  {{< card url="../guide/buffer_Analysis" title="Buffer Analysis" icon="document-duplicate" >}}
+  {{< card url="../guide/buffer_Analysis_Area" title="Buffer Analysis (Area)" icon="adjustments-vertical" >}}
+  {{< card url="../guide/district_Divid" title="District Divid" icon="document-duplicate" >}}
+{{< /cards >}}
