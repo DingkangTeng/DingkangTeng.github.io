@@ -3,12 +3,15 @@ title: 开源工具
 summary: 代码工具箱 | 为科研而生
 type: landing
 
-cascade:
-  - target:
-      path: '{/toolkit/*/**}'
-    type: docs
-    params:
-      show_breadcrumb: true
+# cascade:
+#   - target:
+#       path: '{/toolkit/*/**}'
+#     type: docs
+#     params:
+#       show_breadcrumb: true
+design:
+  # Section spacing
+  spacing: '5rem'
 
 sections:
   - block: collection

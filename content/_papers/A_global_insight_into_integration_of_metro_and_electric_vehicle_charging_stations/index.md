@@ -43,6 +43,8 @@ links:
   url: https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool
 - type: dataset
   url: https://globalevdata.github.io/News/2025-11-27.html
+# - type: project
+#   url: ""
 # - type: poster
 #   url: "#"
 
@@ -54,12 +56,9 @@ image:
   preview_only: false
 
 ---
-
-> [!NOTE]
-> This paper is **In Press**.
-
 > [!TIP]
 > **Highlights**
+>
 > - A global geodataset of EV charging stations (EVCS) and metro stations is provided.
 > - The U.S. leads in EVCS aggregation near metro stations, yet development is uneven.
 > - Europe shows balanced co-development of parking facilities and EVCS.
