@@ -5,9 +5,6 @@ weight: 1
 type: docs
 ---
 
-> [!WARNING]
-> This document is **under construction**.
-
 ## Quick Start from Template
 
 {{% steps %}}
@@ -45,6 +42,6 @@ The following sections will describe the specific usage of these scripts:
 
 {{< cards >}}
   {{< card url="../guide/buffer_Analysis" title="Buffer Analysis" icon="document-duplicate" >}}
-  {{< card url="../guide/buffer_Analysis_Area" title="Buffer Analysis (Area)" icon="adjustments-vertical" >}}
-  {{< card url="../guide/district_Divid" title="District Divid" icon="document-duplicate" >}}
+  {{< card url="../guide/buffer_Analysis_Area" title="Buffer Analysis (Area)" icon="document-duplicate" >}}
+  {{< card url="../guide/district_Divid" title="District Divid" icon="adjustments-vertical" >}}
 {{< /cards >}}
