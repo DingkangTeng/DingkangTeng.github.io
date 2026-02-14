@@ -30,7 +30,7 @@ There are three scripts in the toolbox:
 
 ![My diagram](toolkits/001/toolbox.png)
 
-> [!NOTE]  
+> [!NOTE]
 > ArcGIS Pro may warn you that opening a Python toolbox runs third-party code. Simply click "Yes" to proceed.
 > ![My diagram](toolkits/001/toolbox_Warning.png)
 
@@ -41,7 +41,7 @@ There are three scripts in the toolbox:
 The following sections will describe the specific usage of these scripts:
 
 {{< cards >}}
-  {{< card url="../guide/buffer_Analysis" title="Buffer Analysis" icon="document-duplicate" >}}
-  {{< card url="../guide/buffer_Analysis_Area" title="Buffer Analysis (Area)" icon="document-duplicate" >}}
-  {{< card url="../guide/district_Divid" title="District Divid" icon="adjustments-vertical" >}}
+  {{< card url="../guide/buffer_analysis" title="Buffer Analysis" icon="document-duplicate" >}}
+  {{< card url="../guide/buffer_analysis_area" title="Buffer Analysis (Area)" icon="document-duplicate" >}}
+  {{< card url="../guide/district_divid" title="District Divid" icon="adjustments-vertical" >}}
 {{< /cards >}}
