@@ -6,7 +6,7 @@ weight: 1
 ## Toolbox script Structure
 
 The tool requires the following **6 main inputed fields**:
-![Photo](./images/buffer_Analysis.png)
+![Photo](../images/buffer_Analysis.png)
 
 ## Input Parameters
 
@@ -49,14 +49,14 @@ This field defines the buffer radii in meters using a Python list comprehension.
 ### Save path
 
 - Enter the base name for the output CSV file.
-  ![Photo](./images/save_Path.png)
+  ![Photo](../images/save_Path.png)
 - This field specifies the folder path where the results will be saved as `CSV` files.
-  ![Photo](./images/save_Result.png)
+  ![Photo](../images/save_Result.png)
 
 ## Run the script
 
 After setting all parameters, click **Run** to execute the script.
-![Photo](./images/run.png)
+![Photo](../images/run.png)
 
 ## Result structure
 
@@ -67,4 +67,4 @@ The result contains four columns:
 - **Num**: The number of **Target POI** points within the buffer for the corresponding **city** and **distance**.
 - **totalNum**: The total number of **Target POI** points within the corresponding **city**
 
-![Photo](./images/result_Structure.png)
+![Photo](../images/result_Structure.png)
