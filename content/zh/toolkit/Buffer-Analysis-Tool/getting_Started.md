@@ -33,7 +33,7 @@ type: docs
 - **[缓冲区分析（面积）](../guide/buffer_analysis_area)**：仅根据缓冲区面积执行分析的专用脚本。
 - **[区域划分](../guide/district_divid)**：用于按多边形划分兴趣点（POI）以进行缓冲区分析的辅助脚本。
 
-![Photo](./toolbox.png)
+![Photo](../toolbox.png)
 
 > [!NOTE]
 > ArcGIS Pro 可能会警告您，打开 Python 工具箱将运行第三方代码。只需点击“是”即可继续。

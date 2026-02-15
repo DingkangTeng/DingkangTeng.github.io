@@ -30,7 +30,7 @@ There are three scripts in the toolbox:
 - **[Buffer Analysis (Area)](../guide/buffer_analysis_area)**: a specialized script that performs buffer analysis based solely on the buffer area.
 - **[District Divide](../guide/district_divid)**: an auxiliary script that divides POIs by polygon for buffer analysis.
 
-![Photo](./toolbox.png)
+![Photo](../toolbox.png)
 
 > [!NOTE]
 > ArcGIS Pro may warn you that opening a Python toolbox runs third-party code. Simply click "Yes" to proceed.
