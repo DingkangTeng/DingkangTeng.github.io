@@ -26,9 +26,9 @@ It may take a few seconds to initialize the toolkit when you first open it.
 
 There are three scripts in the toolbox:
 
-- **Buffer Analysis**: the main script for performing buffer analysis.
-- **Buffer Analysis (Area)**: a specialized script that performs buffer analysis based solely on the buffer area.
-- **District Divid**: an auxiliary script that divides POIs by polygon for buffer analysis.
+- **[Buffer Analysis](../guide/buffer_analysis)**: the main script for performing buffer analysis.
+- **[Buffer Analysis (Area)](../guide/buffer_analysis_area)**: a specialized script that performs buffer analysis based solely on the buffer area.
+- **[District Divid](../guide/district_divid)**: an auxiliary script that divides POIs by polygon for buffer analysis.
 
 ![My diagram](toolkits/001/toolbox.png)
 

@@ -9,7 +9,7 @@ This is an auxiliary script that divides POIs by polygon for buffer analysis.
 
 ## Toolbox script Structure
 
-The tool requires the following **4 main input fields**:
+The tool requires the following **[4 main input fields](#input-parameters)**:
 ![Photo](../images/district_Divid.png)
 
 ## Input Parameters
@@ -39,5 +39,5 @@ After setting all parameters, click **Run** to execute the script.
 
 ## Result structure
 
-The output contains a field that stores the zone names, named after the **Zone Name Field** you selected.
+The output contains a field that stores the zone names, named after the **[Select zone name field](#select-zone-name-field)** you selected.
 ![Photo](../images/result_Structure_Divid.png)

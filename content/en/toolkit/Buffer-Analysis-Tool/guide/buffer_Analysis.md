@@ -9,7 +9,7 @@ This is the main script for buffer analysis. It builds multi‑ring buffers arou
 
 ## Toolbox script Structure
 
-The tool requires the following **6 main input fields**:
+The tool requires the following **[6 main input fields](#input-parameters)**:
 ![Photo](../images/buffer_Analysis.png)
 
 ## Input Parameters
@@ -31,17 +31,17 @@ This field specifies the point layer containing the target POIs to be counted wi
 This field specifies the field that defines zones for the target POIs. If you do not need to calculate by zone, select a field where all values are identical.
 
 > [!NOTE]
-> Ensure that the values in the **Select zone name field of source POI** and **Select zone name field of target POI** correspond to the same zones. It is strongly recommended to use the [District Divid script](./district_divid) to generate the zone name field.
+> Ensure that the values in the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)** and **[Select zone name field of target POI](#select-zone-name-field-of-target-poi)** correspond to the same zones. It is strongly recommended to use the [District Divid script](./district_divid) to generate the zone name field.
 
 ### Buffer (Meter) Syntax (Python)
 
 This field defines the buffer radii in meters using a Python list comprehension.
 > [!EXAMPLE]
 >
-> 1. **Define specific buffer distances**
+> 1. **Define specific buffer distances (e.g., 10, 20, 50, 100, 500, 1000 meters)**
 >
 >     ```python
->     [10, 20, 30, 50, 100, 500, 1000]
+>     [10, 20, 50, 100, 500, 1000]
 >     ```
 >
 > 2. **Generate a range of distances from 10 to 2000 meters with an interval of 10 meters**
@@ -66,9 +66,9 @@ After setting all parameters, click **Run** to execute the script.
 
 The result contains four columns:
 
-- **city**: The name of the zone, as defined by the **Source Zone Field**.
+- **city**: The name of the zone, as defined by the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)**.
 - **distance**: The radius of the buffer (in meters).
-- **Num**: The number of **Target POI** points within the buffer for the corresponding **city** and **distance**.
-- **totalNum**: The total number of **Target POI** points within the corresponding **city**.
+- **Num**: The number of **[Target POI](#target-poi-layer)** points within the buffer for the corresponding **city** and **distance**.
+- **totalNum**: The total number of **[Target POI](#target-poi-layer)** points within the corresponding **city**.
 
 ![Photo](../images/result_Structure.png)

@@ -9,7 +9,7 @@ This is a specialized script that performs buffer analysis based solely on the b
 
 ## Toolbox script Structure
 
-The tool requires the following **6 main input fields**:
+The tool requires the following **[6 main input fields](#input-parameters)**:
 ![Photo](../images/buffer_Analysis_Area.png)
 
 ## Input Parameters
@@ -31,17 +31,17 @@ This field specifies the polygon layer define the boundary of each zone.
 This field specifies the field that defines zones for the polygon layer.
 
 > [!NOTE]
-> Ensure that the values in the **Select zone name field of source POI** and **Select zone name field of district layer** correspond to the same zones. It is strongly recommended to use the [District Divid script](./district_divid) to generate the zone name field for the **Source POI Layer** from the **District Layer**.
+> Ensure that the values in the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)** and **[Select zone name field of district layer](#select-zone-name-field-of-district-layer)** correspond to the same zones. It is strongly recommended to use the [District Divid script](./district_divid) to generate the zone name field for the **[Source POI Layer](#source-poi-layer)** from the **[District Layer](#disrict-layer)**.
 
 ### Buffer (Meter) Syntax (Python)
 
 This field defines the buffer radii in meters using a Python list comprehension.
 > [!EXAMPLE]
 >
-> 1. **Define specific buffer distances**
+> 1. **Define specific buffer distances (e.g., 10, 20, 50, 100, 500, 1000 meters)**
 >
 >     ```python
->     [10, 20, 30, 50, 100, 500, 1000]
+>     [10, 20, 50, 100, 500, 1000]
 >     ```
 >
 > 2. **Generate a range of distances from 10 to 2000 meters with an interval of 10 meters**
@@ -66,7 +66,7 @@ After setting all parameters, click **Run** to execute the script.
 
 The result contains four columns:
 
-- **city**: The name of the zone, as defined by the **Source Zone Field**.
+- **city**: The name of the zone, as defined by the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)**.
 - **distance**: The radius of the buffer (in meters).
 - **Num**: The area of the buffer ring (in square meters) intersecting with the corresponding city boundary for the corresponding **city** and **distance**.
 - **totalNum**: The total area (in square meters) of the corresponding **city**.
