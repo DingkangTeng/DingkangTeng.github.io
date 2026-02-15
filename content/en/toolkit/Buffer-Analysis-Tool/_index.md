@@ -25,5 +25,11 @@ This instruction provides a brief introduction to installing and using the Buffe
 ## Next
 
 {{< cards >}}
-  {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Download and install Buffer Analysis Tool" >}}
+  {{< card url="getting_started" title="Get Started" icon="document-text" subtitle="Download and install Buffer Analysis Tool" >}}
+{{< /cards >}}
+
+## Suggested Citation
+
+{{< cards >}}
+  {{< card url="suggested_sitation" title="Suggested Citation" icon="document-text" subtitle="APA" >}}
 {{< /cards >}}
