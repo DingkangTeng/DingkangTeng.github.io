@@ -31,7 +31,7 @@ This field specifies the polygon layer define the boundary of each zone.
 This field specifies the field that defines zones for the polygon layer.
 
 > [!NOTE]
-> Ensure that the values in the **Select zone name field of source POI** and **Select zone name field of district layer** correspond to the same zones. It is strongly recommended to use the [District Divid script](district_divid) to generate the zone name field for the **Source POI Layer** from the **District Layer**.
+> Ensure that the values in the **Select zone name field of source POI** and **Select zone name field of district layer** correspond to the same zones. It is strongly recommended to use the [District Divid script](./district_divid) to generate the zone name field for the **Source POI Layer** from the **District Layer**.
 
 ### Buffer (Meter) Syntax (Python)
 
