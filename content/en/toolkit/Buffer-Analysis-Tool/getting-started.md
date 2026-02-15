@@ -11,7 +11,9 @@ type: docs
 
 ### Download the toolbox
 
-Download the Buffer Analysis Tool from my [github](https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool/releases)
+Download the Buffer Analysis Tool from my **[GitHub release](https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool/releases)**.
+
+For the source code, please refer to the **[GitHub repository](https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool)**. Feel free to explore, contribute, or report issues.
 
 ### Unzip the Buffer Analysis Tool
 

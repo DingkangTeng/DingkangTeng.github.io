@@ -3,53 +3,41 @@ title: District Divid
 weight: 3
 ---
 
-> [!WARNING]
-> This document is **under construction**.
+## Description
 
-<!-- The configuration of your site can be found in `config/_default/`.
+This is an auxiliary script that divides POIs by polygon for buffer analysis.
 
-## Full Documentation
+## Toolbox script Structure
 
-See https://docs.hugoblox.com/getting-started/customize/
+The tool requires the following **4 main input fields**:
+![Photo](../images/district_Divid.png)
 
-## Navigation
+## Input Parameters
 
-### Menu
+### Input Layer
 
-See https://docs.hugoblox.com/getting-started/customize/#menu-items
+This field specifies the point layer that needed to be divided.
 
-## Left Sidebar
+### Zone Division Layer
 
-Links are automatically generated from the structure of your content directory. Simply add a folder to nest a page.
+This field specifies the polygon layer define the boundary of each zone.
 
-### Extra Links
+### Select zone name field
 
-Additional links can be added under the `sidebar` section of your `config/_default/menus.yaml`:
+This field specifies the field that defines zones for the polygon layer.
 
-```yaml
-menu:
-  sidebar:
-    - name: "Need help?"
-      params:
-        type: separator
-      weight: 1
-    - name: "A page"
-      pageRef: "/page-filename-here"
-      weight: 2
-    - name: "An external link ↗"
-      url: "https://hugoblox.com"
-      weight: 3
-```
+### Save path
 
-## Right Sidebar
+- Enter the base name for the output.
+  ![Photo](../images/save_Path_Divid.png)
+- The results will be automatically saved as `shapefiles (.SHP)` or `feature classes` in a file geodatabase, depending on the output path you specify.
 
-A table of contents is automatically generated from the headings your Markdown file.
+## Run the script
 
-It can optionally be disabled by setting `toc: false` in the front matter of a page:
+After setting all parameters, click **Run** to execute the script.
+![Photo](../images/run_Divid.png)
 
-```yaml
----
-title: My Page
-toc: false
----
-``` -->
+## Result structure
+
+The output contains a field that stores the zone names, named after the **Zone Name Field** you selected.
+![Photo](../images/result_Structure_Divid.png)
