@@ -31,5 +31,5 @@ This instruction provides a brief introduction to installing and using the Buffe
 ## Suggested Citation
 
 {{< cards >}}
-  {{< card url="suggested_sitation" title="Suggested Citation" icon="document-text" subtitle="APA" >}}
+  {{< card url="suggested_citation" title="Suggested Citation" icon="document-text" subtitle="APA" >}}
 {{< /cards >}}

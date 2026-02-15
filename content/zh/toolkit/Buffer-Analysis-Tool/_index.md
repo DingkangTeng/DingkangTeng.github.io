@@ -25,5 +25,11 @@ content_meta:
 ## 下一步
 
 {{< cards >}}
-  {{< card url="getting-started" title="开始使用" icon="document-text" subtitle="下载与安装缓冲区分析工具" >}}
+  {{< card url="getting_started" title="开始使用" icon="document-text" subtitle="下载与安装缓冲区分析工具" >}}
+{{< /cards >}}
+
+## 建议引用
+
+{{< cards >}}
+  {{< card url="suggested_citation" title="建议引用" icon="document-text" subtitle="GB/T 7714格式" >}}
 {{< /cards >}}
