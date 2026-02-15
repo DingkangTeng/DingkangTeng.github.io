@@ -3,72 +3,72 @@ title: Buffer Analysis
 weight: 1
 ---
 
-## Description
+## 描述
 
-This is the main script for buffer analysis. It builds multi‑ring buffers around source points and counts target features within each buffer ring, specifically designed for sensitive analysis.
+这是用于缓冲区分析的主脚本。它围绕源点构建多环缓冲区，并统计每个缓冲环内的目标要素，适用于敏感性分析。
 
-## Toolbox script Structure
+## 工具箱结构
 
-The tool requires the following **[6 main input fields](#input-parameters)**:
+该工具需要以下 **[6 个主要输入字段](#输入参数)**：
 ![Photo](../images/buffer_Analysis.png)
 
-## Input Parameters
+## 输入参数
 
-### Source POI Layer
+### 源兴趣点（POI）图层
 
-This field specifies the point layer containing the source POIs (centers of the buffers).
+此字段指定包含源兴趣点（POI），既缓冲区中心的点图层。
 
-### Select zone name field of source POI
+### 选择源兴趣点（POI）的区域名称字段
 
-This field specifies the field that defines zones (e.g., districts) for the source POIs. If you do not need to calculate by zone, select a field where all values are identical.
+此字段指定为源兴趣点定义区域名称（例如行政区）的字段。如果无需按区域计算，请选择一个所有值均相同的字段。
 
-### Target POI Layer
+### 目标兴趣点（POI）图层
 
-This field specifies the point layer containing the target POIs to be counted within the buffers.
+此字段指定包含待统计目标兴趣点的点图层。
 
-### Select zone name field of target POI
+### 选择目标兴趣点（POI）的区域名称字段
 
-This field specifies the field that defines zones for the target POIs. If you do not need to calculate by zone, select a field where all values are identical.
+此字段指定为目标兴趣点定义区域名称的字段。如果无需按区域计算，请选择一个所有值均相同的字段。
 
 > [!NOTE]
-> Ensure that the values in the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)** and **[Select zone name field of target POI](#select-zone-name-field-of-target-poi)** correspond to the same zones. It is strongly recommended to use the [District Divid script](../district_divid) to generate the zone name field.
+> 确保 **[选择源兴趣点（POI）的区域名称字段](#选择源兴趣点poi的区域名称字段)** 和 **[选择目标兴趣点（POI）的区域名称字段](#选择目标兴趣点poi的区域名称字段)** 中的值对应相同的区域。强烈建议使用 [District Divid 脚本](../district_divid) 生成区域名称字段。
 
-### Buffer (Meter) Syntax (Python)
+### 定义缓冲区（米）（Python）
 
-This field defines the buffer radii in meters using a Python list or list comprehension.
+此字段使用 Python 列表或列表推导式定义缓冲区半径（以米为单位）。
 > [!EXAMPLE]
 >
-> 1. **Define specific buffer distances (e.g., 10, 20, 50, 100, 500, 1000 meters)**
+> 1. **定义特定的缓冲区距离（例如 10、20、50、100、500、1000 米）**
 >
 >     ```python
 >     [10, 20, 50, 100, 500, 1000]
 >     ```
 >
-> 2. **Generate a range of distances from 10 to 2000 meters with an interval of 10 meters**
+> 2. **生成从 10 米到 2000 米、间隔为 10 米的缓冲区环**
 >
 >     ```python
 >     [10 * x for x in range(1,201)]
 >     ```
 
-### Save path
+### 保存路径
 
-- Enter the base name for the output `CSV` file.
+- 输入输出 `CSV` 文件的基本名称。
   ![Photo](../images/save_Path.png)
-- The results will be saved as `CSV` files.
+- 结果将保存为 `CSV` 文件。
   ![Photo](../images/save_Result.png)
 
-## Run the script
+## 运行脚本
 
-After setting all parameters, click **Run** to execute the script.
+设置所有参数后，单击 **运行** 执行脚本。
 ![Photo](../images/run.png)
 
-## Result structure
+## 结果
 
-The result contains four columns:
+结果包含四列：
 
-- **city**: The name of the zone, as defined by the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)**.
-- **distance**: The radius of the buffer (in meters).
-- **Num**: The number of **[Target POI](#target-poi-layer)** points within the buffer for the corresponding **city** and **distance**.
-- **totalNum**: The total number of **[Target POI](#target-poi-layer)** points within the corresponding **city**.
+- **city**：区域名称，由 **[选择源兴趣点（POI）的区域名称字段](#选择源兴趣点poi的区域名称字段)** 定义。
+- **distance**：缓冲区半径（以米为单位）。
+- **Num**：对于相应的 **city** 和 **distance**，缓冲区内 **[目标兴趣点（POI）](#目标兴趣点poi图层)** 的数量。
+- **totalNum**：相应 **city** 内 **[目标兴趣点（POI）](#目标兴趣点poi图层)** 的总数量。
 
 ![Photo](../images/result_Structure.png)

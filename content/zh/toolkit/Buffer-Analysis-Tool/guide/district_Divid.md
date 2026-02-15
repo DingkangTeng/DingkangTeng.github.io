@@ -3,41 +3,41 @@ title: District Divid
 weight: 3
 ---
 
-## Description
+## 描述
 
-This is an auxiliary script that divides POIs by polygon for buffer analysis.
+这是一个辅助脚本，用于按多边形划分兴趣点以进行缓冲区分析。
 
-## Toolbox script Structure
+## 工具箱结构
 
-The tool requires the following **[4 main input fields](#input-parameters)**:
-![Photo](../images/district_Divid.png)
+该工具需要以下 **[4 个主要输入字段](#输入参数)**：
+![Photo](../images/buffer_Analysis_Area.png)
 
-## Input Parameters
+## 输入参数
 
-### Input Layer
+### 输入图层
 
-This field specifies the point layer that needed to be divided.
+此字段指定需要被划分的点图层。
 
-### Zone Division Layer
+### 区域划分图层
 
-This field specifies the polygon layer define the boundary of each zone.
+此字段指定定义每个区域边界的多边形图层。
 
-### Select zone name field
+### 选择区域名称字段
 
-This field specifies the field that defines zones for the polygon layer.
+此字段指定为多边形图层定义区域的字段。
 
-### Save path
+### 保存路径
 
-- Enter the base name for the output.
+- 输入输出的基本名称。
   ![Photo](../images/save_Path_Divid.png)
-- The results will be automatically saved as `shapefiles (.SHP)` or `feature classes` in a file geodatabase, depending on the output path you specify.
+- 根据您指定的输出路径，结果将自动保存为 `shapefiles (.SHP)` 或文件地理数据库中的 `要素类（feature classes）`。
 
-## Run the script
+## 运行脚本
 
-After setting all parameters, click **Run** to execute the script.
+设置所有参数后，单击 **运行** 执行脚本。
 ![Photo](../images/run_Divid.png)
 
-## Result structure
+## 结果
 
-The output contains a field that stores the zone names, named after the **[Select zone name field](#select-zone-name-field)** you selected.
+输出结果包含一个存储区域名称的字段，该字段以您选择的 **[选择区域名称字段](#选择区域名称字段)** 命名。
 ![Photo](../images/result_Structure_Divid.png)

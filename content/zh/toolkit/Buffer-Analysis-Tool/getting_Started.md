@@ -11,11 +11,11 @@ type: docs
 
 ### 下载工具箱
 
-通过我的 **[GitHub 发布页](https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool/releases)**下载缓冲区分析工具。
+通过我的 **[GitHub 发布页](https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool/releases)** 下载缓冲区分析工具。
 
 如需查看源代码，请访问 **[GitHub 仓库](https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool)**。欢迎探索、贡献或反馈问题。
 
-> [TIPS]
+> [!TIP]
 > 如无法访问GitHub，可使用中文镜像下载。（链接待补充）
 
 ### 解压缓冲区分析工具
