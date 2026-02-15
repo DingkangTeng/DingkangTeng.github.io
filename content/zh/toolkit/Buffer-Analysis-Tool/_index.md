@@ -1,6 +1,6 @@
 ---
 linkTitle: 缓冲区分析工具
-title: 用于多环缓冲区分析的 ArcGIS Pro 便捷工具集
+title: 用于多环缓冲区分析的 ArcGIS Toolbox
 date: 2026-02-10
 type: docs
 

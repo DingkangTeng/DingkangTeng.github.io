@@ -1,6 +1,6 @@
 ---
 linkTitle: Buffer Analysis Tool
-title: Easy ArcGIS Pro Tools for Multiple Rings Buffer Analysis
+title: Easy ArcGIS Toolbox for Multiple Rings Buffer Analysis
 date: 2026-02-10
 type: docs
 

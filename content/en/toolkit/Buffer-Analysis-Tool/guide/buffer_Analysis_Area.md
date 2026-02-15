@@ -35,7 +35,7 @@ This field specifies the field that defines zones for the polygon layer.
 
 ### Buffer (Meter) Syntax (Python)
 
-This field defines the buffer radii in meters using a Python list comprehension.
+This field defines the buffer radii in meters using a Python list or list comprehension.
 > [!EXAMPLE]
 >
 > 1. **Define specific buffer distances (e.g., 10, 20, 50, 100, 500, 1000 meters)**
@@ -52,7 +52,7 @@ This field defines the buffer radii in meters using a Python list comprehension.
 
 ### Save path
 
-- Enter the base name for the output CSV file.
+- Enter the base name for the output `CSV` file.
   ![Photo](../images/save_Path.png)
 - The results will be saved as `CSV` files.
   ![Photo](../images/save_Result.png)

@@ -46,8 +46,8 @@ links:
 - type: custom
   label: ToolKit
   url: "toolkit/buffer-analysis-tool"
-# - type: poster
-#   url: "#"
+- type: poster
+  url: https://globalevdata.github.io/News/2026-2-8.html
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

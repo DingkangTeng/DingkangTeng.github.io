@@ -5,7 +5,7 @@ weight: 1
 type: docs
 ---
 
-## Quick Start from Template
+## Quick Start
 
 {{% steps %}}
 
