@@ -16,7 +16,9 @@ type: docs
 如需查看源代码，请访问 **[GitHub 仓库](https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool)**。欢迎探索、贡献或反馈问题。
 
 > [!TIP]
-> 如无法访问GitHub，可使用中文镜像下载。（链接待补充）
+> 如无法访问GitHub，可以尝试使用以下镜像站（仅中文版）。
+>
+> - [ghfast.top](https://ghfast.top/https://github.com/DingkangTeng/Sensitive-Analysis-for-Buffer-Analysis-Tool/releases/download/v1.0.0/Buffer-Analysis-Tool_1.0.0_CN.zip)
 
 ### 解压缓冲区分析工具
 
