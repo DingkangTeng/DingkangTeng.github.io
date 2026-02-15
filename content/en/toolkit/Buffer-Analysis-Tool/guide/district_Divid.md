@@ -1,5 +1,5 @@
 ---
-title: District Divid
+title: District Divide
 weight: 3
 ---
 
@@ -29,7 +29,7 @@ This field specifies the field that defines zones for the polygon layer.
 ### Save path
 
 - Enter the base name for the output.
-  ![Photo](../images/save_Path_Divid.png)
+  ![My diagram](toolkits/001/save_Path_Divid.png)
 - The results will be automatically saved as `shapefiles (.SHP)` or `feature classes` in a file geodatabase, depending on the output path you specify.
 
 ## Run the script
@@ -40,4 +40,4 @@ After setting all parameters, click **Run** to execute the script.
 ## Result structure
 
 The output contains a field that stores the zone names, named after the **[Select zone name field](#select-zone-name-field)** you selected.
-![Photo](../images/result_Structure_Divid.png)
+![My diagram](toolkits/001/result_Structure_Divid.png)

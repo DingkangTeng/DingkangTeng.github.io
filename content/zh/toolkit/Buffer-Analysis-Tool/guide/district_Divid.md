@@ -1,5 +1,5 @@
 ---
-title: District Divid
+title: 区域划分
 weight: 3
 ---
 
@@ -29,7 +29,7 @@ weight: 3
 ### 保存路径
 
 - 输入输出的基本名称。
-  ![Photo](../images/save_Path_Divid.png)
+  ![My diagram](toolkits/001/save_Path_Divid.png)
 - 根据您指定的输出路径，结果将自动保存为 `shapefiles (.SHP)` 或文件地理数据库中的 `要素类（feature classes）`。
 
 ## 运行脚本
@@ -40,4 +40,4 @@ weight: 3
 ## 结果
 
 输出结果包含一个存储区域名称的字段，该字段以您选择的 **[选择区域名称字段](#选择区域名称字段)** 命名。
-![Photo](../images/result_Structure_Divid.png)
+![My diagram](toolkits/001/result_Structure_Divid.png)

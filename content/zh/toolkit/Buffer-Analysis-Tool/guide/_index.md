@@ -6,7 +6,7 @@ sidebar:
 ---
 
 {{< cards >}}
-  {{< card url="buffer_analysis" title="Buffer Analysis" icon="document-duplicate" >}}
-  {{< card url="buffer_analysis_area" title="Buffer Analysis (Area)" icon="document-duplicate" >}}
-  {{< card url="district_divid" title="District Divid" icon="adjustments-vertical" >}}
+  {{< card url="buffer_analysis" title="缓冲区分析" icon="document-duplicate" >}}
+  {{< card url="buffer_analysis_area" title="缓冲区分析（面积）" icon="document-duplicate" >}}
+  {{< card url="district_divid" title="区域划分" icon="adjustments-vertical" >}}
 {{< /cards >}}

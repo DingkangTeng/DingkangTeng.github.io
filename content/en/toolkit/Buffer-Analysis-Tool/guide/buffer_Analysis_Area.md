@@ -31,7 +31,7 @@ This field specifies the polygon layer define the boundary of each zone.
 This field specifies the field that defines zones for the polygon layer.
 
 > [!NOTE]
-> Ensure that the values in the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)** and **[Select zone name field of district layer](#select-zone-name-field-of-district-layer)** correspond to the same zones. It is strongly recommended to use the [District Divid script](../district_divid) to generate the zone name field for the **[Source POI Layer](#source-poi-layer)** from the **[District Layer](#disrict-layer)**.
+> Ensure that the values in the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)** and **[Select zone name field of district layer](#select-zone-name-field-of-district-layer)** correspond to the same zones. It is strongly recommended to use the [District Divide script](../district_divid) to generate the zone name field for the **[Source POI Layer](#source-poi-layer)** from the **[District Layer](#disrict-layer)**.
 
 ### Buffer (Meter) Syntax (Python)
 
@@ -52,10 +52,10 @@ This field defines the buffer radii in meters using a Python list or list compre
 
 ### Save path
 
-- Enter the base name for the output `CSV` file.
-  ![Photo](../images/save_Path.png)
+- Enter the base name for the output `CSV` file (do not include the .csv extension).
+  ![My diagram](toolkits/001/save_Path.png)
 - The results will be saved as `CSV` files.
-  ![Photo](../images/save_Result.png)
+  ![My diagram](toolkits/001/save_Result.png)
 
 ## Run the script
 
@@ -71,4 +71,4 @@ The result contains four columns:
 - **Num**: The area of the buffer ring (in square meters) intersecting with the corresponding city boundary for the corresponding **city** and **distance**.
 - **totalNum**: The total area (in square meters) of the corresponding **city**.
 
-![Photo](../images/result_Structure_Area.png)
+![My diagram](toolkits/001/result_Structure_Area.png)

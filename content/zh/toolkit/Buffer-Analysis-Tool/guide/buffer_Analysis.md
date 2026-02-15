@@ -1,5 +1,5 @@
 ---
-title: Buffer Analysis
+title: 缓冲区分析
 weight: 1
 ---
 
@@ -31,7 +31,7 @@ weight: 1
 此字段指定为目标兴趣点定义区域名称的字段。如果无需按区域计算，请选择一个所有值均相同的字段。
 
 > [!NOTE]
-> 确保 **[选择源兴趣点（POI）的区域名称字段](#选择源兴趣点poi的区域名称字段)** 和 **[选择目标兴趣点（POI）的区域名称字段](#选择目标兴趣点poi的区域名称字段)** 中的值对应相同的区域。强烈建议使用 [District Divid 脚本](../district_divid) 生成区域名称字段。
+> 确保 **[选择源兴趣点（POI）的区域名称字段](#选择源兴趣点poi的区域名称字段)** 和 **[选择目标兴趣点（POI）的区域名称字段](#选择目标兴趣点poi的区域名称字段)** 中的值对应相同的区域。强烈建议使用 [区域划分脚本](../district_divid) 生成区域名称字段。
 
 ### 定义缓冲区（米）（Python）
 
@@ -52,10 +52,10 @@ weight: 1
 
 ### 保存路径
 
-- 输入输出 `CSV` 文件的基本名称。
-  ![Photo](../images/save_Path.png)
+- 输入输出 `CSV` 文件的文件名（不带.csv）。
+  ![My diagram](toolkits/001/save_Path.png)
 - 结果将保存为 `CSV` 文件。
-  ![Photo](../images/save_Result.png)
+  ![My diagram](toolkits/001/save_Result.png)
 
 ## 运行脚本
 
@@ -71,4 +71,4 @@ weight: 1
 - **Num**：对于相应的 **city** 和 **distance**，缓冲区内 **[目标兴趣点（POI）](#目标兴趣点poi图层)** 的数量。
 - **totalNum**：相应 **city** 内 **[目标兴趣点（POI）](#目标兴趣点poi图层)** 的总数量。
 
-![Photo](../images/result_Structure.png)
+![My diagram](toolkits/001/result_Structure.png)

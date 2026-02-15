@@ -29,11 +29,11 @@ type: docs
 
 该工具箱中包含三个脚本：
 
-- **[Buffer Analysis](../guide/buffer_analysis)**：执行缓冲区分析的主脚本。
-- **[Buffer Analysis (Area)](../guide/buffer_analysis_area)**：仅根据缓冲区面积执行分析的专用脚本。
-- **[District Divid](../guide/district_divid)**：用于按多边形划分兴趣点（POI）以进行缓冲区分析的辅助脚本。
+- **[缓冲区分析](../guide/buffer_analysis)**：执行缓冲区分析的主脚本。
+- **[缓冲区分析（面积）](../guide/buffer_analysis_area)**：仅根据缓冲区面积执行分析的专用脚本。
+- **[区域划分](../guide/district_divid)**：用于按多边形划分兴趣点（POI）以进行缓冲区分析的辅助脚本。
 
-![My diagram](toolkits/001/toolbox.png)
+![Photo](./toolbox.png)
 
 > [!NOTE]
 > ArcGIS Pro 可能会警告您，打开 Python 工具箱将运行第三方代码。只需点击“是”即可继续。
@@ -46,7 +46,7 @@ type: docs
 以下章节将详细介绍这些脚本的具体用法：
 
 {{< cards >}}
-  {{< card url="../guide/buffer_analysis" title="Buffer Analysis" icon="document-duplicate" >}}
-  {{< card url="../guide/buffer_analysis_area" title="Buffer Analysis (Area)" icon="document-duplicate" >}}
-  {{< card url="../guide/district_divid" title="District Divid" icon="adjustments-vertical" >}}
+  {{< card url="../guide/buffer_analysis" title="缓冲区分析" icon="document-duplicate" >}}
+  {{< card url="../guide/buffer_analysis_area" title="缓冲区分析（面积）" icon="document-duplicate" >}}
+  {{< card url="../guide/district_divid" title="区域划分" icon="adjustments-vertical" >}}
 {{< /cards >}}

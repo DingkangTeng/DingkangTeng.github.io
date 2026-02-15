@@ -31,7 +31,7 @@ This field specifies the point layer containing the target POIs to be counted wi
 This field specifies the field that defines zones for the target POIs. If you do not need to calculate by zone, select a field where all values are identical.
 
 > [!NOTE]
-> Ensure that the values in the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)** and **[Select zone name field of target POI](#select-zone-name-field-of-target-poi)** correspond to the same zones. It is strongly recommended to use the [District Divid script](../district_divid) to generate the zone name field.
+> Ensure that the values in the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)** and **[Select zone name field of target POI](#select-zone-name-field-of-target-poi)** correspond to the same zones. It is strongly recommended to use the [District Divide script](../district_divid) to generate the zone name field.
 
 ### Buffer (Meter) Syntax (Python)
 
@@ -52,10 +52,10 @@ This field defines the buffer radii in meters using a Python list comprehension.
 
 ### Save path
 
-- Enter the base name for the output CSV file.
-  ![Photo](../images/save_Path.png)
+- Enter the base name for the output CSV file (do not include the .csv extension).
+  ![My diagram](toolkits/001/save_Path.png)
 - The results will be saved as `CSV` files.
-  ![Photo](../images/save_Result.png)
+  ![My diagram](toolkits/001/save_Result.png)
 
 ## Run the script
 
@@ -71,4 +71,4 @@ The result contains four columns:
 - **Num**: The number of **[Target POI](#target-poi-layer)** points within the buffer for the corresponding **city** and **distance**.
 - **totalNum**: The total number of **[Target POI](#target-poi-layer)** points within the corresponding **city**.
 
-![Photo](../images/result_Structure.png)
+![My diagram](toolkits/001/result_Structure.png)

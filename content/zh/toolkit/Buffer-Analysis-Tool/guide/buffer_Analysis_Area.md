@@ -31,7 +31,7 @@ weight: 2
 此字段指定为多边形图层定义区域名称的字段。
 
 > [!NOTE]
-> 确保 **[选择源兴趣点（POI）的区域名称字段](#选择源兴趣点poi的区域名称字段)** 和 **[选择区域图层的区域名称字段](#选择区域图层的区域名称字段)** 中的值对应相同的区域。强烈建议使用 [District Divid 脚本](../district_divid) 从 **[区域图层](#区域图层)** 为 **[源兴趣点（POI）图层](#源兴趣点poi图层)**生成区域名称字段。
+> 确保 **[选择源兴趣点（POI）的区域名称字段](#选择源兴趣点poi的区域名称字段)** 和 **[选择区域图层的区域名称字段](#选择区域图层的区域名称字段)** 中的值对应相同的区域。强烈建议使用 [区域划分脚本](../district_divid) 从 **[区域图层](#区域图层)** 为 **[源兴趣点（POI）图层](#源兴趣点poi图层)** 生成区域名称字段。
 
 ### 定义缓冲区（米）（Python）
 
@@ -52,10 +52,10 @@ weight: 2
 
 ### 保存路径
 
-- 输入输出 `CSV` 文件名.
-  ![Photo](../images/save_Path.png)
-- 结果将保存为 `CSV` 文件.
-  ![Photo](../images/save_Result.png)
+- 输入输出 `CSV` 文件的文件名（不带.csv）。
+  ![My diagram](toolkits/001/save_Path.png)
+- 结果将保存为 `CSV` 文件。
+  ![My diagram](toolkits/001/save_Result.png)
 
 ## 运行脚本
 
@@ -71,4 +71,4 @@ weight: 2
 - **Num**：对于相应的 **city** 和 **distance**，缓冲环与相应城市边界相交的面积（以平方米为单位）。
 - **totalNum**：相应 **city** 的总面积（以平方米为单位）。
 
-![Photo](../images/result_Structure_Area.png)
+![My diagram](toolkits/001/result_Structure_Area.png)
