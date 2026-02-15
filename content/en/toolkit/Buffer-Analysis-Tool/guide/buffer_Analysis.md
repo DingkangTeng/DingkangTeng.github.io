@@ -31,7 +31,7 @@ This field specifies the point layer containing the target POIs to be counted wi
 This field specifies the field that defines zones for the target POIs. If you do not need to calculate by zone, select a field where all values are identical.
 
 > [!NOTE]
-> Ensure that the values in the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)** and **[Select zone name field of target POI](#select-zone-name-field-of-target-poi)** correspond to the same zones. It is strongly recommended to use the [District Divid script](./district_divid) to generate the zone name field.
+> Ensure that the values in the **[Select zone name field of source POI](#select-zone-name-field-of-source-poi)** and **[Select zone name field of target POI](#select-zone-name-field-of-target-poi)** correspond to the same zones. It is strongly recommended to use the [District Divid script](../district_divid) to generate the zone name field.
 
 ### Buffer (Meter) Syntax (Python)
 
