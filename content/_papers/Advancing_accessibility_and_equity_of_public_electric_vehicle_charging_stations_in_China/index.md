@@ -1,5 +1,5 @@
 ---
-title: "Advancing accessibility and equity of public electric vehicle charging stations in China"
+title: "Advancing accessibility and equity of public electric vehicle charging stations in China (Under Review)"
 authors:
 - admin
 - JHCGTang
