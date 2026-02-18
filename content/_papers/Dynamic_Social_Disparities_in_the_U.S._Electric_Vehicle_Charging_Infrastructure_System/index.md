@@ -17,7 +17,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Transportation Research Part D: Transport and Environment"
-publication_short: "Transp. Res. Part Transp"
+publication_short: "Transp. Res. D Transp. Environ."
 
 # abstract: Equitable access to electric vehicle (EV) chargers across different population groups is critical for reducing barriers and promoting widespread EV adoption. While recent studies have examined social disparities of charging accessibility in the United States, they typically focus on a single year, leaving unclear whether social equity has improved over the past decade. In this study, we propose a novel framework to evaluate the temporal dynamics of charging accessibility across different charger types and the evolution of social disparities among gender, race, and age groups nationwide. Our results indicate that charger access is higher in counties with above-median household income, larger populations, and greater shares of multi-unit dwellings. Counties with higher proportions of males, Asian, Black Americans, and younger adults generally experience lower EV charging accessibility. Temporal analysis further reveals that Asian Americans have gained increased overall charging accessibility after 2020, although they remain disadvantaged in fast charger access.
 
