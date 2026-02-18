@@ -8,6 +8,4 @@ name_pronunciation: ''
 first_name: 承祥
 last_name: 诸葛
 
-# # Pronouns (optional)
-# pronouns: he/him
 ---

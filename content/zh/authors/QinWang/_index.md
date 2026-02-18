@@ -9,6 +9,4 @@ name_pronunciation: ''
 first_name: 琴
 last_name: 王
 
-# # Pronouns (optional)
-# pronouns: her/his
 ---

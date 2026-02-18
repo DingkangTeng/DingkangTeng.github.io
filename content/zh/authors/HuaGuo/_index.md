@@ -9,6 +9,4 @@ name_pronunciation: ''
 first_name: 华
 last_name: 郭
 
-# # Pronouns (optional)
-# pronouns: her/his
 ---

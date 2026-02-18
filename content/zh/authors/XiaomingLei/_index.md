@@ -9,6 +9,4 @@ name_pronunciation: ''
 first_name: 小明
 last_name: 雷
 
-# # Pronouns (optional)
-# pronouns: he/him
 ---

@@ -9,6 +9,4 @@ name_pronunciation: ''
 first_name: 小方
 last_name: 刘
 
-# # Pronouns (optional)
-# pronouns: her/his
 ---

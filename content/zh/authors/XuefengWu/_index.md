@@ -9,6 +9,4 @@ name_pronunciation: ''
 first_name: 学锋
 last_name: 吴
 
-# # Pronouns (optional)
-# pronouns: he/him
 ---

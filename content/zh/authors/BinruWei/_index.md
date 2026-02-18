@@ -1,12 +1,11 @@
 ---
 # Display name
-title: 马瑞晨
-
+title: 魏彬如
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: 瑞晨
-last_name: 马
+first_name: 彬如
+last_name: 魏
 
 ---

@@ -9,6 +9,4 @@ name_pronunciation: ''
 first_name: 世炳
 last_name: 潘
 
-# # Pronouns (optional)
-# pronouns: her/his
 ---

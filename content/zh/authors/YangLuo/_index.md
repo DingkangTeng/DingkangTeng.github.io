@@ -9,6 +9,4 @@ name_pronunciation: ''
 first_name: 阳
 last_name: 骆
 
-# # Pronouns (optional)
-# pronouns: her/his
 ---

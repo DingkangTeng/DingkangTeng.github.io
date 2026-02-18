@@ -9,6 +9,4 @@ name_pronunciation: ''
 first_name: 思宇
 last_name: 陈
 
-# # Pronouns (optional)
-# pronouns: her/his
 ---

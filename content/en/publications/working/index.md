@@ -2,7 +2,7 @@
 title: "Working Papers"
 authors:
 - admin
-date: "2026-02-07T02:00:00Z"
+date: "2026-02-18T02:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -30,6 +30,5 @@ image:
 > [!NOTE]
 > This page lists all my working papers
 
-- **Teng, D.**, Tang, J.H.C.G., Ma, R., Yang, X., He, M., Wei, B., Li, Y., Peng, Z., & Zhuge, C. Advancing accessibility and equity of public electric vehicle charging stations in China. (Submitted). *[Target journal: PNAS]*
 - Ma, R., **Teng, D.**, Yang, X., Zhao, J., Chen, D., Tang, J.H.C.G., & Zhuge, C. Global Patterns in Public Electric Vehicle Charging Infrastructure Deployment. (Draft Available). *[Target journal: Transportation Research Part D]*
 - **Teng, D.**, Tang, J.H.C.G., Ma, R., Yang, X., & Zhuge, C. The potential influences of flooding on accessibility and equity of public electric vehicle charging infrastructure: A global insight. (In Preparation). *[Target journal: Nature Cities]*

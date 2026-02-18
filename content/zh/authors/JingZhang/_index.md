@@ -9,6 +9,4 @@ name_pronunciation: ''
 first_name: 静
 last_name: 张
 
-# # Pronouns (optional)
-# pronouns: her/his
 ---
