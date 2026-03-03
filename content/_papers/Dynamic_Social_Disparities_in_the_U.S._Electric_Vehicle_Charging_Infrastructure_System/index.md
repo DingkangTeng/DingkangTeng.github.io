@@ -1,14 +1,14 @@
 ---
-title: "Dynamic Social Disparities in the U.S. Electric Vehicle Charging Infrastructure System (Under Review)"
+title: "Dynamic Social Disparities in the U.S. Electric Vehicle Charging Infrastructure System"
 authors:
 - RuichenMa
 - MingmingGuan
 - admin
 - ChengxiangZhuge
-date: "2026-02-17T00:00:00Z"
+date: "2026-03-03T00:00:00Z"
 
-# # Schedule page publish date (NOT publication's date).
-# publishDate: "2017-01-01T00:00:00Z"
+# Schedule page publish date (NOT publication's date).
+publishDate: "2026-03-03T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -19,7 +19,7 @@ publication_types: ["article-journal"]
 publication: "Transportation Research Part D: Transport and Environment"
 publication_short: "Transp. Res. D Transp. Environ."
 
-# abstract: Equitable access to electric vehicle (EV) chargers across different population groups is critical for reducing barriers and promoting widespread EV adoption. While recent studies have examined social disparities of charging accessibility in the United States, they typically focus on a single year, leaving unclear whether social equity has improved over the past decade. In this study, we propose a novel framework to evaluate the temporal dynamics of charging accessibility across different charger types and the evolution of social disparities among gender, race, and age groups nationwide. Our results indicate that charger access is higher in counties with above-median household income, larger populations, and greater shares of multi-unit dwellings. Counties with higher proportions of males, Asian, Black Americans, and younger adults generally experience lower EV charging accessibility. Temporal analysis further reveals that Asian Americans have gained increased overall charging accessibility after 2020, although they remain disadvantaged in fast charger access.
+abstract: Equitable access to electric vehicle (EV) chargers across different population groups is critical for reducing barriers and promoting widespread EV adoption. While recent studies have examined social disparities of charging accessibility in the United States, they typically focus on a single year, leaving unclear whether social equity has improved over the past decade. In this study, we propose a novel framework to evaluate the temporal dynamics of charging accessibility across different charger types and the evolution of social disparities among gender, race, and age groups nationwide. Our results indicate that charger access is higher in counties with above-median household income, larger populations, and greater shares of multi-unit dwellings. Counties with higher proportions of males, Asian, Black Americans, and younger adults generally experience lower EV charging accessibility. Temporal analysis further reveals that Asian Americans have gained increased overall charging accessibility after 2020, although they remain disadvantaged in fast charger access.
 
 # Summary. An optional shortened abstract.
 summary: Equitable access to electric vehicle (EV) chargers across different population groups is critical for reducing barriers and promoting widespread EV adoption.
@@ -67,13 +67,12 @@ image:
 ---
 
 > [!NOTE]
-> This paper is **Under Review**.
-
-<!-- **Highlights**
-
-<ul>
-  <li>Charger deployment favored wealthier and more populated counties with high MUD shares. </li>
-  <li>Asian Americans gained increased total charging accessibility after 2020 but remained disadvantaged in DC chargers. </li>
-  <li>White Americans benefit more from DC chargers, Black Americans from AC chargers. </li>
-  <li>Elderly populations have greater access to both DC and AC chargers than younger adults. </li>
-</ul> -->
+> This paper has just been **Accepted** and in press.
+>
+> [!TIP]
+> **Highlights**
+>
+> - Charger deployment favored wealthier and more populated counties with high MUD shares.
+> - Asian Americans gained increased total charging accessibility after 2020 but remained disadvantaged in DC chargers.
+> - White Americans benefit more from DC chargers, Black Americans from AC chargers.
+> - Elderly populations have greater access to both DC and AC chargers than younger adults.

@@ -1,5 +1,6 @@
 ---
 title: Buffer Analysis (Area)
+date: 2026-02-10
 weight: 2
 ---
 
