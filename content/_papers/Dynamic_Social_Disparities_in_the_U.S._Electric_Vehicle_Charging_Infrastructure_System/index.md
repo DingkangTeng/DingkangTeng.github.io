@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Social Disparities in the U.S. Electric Vehicle Charging Infrastructure System"
+title: "Dynamic Social Disparities in the U.S. Electric Vehicle Charging Infrastructure System (In press)"
 authors:
 - RuichenMa
 - MingmingGuan
@@ -68,7 +68,8 @@ image:
 
 > [!NOTE]
 > This paper has just been **Accepted** and in press.
->
+
+&nbsp;
 > [!TIP]
 > **Highlights**
 >
