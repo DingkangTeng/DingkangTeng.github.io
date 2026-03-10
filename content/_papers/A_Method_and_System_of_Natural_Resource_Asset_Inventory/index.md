@@ -22,7 +22,7 @@ publishDate: "2024-03-01T00:00:00Z"
 publication_types: ["patent"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*国家知识产权局 (China National Intellectual Property Administration)*"
+publication: "国家知识产权局 (China National Intellectual Property Administration)"
 publication_short: "CNIPA"
 
 abstract: 本申请涉及一种自然资源资产清查方法及系统，涉及资产清查的技术领域，其方法包括获取待资产清查区域总面积及位置信息；获取待资产清查区域的陆地空间规划范围数据以及海洋空间规划范围数据；判断在所述待资产清查区域中，所述陆地空间规划范围数据所包含的区域与所述海洋空间规划范围数据所包含的区域是否存在重叠区域；若是，则将所述待资产清查区域划为海洋区域、海陆区域及陆地区域；获取所述海陆区域在所述陆地空间规划范围数据中的规划用途，记为第一用途；获取所述海陆区域在所述海洋空间规划范围数据中的规划用途，记为第二用途；基于所述第一用途及所述第二用途确定所述海陆区域的规划用途。

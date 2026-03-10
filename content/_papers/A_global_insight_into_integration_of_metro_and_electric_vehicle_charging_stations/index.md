@@ -18,7 +18,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Sustainable Cities and Society"
-publication_short: "Sustain. Cities Soc"
+publication_short: "*Sustain. Cities Soc.*, *139*, 107217"
 
 abstract: This study investigates the potential of park-charge-ride (PCR) worldwide in the era of transportation electrification, covering 153 urban study units across the United States, Europe and China. This research uses a set of spatial analysis methods to profile the proximity, density, and clustering patterns of electric vehicle charging stations (EVCS) and parking lots relative to metro stations. The results reveal several substantial regional disparities. The United States demonstrates strong yet uneven PCR implementation with remarkable EVCS aggregation; Europe reaches balanced improvement of PCR services; and China, though possessing the greater metro infrastructure, demonstrates limited EVCS integration metro stations nearby. Intriguingly, the study found no significant policy-driven prioritization of PCR deployment by several types of metro stations (i.e., normal, interchange, terminal). These findings stress the necessity for spatial planning to optimize the coverage of PCR, foster multimodal transport efficiency, and advance sustainable mobility objectives worldwide.
 

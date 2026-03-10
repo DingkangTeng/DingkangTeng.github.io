@@ -10,7 +10,7 @@ authors:
 - YuanLi
 - ZhenhanPeng
 - ChengxiangZhuge
-date: "2026-03-03T00:01:00Z"
+date: "2026-03-09T00:01:00Z"
 
 # # Schedule page publish date (NOT publication's date).
 # publishDate: "2026-02-06T00:00:00Z"
@@ -22,7 +22,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Transport Policy"
-publication_short: "Transp. Policy"
+publication_short: "*Transp. Policy*. Under review."
 
 # abstract: This study provides a comprehensive decadal assessment of public electric vehicle (EV) charging infrastructure in China, analysing accessibility and equity from 2015 to 2025 using a constructed dataset covering over 0.8 million location records of EV charging stations (EVCS).To evaluate the existing level of charging accessibility relative to an optimal benchmark, we propose the concept of Optimal level of Accessibility (Opt-Acc), to measure the performance of the current EVCS spatial configuration. Our results show that the Opt-Acc values converge between 0.6 and 0.7, with 76.44% of cities maintaining stable levels. While the equity increased in 99.7 % of cities, the gap between leading and lagging areas widened, suggesting an emerging spatial imbalance among cities. Further social equity analysis by gender and age uncovers continuous higher accessibility among women and older population groups. This study emphasises the need for precision-based spatial planning and inclusive, data-driven policies for EVCS.
 
