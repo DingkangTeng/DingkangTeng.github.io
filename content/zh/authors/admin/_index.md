@@ -46,8 +46,10 @@ profiles:
     url: https://scholar.google.com/citations?user=G6W9RUYAAAAJ&hl=zh
   - icon: academicons/orcid
     url: https://orcid.org/0009-0000-2008-2101
-  - icon: "custom/person"
-    url: https://home.tengdingkang.fun/nas.php
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Dingkang-Teng
+  # - icon: "custom/person"
+  #   url: https://home.tengdingkang.fun/nas.php
 
 interests:
   - 空间分析
@@ -162,7 +164,7 @@ languages:
       中文
       （粤语）
     percent: 50
-  - name: English
+  - name: 英语
     percent: 90
 
 # Awards.
@@ -221,4 +223,4 @@ awards:
   #     Recognized for contributions to scaling laws in deep learning.
 ---
 
-目前，我在<a href="https://www.polyu.edu.hk/lsgi/">香港理工大学土地测量及资讯学系（LSGI）</a>担任兼职科研助理，师从<a href="https://geospatial.szu.edu.cn/info/1382/6430.htm">诸葛承祥</a>老师，并于此同时攻读城市信息学与智慧城市的硕士学位。我的学术训练始于<a href="https://ggxy.hzau.edu.cn/">华中农业大学</a>的土地资源管理专业，而今，我的研究聚焦于城市交通基础设施、土地利用与大数据分析的交叉领域。
+目前，我在[香港理工大学土地测量及资讯学系（LSGI）](https://www.polyu.edu.hk/lsgi/)担任兼职科研助理，导师是[诸葛承祥](https://geospatial.szu.edu.cn/info/1382/6430.htm)老师，并于此同时攻读城市信息学与智慧城市的硕士学位。我的学术训练始于[华中农业大学](https://ggxy.hzau.edu.cn/)的[土地资源管理](https://ggxy.hzau.edu.cn/index.htm)专业，而今，我的研究聚焦于城市交通基础设施、土地利用与大数据分析的交叉领域。

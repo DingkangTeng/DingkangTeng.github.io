@@ -46,8 +46,10 @@ profiles:
     url: https://scholar.google.com/citations?user=G6W9RUYAAAAJ&hl=en
   - icon: academicons/orcid
     url: https://orcid.org/0009-0000-2008-2101
-  - icon: "custom/person"
-    url: https://home.tengdingkang.fun/nas.php
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Dingkang-Teng
+  # - icon: "custom/person"
+  #   url: https://home.tengdingkang.fun/nas.php
 
 interests:
   - Spatial Analysis
@@ -158,7 +160,7 @@ skills:
 languages:
   - name: |
       Chinese
-      (Putonghua)
+      (Mandarin)
     percent: 100
   - name: |
       Chinese
@@ -223,4 +225,5 @@ awards:
   #     Recognized for contributions to scaling laws in deep learning.
 ---
 
-Dingkang Teng is a part-time Research Assistant in <a href="https://www.polyu.edu.hk/lsgi/">LSGI, PolyU</a> under the supervision of <a href="https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-zhuge-cheng-xiang/">Dr. Zhuge</a> and is also a Master student in Urban Informatics and Smart Cities at the Hong Kong Polytechnic University. He obtained his bachelor's degree in Land Resources Management from <a href="https://en.hzau.edu.cn/">Huazhong Agricultural University</a>. His research interests include urban transportation infrastructure, land use, and big data analytics.
+Dingkang Teng is a part-time Research Assistant in [LSGI, PolyU](https://www.polyu.edu.hk/lsgi/) under the supervision of [Dr. Zhuge](https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-zhuge-cheng-xiang/) and is also a Master student in Urban Informatics and Smart Cities at the Hong Kong Polytechnic University. He obtained his bachelor's degree in [Land Resources Management](https://ggxy.hzau.edu.cn/index.htm) from [Huazhong Agricultural University](https://en.hzau.edu.cn/). His research interests include urban transportation infrastructure, land use, and big data analytics.
+{: style="text-align: justify"}
