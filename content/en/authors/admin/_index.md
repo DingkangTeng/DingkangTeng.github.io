@@ -226,4 +226,3 @@ awards:
 ---
 
 Dingkang Teng is a part-time Research Assistant in [LSGI, PolyU](https://www.polyu.edu.hk/lsgi/) under the supervision of [Dr. Zhuge](https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-zhuge-cheng-xiang/) and is also a Master student in Urban Informatics and Smart Cities at the Hong Kong Polytechnic University. He obtained his bachelor's degree in [Land Resources Management](https://ggxy.hzau.edu.cn/index.htm) from [Huazhong Agricultural University](https://en.hzau.edu.cn/). His research interests include urban transportation infrastructure, land use, and big data analytics.
-{: style="text-align: justify"}
