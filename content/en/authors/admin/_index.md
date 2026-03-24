@@ -99,9 +99,11 @@ work:
     summary: |2-
       Focusing on Technology innovation, Infrastructure planning and Policy making in Smart Cities
 
-      Conduct research projects related to charging infrastructure across the globe and author research papers.
+      Conduct large-scale spatial analysis on global electric vehicle charging infrastructure.
 
-      Collecting, analyzing, visualizing the data for the research group.
+      Process and analyze multi-source geospatial datasets (global-scale) using Python-based spatial data science workflows.
+
+      Contribute to peer-reviewed publications on infrastructure equity and disaster vulnerability
 
       Served as TA in course Intelligent Transportation Systems (LSGI3213). Facilitated weekly lab sessions, providing hands-on guidance for data analysis and simulation modeling software.
 
