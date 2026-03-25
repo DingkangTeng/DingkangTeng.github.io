@@ -8,5 +8,5 @@ awards:
     summary: |
       Issuing Authority: Ministry of Housing and Urban-Rural Development, P.R. China & Ministry of Natural Resources, P.R. China
 
-      [Offical Link](https://ptclient.cirea.org.cn/client/login/gjspublicbrowse2new?rid=eb510d25e1848b0a665d8d541ddcea25)
+      [Official Verification Portal](https://ptclient.cirea.org.cn/client/login/gjspublicbrowse2new?rid=eb510d25e1848b0a665d8d541ddcea25)
 ---
