@@ -1,9 +1,9 @@
 ---
 awards:
   - title: Certificate of Registered Real Estate Appraiser
-    url: '/uploads/Certificate_of_Registered_Real_Estate_Appraiser.pdf'
-    date: '2026-04-01'
-    # awarder: 'Certification ID: xxxxxx'
+    url: "/uploads/Certificate_of_Registered_Real_Estate_Appraiser.pdf"
+    date: "2025-11-09"
+    awarder: "Certification ID: 30520251142000000010"
     icon: hero/identification
     summary: |
       Issuing Authority: Ministry of Housing and Urban-Rural Development, P.R. China & Ministry of Natural Resources, P.R. China
