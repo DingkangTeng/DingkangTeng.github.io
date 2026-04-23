@@ -59,11 +59,11 @@ interests:
   - Big Data & Geo AI
 
 education:
-  # - area: PhD Computer Science (AI Focus)
-  #   institution: Stanford University
-  #   icon: ""
-  #   date_start: 2015-09-01
-  #   date_end: 2019-06-30
+  - area: PhD in Geography
+    institution: University of Tennessee, Knoxville
+    icon: "custom/utk"
+    date_start: 2026-09-01
+    date_end: ''
   #   summary: |
   #     Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
   #   button:
@@ -73,7 +73,7 @@ education:
     institution: Hong Kong Polytechnic University
     icon: "custom/polyu"
     date_start: 2024-09-01
-    date_end: ''
+    date_end: 2026-07-15
     # summary: |
     #   GPA: 4.0/4.0
 
