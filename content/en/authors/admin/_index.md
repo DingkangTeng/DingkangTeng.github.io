@@ -59,11 +59,11 @@ interests:
   - Big Data & Geo AI
 
 education:
-  - area: PhD in Geography
-    institution: University of Tennessee, Knoxville
-    icon: "custom/utk"
-    date_start: 2026-09-01
-    date_end: ''
+  # - area: PhD in Geography
+  #   institution: University of Tennessee, Knoxville
+  #   icon: "custom/utk"
+  #   date_start: 2026-08-15
+  #   date_end: ''
   #   summary: |
   #     Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
   #   button:
@@ -74,20 +74,16 @@ education:
     icon: "custom/polyu"
     date_start: 2024-09-01
     date_end: 2026-07-15
-    # summary: |
-    #   GPA: 4.0/4.0
-
-    #   Specialized in machine learning and robotics.
+    summary: |
+      Dissertation on _Assessing Resilience of Electric Vehicle Charging Stations Under Flooding Condition: A Global Perspective_. Supervised by Prof. Tony Chengxiang ZHUGE.
   - area: B.A. in Land Resource Management
     institution: Huazhong Agricultural University
     url: https://en.hzau.edu.cn/
     icon: "custom/hzau"
     date_start: 2015-09-01
     date_end: 2019-06-20
-    # summary: |
-    #   GPA: 3.9/4.0
-
-    #   Minored in Mathematics. President of AI Club.
+    summary: |
+      Thesis on _Research on the Distribution and Reconstruction of Land Value-added Income of Collective Operational Construction Land_. Supervised by Prof. Aanlu Zhang.
 
 work:
   - position: Reserarch Assistant & Teaching Assistant
@@ -227,4 +223,4 @@ awards:
   #     Recognized for contributions to scaling laws in deep learning.
 ---
 
-Dingkang Teng is a part-time Research Assistant in [LSGI, PolyU](https://www.polyu.edu.hk/lsgi/) under the supervision of [Dr. Zhuge](https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-zhuge-cheng-xiang/) and is also a Master student in Urban Informatics and Smart Cities at the Hong Kong Polytechnic University. He obtained his bachelor's degree in [Land Resources Management](https://ggxy.hzau.edu.cn/index.htm) from [Huazhong Agricultural University](https://en.hzau.edu.cn/). His research interests include urban transportation infrastructure, land use, and big data analytics.
+Dingkang Teng is a part-time Research Assistant in [LSGI, PolyU](https://www.polyu.edu.hk/lsgi/) under the supervision of [Dr. Zhuge](https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-tony-chengxiang-zhuge/) and is also a Master student in Urban Informatics and Smart Cities at the Hong Kong Polytechnic University. He obtained his bachelor's degree in [Land Resources Management](https://ggxy.hzau.edu.cn/index.htm) from [Huazhong Agricultural University](https://en.hzau.edu.cn/). His research interests include urban transportation infrastructure, land use, and big data analytics.

@@ -59,11 +59,11 @@ interests:
   - 地理AI与大数据
 
 education:
-  - area: 地理学博士
-    institution: 田纳西大学诺克斯维尔分校
-    icon: "custom/utk"
-    date_start: 2026-09-01
-    date_end: ''
+  # - area: 地理学博士
+  #   institution: 田纳西大学诺克斯维尔分校
+  #   icon: "custom/utk"
+  #   date_start: 2026-08-15
+  #   date_end: ''
   #   summary: |
   #     Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
   #   button:
@@ -74,19 +74,15 @@ education:
     icon: "custom/polyu"
     date_start: 2024-09-01
     date_end: 2026-07-15
-    # summary: |
-    #   GPA: 4.0/4.0
-
-    #   Specialized in machine learning and robotics.
+    summary: |
+      论文题目：_《Assessing Resilience of Electric Vehicle Charging Stations Under Flooding Condition: A Global Perspective》_，导师：诸葛承祥教授。
   - area: 土地资源管理 · 管理学学士
     institution: 华中农业大学
     icon: "custom/hzau"
     date_start: 2015-09-01
     date_end: 2019-06-20
-    # summary: |
-    #   GPA: 3.9/4.0
-
-    #   Minored in Mathematics. President of AI Club.
+    summary: |
+      论文题目：_《集体经营性建设用地土地增值收益分配问题及重构研究》_，导师：张安录教授。
 
 work:
   - position: 科研助理及助教
