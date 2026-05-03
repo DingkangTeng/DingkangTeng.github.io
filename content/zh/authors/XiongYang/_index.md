@@ -1,14 +1,12 @@
 ---
 # Display name
-title: Xiong Yang
+title: 杨雄
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Xiong
-last_name: Yang
+first_name: 雄
+last_name: 杨
 
-# Pronouns (optional)
-pronouns: he/him
 ---
