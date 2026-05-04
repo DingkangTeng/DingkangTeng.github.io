@@ -2,7 +2,7 @@
 title: "Working Papers"
 authors:
 - admin
-date: "2026-03-09T02:00:00Z"
+date: "2026-05-04T02:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -30,5 +30,4 @@ image:
 > [!NOTE]
 > This page lists all my working papers
 
-- Ma, R., **Teng, D.**, Yang, X., Tang, J.H.C.G., Liu, J., Chen D., Zhao, J., & Zhuge, C. From Points to Patterns: Global Spatial Accessibility and Equity in Public Electric Vehicle Charging. (Submitted). *[Target journal: Sustainable Cities and Society]*
 - **Teng, D.**, Tang, J.H.C.G., Ma, R., Yang, X., & Zhuge, C. The potential influences of flooding on accessibility and equity of public electric vehicle charging infrastructure: A global insight. (In Preparation). *[Target journal: Nature Cities]*

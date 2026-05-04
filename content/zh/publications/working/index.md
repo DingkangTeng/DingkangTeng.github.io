@@ -30,5 +30,4 @@ image:
 > [!NOTE]
 > 本页面列举了所有尚未发表的工作论文
 
-- - Ma, R., **Teng, D.**, Yang, X., Tang, J.H.C.G., Liu, J., Chen D., Zhao, J., & Zhuge, C. From Points to Patterns: Global Spatial Accessibility and Equity in Public Electric Vehicle Charging. （已提交）. *[拟投期刊： Sustainable Cities and Society]*
 - **Teng, D.**, Tang, J.H.C.G., Ma, R., Yang, X., & Zhuge, C. The potential influences of flooding on accessibility and equity of public electric vehicle charging infrastructure: A global insight. (准备中). *[拟投期刊： Nature Cities]*
