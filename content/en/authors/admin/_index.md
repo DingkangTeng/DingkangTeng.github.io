@@ -23,12 +23,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Transportation GISer
+role: Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Technology Infrastructure Policy Lab
-    url: https://thetipteam.wixstudio.com/website
+  - name: Department of Geography and Sustainability, University of Tennessee, Knoxville
+    url: https://geography.utk.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -59,11 +59,11 @@ interests:
   - Big Data & Geo AI
 
 education:
-  # - area: PhD in Geography
-  #   institution: University of Tennessee, Knoxville
-  #   icon: "custom/utk"
-  #   date_start: 2026-08-15
-  #   date_end: ''
+  - area: PhD in Geography
+    institution: University of Tennessee, Knoxville
+    icon: "custom/utk"
+    date_start: 2026-08-15
+    date_end: ''
   #   summary: |
   #     Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
   #   button:
@@ -91,7 +91,7 @@ work:
     company_url: https://thetipteam.wixstudio.com/website
     icon: "custom/tip"
     date_start: 2025-01-01
-    date_end: ''
+    date_end: 2025-08-15
     summary: |2-
       Focusing on Technology innovation, Infrastructure planning and Policy making in Smart Cities
 
@@ -214,13 +214,6 @@ awards:
     icon: hero/trophy
     summary: |
       Conducted the data analysis in ArcGIS and classified the land rank in some parts of Tokyo
-  # - title: Outstanding PhD Thesis
-  #   url: https://www.stanford.edu/
-  #   date: '2019-06-30'
-  #   awarder: Stanford University
-  #   icon: hero/currency-dollar
-  #   summary: |
-  #     Recognized for contributions to scaling laws in deep learning.
 ---
 
-Dingkang Teng is a part-time Research Assistant in [LSGI, PolyU](https://www.polyu.edu.hk/lsgi/) under the supervision of [Dr. Zhuge](https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-tony-chengxiang-zhuge/) and is also a Master student in Urban Informatics and Smart Cities at the Hong Kong Polytechnic University. He obtained his bachelor's degree in [Land Resources Management](https://ggxy.hzau.edu.cn/index.htm) from [Huazhong Agricultural University](https://en.hzau.edu.cn/). His research interests include urban transportation infrastructure, land use, and big data analytics.
+I am a PhD student in Geography at the [University of Tennessee, Knoxville (UTK)](https://geography.utk.edu/), supervised by [Dr. Kim](https://geography.utk.edu/people/instructional-faculty/kim-hyun/). I am also a research collaborator at the [Technology Infrastructure Policy Lab](https://thetipteam.wixstudio.com/website). I hold a master's degree in **Urban Informatics and Smart Cities** from the [Hong Kong Polytechnic University](https://www.polyu.edu.hk/lsgi/) and a bachelor's degree in **Land Resources Management** from [Huazhong Agricultural University](https://ggxy.hzau.edu.cn/index.htm). My research interests include urban transportation infrastructure, land use, and big data analytics.

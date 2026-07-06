@@ -23,12 +23,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 交通地理
+role: 博士生
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Technology Infrastructure Policy Lab
-    url: https://thetipteam.wixstudio.com/website
+  - name: 田纳西大学诺克斯维尔分校地理与可持续发展系
+    url: https://geography.utk.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -59,11 +59,11 @@ interests:
   - 地理AI与大数据
 
 education:
-  # - area: 地理学博士
-  #   institution: 田纳西大学诺克斯维尔分校
-  #   icon: "custom/utk"
-  #   date_start: 2026-08-15
-  #   date_end: ''
+  - area: 地理学博士
+    institution: 田纳西大学诺克斯维尔分校
+    icon: "custom/utk"
+    date_start: 2026-08-15
+    date_end: ''
   #   summary: |
   #     Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
   #   button:
@@ -90,7 +90,7 @@ work:
     company_url: https://thetipteam.wixstudio.com/website
     icon: "custom/tip"
     date_start: 2025-01-01
-    date_end: ''
+    date_end: 2026-08-15
     summary: |2-
       研究主题：智慧城市的技术创新、基础设施规划和政策制定
 
@@ -212,13 +212,6 @@ awards:
     icon: hero/trophy
     summary: |
       运用 ArcGIS 对东京部分地区进行了数据分析与土地等级划分
-  # - title: Outstanding PhD Thesis
-  #   url: https://www.stanford.edu/
-  #   date: '2019-06-30'
-  #   awarder: Stanford University
-  #   icon: hero/currency-dollar
-  #   summary: |
-  #     Recognized for contributions to scaling laws in deep learning.
 ---
 
-目前，我在[香港理工大学土地测量及资讯学系（LSGI）](https://www.polyu.edu.hk/lsgi/)担任兼职科研助理，导师是[诸葛承祥](https://geospatial.szu.edu.cn/info/1382/6430.htm)老师，并于此同时攻读城市信息学与智慧城市的硕士学位。我的学术训练始于[华中农业大学](https://ggxy.hzau.edu.cn/)的[土地资源管理](https://ggxy.hzau.edu.cn/index.htm)专业，而今，我的研究聚焦于城市交通基础设施、土地利用与大数据分析的交叉领域。
+我是[田纳西大学诺克斯维尔分校（UTK）](https://geography.utk.edu/)的一名博士生，导师是[Kim](https://geography.utk.edu/people/instructional-faculty/kim-hyun/)教授。同时我也是[Technology Infrastructure Policy Lab](https://thetipteam.wixstudio.com/website)的一名合作研究者。我拥有[香港理工大学](https://www.polyu.edu.hk/lsgi/)的**城市信息学与智慧城市**硕士学位，以及[华中农业大学](https://ggxy.hzau.edu.cn/index.htm)的**土地资源管理**学士学位。我的研究聚焦于城市交通基础设施、土地利用与大数据分析的交叉领域。

@@ -34,9 +34,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I'm a master's student at The Hong Kong Polytechnic University, where I get to decode my curiosity about how new transportation tech - from smart connected systems to electric vehicles - is reshaping the spaces and communities around us.
+        I’m a PhD student in Geography at the University of Tennessee, Knoxville, where I tend to explore the deeper theoretical connections between transportation and mobility. My research focuses on how the structure of networks, the patterns of flow, and the logic of spatial organization together explain the ways people and places are linked or kept apart.
 
-        My playground is a mix of spatial analysis, machine learning, and both qualitative and quantitative methods. I use this toolkit to explore a big-picture question: how does science and technology fundamentally shape our economy and the way we live?
+        I work with spatial analysis, network analysis, and machine learning, always circling back to one central question: How do the fundamental properties of transport systems govern who can move, where they can reach, and what they can access?
     design:
       columns: '1'
   # - block: collection
