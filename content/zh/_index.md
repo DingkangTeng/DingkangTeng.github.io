@@ -51,7 +51,6 @@ sections:
   #     view: article-grid
   #     columns: 2
   - block: collection
-    id: publications
     content:
       title: 主要成果
       text: ''
@@ -62,7 +61,7 @@ sections:
     design:
       view: citation
   - block: collection
-    id: toolkit
+    # id: toolkit
     content:
       title: 开源工具
       filters:
