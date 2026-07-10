@@ -2,7 +2,8 @@
 title: China’s Urban Land Price Dynamic Monitoring of Huangshi
 date: 2020-12-01
 links:
-  - type: site
+  - type: custom
+    label: Results
     url: https://zrzyt.hubei.gov.cn/fbjd/xxgkml/sjfb/csdj/
 tags:
   - Working
@@ -18,7 +19,5 @@ tags:
 </div>
 
 - Worked as project leader.
--	Responsible for data analysis and authoring comprehensive reports.
--	Received the 2021 Excellence Award from the provincial department.
-
-<!--more-->
+- Responsible for data analysis and authoring comprehensive reports.
+- Received the 2021 Excellence Award from the provincial department.

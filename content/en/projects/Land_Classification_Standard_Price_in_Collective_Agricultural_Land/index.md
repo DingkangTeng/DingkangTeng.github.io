@@ -2,7 +2,8 @@
 title:  Land Classification and Standard Price in Collective Agricultural Land
 date: 2023-06-01
 links:
-  - type: site
+  - type: custom
+    label: Announcement
     url: https://zrzy.huangshi.gov.cn/xygl/gtsc/jzdj/202407/t20240717_1134652.html
 tags:
   - Working
@@ -18,5 +19,3 @@ tags:
 </div>
 
 Working as a project leader. Led spatial analysis, rank classification, price estimation and Geographic Information System (GIS) related processes.
-
-<!--more-->
