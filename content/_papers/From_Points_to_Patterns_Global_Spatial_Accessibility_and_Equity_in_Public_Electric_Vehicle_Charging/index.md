@@ -36,7 +36,7 @@ tags:
 - Social equity
 - Global comparative analysis
 
-featured: false
+featured: true
 
 # hugoblox:
 #   ids:

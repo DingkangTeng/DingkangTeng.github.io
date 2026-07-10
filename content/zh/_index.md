@@ -51,22 +51,24 @@ sections:
   #     view: article-grid
   #     columns: 2
   - block: collection
+    id: papers
     content:
       title: 主要成果
       text: ''
       filters:
         folders:
           - publications
-        exclude_featured: true
+        featured_only: true
     design:
       view: citation
   - block: collection
-    # id: toolkit
+    id: talks
     content:
       title: 开源工具
       filters:
         folders:
           - toolkit
+        featured_only: true
     design:
       view: card
   # - block: collection

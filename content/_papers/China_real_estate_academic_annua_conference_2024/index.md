@@ -36,7 +36,7 @@ tags:
   - K均值
 
 # Display this page in the Featured widget?
-featured: fasle
+featured: false
 
 # Custom links
 links:

@@ -26,5 +26,5 @@ sections:
       show_date: false
       show_read_more: true
       columns: 3
-      fill_image: false
+      fill_image: true
 ---
