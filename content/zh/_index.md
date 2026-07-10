@@ -59,18 +59,19 @@ sections:
         folders:
           - publications
         featured_only: true
+        # exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: 开源工具
-      filters:
-        folders:
-          - toolkit
-        featured_only: true
-    design:
-      view: card
+  # - block: collection
+  #   id: toolkit
+  #   content:
+  #     title: 开源工具
+  #     filters:
+  #       folders:
+  #         - toolkit
+  #       featured_only: true
+  #   design:
+  #     view: card
   # - block: collection
   #   id: news
   #   content:

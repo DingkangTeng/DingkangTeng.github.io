@@ -57,7 +57,8 @@ sections:
       filters:
         folders:
           - publications
-        exclude_featured: false
+        featured_only: true
+        # exclude_featured: false
     design:
       view: citation
   # - block: collection

@@ -13,8 +13,6 @@ content_meta:
   # difficulty: '简单'
   prerequisites: ['ArcGIS Pro']
   trending: false
-
-featured: true
 ---
 
 👋 本工具是一个用于多环缓冲区分析的 ArcGIS 工具箱。它可以创建多环缓冲区，并计算每个缓冲环内包含的要素数量，同时也易于进行敏感性分析。
