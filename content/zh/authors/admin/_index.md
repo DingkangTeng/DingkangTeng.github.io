@@ -214,4 +214,4 @@ awards:
       运用 ArcGIS 对东京部分地区进行了数据分析与土地等级划分
 ---
 
-我是[田纳西大学诺克斯维尔分校（UTK）](https://geography.utk.edu/)的一名博士生，导师是[Kim](https://geography.utk.edu/people/instructional-faculty/kim-hyun/)教授。同时我也是[Technology Infrastructure Policy Lab](https://thetipteam.wixstudio.com/website)的一名合作研究者。我拥有[香港理工大学](https://www.polyu.edu.hk/lsgi/)的**城市信息学与智慧城市**硕士学位，以及[华中农业大学](https://ggxy.hzau.edu.cn/index.htm)的**土地资源管理**学士学位。我的研究聚焦于城市交通基础设施、土地利用与大数据分析的交叉领域。
+我是[田纳西大学诺克斯维尔分校（UTK）](https://geography.utk.edu/)的一名博士生，导师是[Kim](https://geography.utk.edu/people/instructional-faculty/kim-hyun/)教授。同时我也是[Technology Infrastructure Policy Lab](https://thetipteam.wixstudio.com/website)的一名合作研究者。我拥有[香港理工大学](https://www.polyu.edu.hk/lsgs/)的**城市信息学与智慧城市**硕士学位，以及[华中农业大学](https://ggxy.hzau.edu.cn/index.htm)的**土地资源管理**学士学位。我的研究聚焦于城市交通基础设施、土地利用与大数据分析的交叉领域。
