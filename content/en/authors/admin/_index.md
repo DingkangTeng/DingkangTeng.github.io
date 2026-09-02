@@ -53,10 +53,9 @@ profiles:
 
 interests:
   - Spatial Analysis
+  - Mobility
   - Transportation & Infrastructure
-  - Land Use
   - Socio-Spatial Implications
-  - Big Data & Geo AI
 
 education:
   - area: PhD in Geography

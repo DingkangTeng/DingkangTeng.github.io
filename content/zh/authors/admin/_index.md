@@ -53,10 +53,9 @@ profiles:
 
 interests:
   - 空间分析
+  - 移动性 (Mobility)
   - 基础设施与交通
-  - 土地利用
   - 社会时空影响
-  - 地理AI与大数据
 
 education:
   - area: 地理学博士
