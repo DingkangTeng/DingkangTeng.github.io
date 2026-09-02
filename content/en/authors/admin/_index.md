@@ -90,7 +90,7 @@ work:
     icon: "custom/utk"
     date_start: 2026-08-01
     summary: |2-
-      *Intro to Geovisualization and GIS (GEOG 331)*: Grade lab assignments and develop step-by-step walkthrough videos for GIS labs.
+      ***Intro to Geovisualization and GIS (GEOG 331)***: Grade lab assignments and develop step-by-step walkthrough videos for GIS labs.
 
   - position: Reserarch Assistant & Teaching Assistant
     company_name: Technology Infrastructure Policy Lab · Hong Kong Polytechnic University

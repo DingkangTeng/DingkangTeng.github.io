@@ -84,6 +84,13 @@ education:
       论文题目：_《集体经营性建设用地土地增值收益分配问题及重构研究》_，导师：张安录教授。
 
 work:
+  - position: 助教
+    company_name: 田纳西大学诺克斯维尔分校
+    icon: "custom/utk"
+    date_start: 2026-08-01
+    summary: |2-
+      ***Intro to Geovisualization and GIS (GEOG 331)***：批改 GIS 实验作业，并制作分步骤 GIS 实验操作教学视频。
+
   - position: 科研助理及助教
     company_name: Technology Infrastructure Policy Lab · 香港理工大学
     company_url: https://thetipteam.wixstudio.com/website
