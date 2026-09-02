@@ -36,7 +36,7 @@ sections:
       text: |-
         I’m a PhD student in Geography at the University of Tennessee, Knoxville, where I tend to explore the deeper theoretical connections between transportation and mobility. My research focuses on how the structure of networks, the patterns of flow, and the logic of spatial organization together explain the ways people and places are linked or kept apart.
 
-        I work with spatial analysis, network analysis, and machine learning, always circling back to one central question: How do the fundamental properties of transport systems govern who can move, where they can reach, and what they can access?
+        I work with spatial analysis and network analysis, always circling back to one central question: How do the fundamental properties of transport systems govern who can move, where they can reach, and what they can access?
     design:
       columns: '1'
   # - block: collection

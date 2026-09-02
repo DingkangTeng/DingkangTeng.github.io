@@ -53,8 +53,8 @@ profiles:
 
 interests:
   - 空间分析
+  - 交通分析
   - 移动性 (Mobility)
-  - 基础设施与交通
   - 社会时空影响
 
 education:
