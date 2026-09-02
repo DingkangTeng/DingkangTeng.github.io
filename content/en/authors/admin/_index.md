@@ -90,15 +90,7 @@ work:
     icon: "custom/utk"
     date_start: 2026-08-01
     summary: |2-
-      Focusing on Technology innovation, Infrastructure planning and Policy making in Smart Cities
-
-      Conduct large-scale spatial analysis on global electric vehicle charging infrastructure.
-
-      Process and analyze multi-source geospatial datasets (global-scale) using Python-based spatial data science workflows.
-
-      Contribute to peer-reviewed publications on infrastructure equity and disaster vulnerability
-
-      Served as TA in course Intelligent Transportation Systems (LSGI3213). Facilitated weekly lab sessions, providing hands-on guidance for data analysis and simulation modeling software.
+      *Intro to Geovisualization and GIS (GEOG 331)*: Grade lab assignments and develop step-by-step walkthrough videos for GIS labs.
 
   - position: Reserarch Assistant & Teaching Assistant
     company_name: Technology Infrastructure Policy Lab · Hong Kong Polytechnic University
