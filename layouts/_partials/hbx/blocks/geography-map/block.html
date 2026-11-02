@@ -1,31 +1,34 @@
 {{ $block := . }}
-{{ $lang := $block.content.lang | default "en" }}
+{{ $lang := $block.content.lang | default site.Language.Lang }}
 {{ $title := $block.content.title | default "" }}
 {{ $mapURL := printf "/geography/?lang=%s" $lang }}
 
-<section id="geography" style="padding: 2rem 1rem;">
-  <div style="max-width: 1100px; margin: 0 auto;">
+<div id="geography" style="
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;">
 
-    {{ with $title }}
+  {{ with $title }}
     <h2 style="
       text-align: center;
       font-size: 2rem;
       font-weight: 700;
-      margin-bottom: 1.5rem;">
+      margin-bottom: 2rem;">
       {{ . }}
     </h2>
-    {{ end }}
+  {{ end }}
 
-    <iframe
-      src="{{ $mapURL }}"
-      title="{{ $title }}"
-      loading="lazy"
-      style="
-        width: 100%;
-        height: 480px;
-        border: none;
-        border-radius: 14px;"
-    ></iframe>
+  <iframe
+    src="{{ $mapURL }}"
+    title="{{ $title }}"
+    loading="lazy"
+    style="
+      width: 100%;
+      height: 520px;
+      display: block;
+      border: none;
+      border-radius: 14px;"
+  ></iframe>
 
-  </div>
-</section>
+</div>
