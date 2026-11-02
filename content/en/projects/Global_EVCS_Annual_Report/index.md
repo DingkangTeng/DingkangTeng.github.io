@@ -1,6 +1,6 @@
 ---
 title: Global Public EV Charging Infrastructure Annual Report
-date: 2026-11-1
+date: 2026-11-01
 links:
   - type: code
     url: https://github.com/DingkangTeng/Global-EVCS-Annual-Report
