@@ -101,6 +101,12 @@ sections:
   #     # Reduce spacing
   #     spacing:
   #       padding: [0, 0, 0, 0]
+  - block: geography-map
+    id: geography
+    content:
+      title: '🌍 我的地理足迹'
+      lang: 'zh'
+
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

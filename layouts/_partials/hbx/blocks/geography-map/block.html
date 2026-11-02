@@ -1,0 +1,26 @@
+
+{{ $block := . }}
+{{ $lang := $block.content.lang | default "en" }}
+{{ $title := $block.content.title | default "My Geography" }}
+{{ $mapURL := printf "/geography/?lang=%s" $lang }}
+
+<section id="geography" style="padding: 2rem 1rem;">
+  <div style="max-width: 1100px; margin: 0 auto;">
+
+    <h2 style="text-align: center; font-size: 2rem;
+               font-weight: 700; margin-bottom: 1.5rem;">
+      {{ $title }}
+    </h2>
+
+    <iframe
+      src="{{ $mapURL }}"
+      title="{{ $title }}"
+      loading="lazy"
+      style="width: 100%;
+             height: 480px;
+             border: none;
+             border-radius: 14px;"
+    ></iframe>
+
+  </div>
+</section>

@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My Geography</title>
+
+  <link rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+    }
+
+    .leaflet-popup-content {
+      font-family: system-ui, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      min-width: 210px;
+    }
+
+    .school-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .school-degree {
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .school-detail {
+      color: #555;
+      margin: 3px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script>
+    // Detect language from URL
+    const params = new URLSearchParams(window.location.search);
+    const lang = params.get("lang") === "zh" ? "zh" : "en";
+
+    document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+
+    const labels = {
+      en: {
+        location: "Location",
+        period: "Period"
+      },
+      zh: {
+        location: "地点",
+        period: "时间"
+      }
+    };
+
+    // University locations and bilingual descriptions
+    const schools = [
+      {
+        coordinates: [30.4762, 114.3524],
+        color: "#16a34a",
+        period: "2015–2019",
+        en: {
+          name: "Huazhong Agricultural University",
+          degree: "B.A. in Land Resource Management",
+          location: "Wuhan, China"
+        },
+        zh: {
+          name: "华中农业大学",
+          degree: "土地资源管理 · 管理学学士",
+          location: "中国武汉"
+        }
+      },
+
+      {
+        coordinates: [22.3045, 114.1797],
+        color: "#2563eb",
+        period: "2024–2026",
+        en: {
+          name: "The Hong Kong Polytechnic University",
+          degree: "MSc in Urban Informatics and Smart Cities",
+          location: "Hong Kong, China"
+        },
+        zh: {
+          name: "香港理工大学",
+          degree: "城市信息学及智慧城市 · 理学硕士",
+          location: "中国香港"
+        }
+      },
+
+      {
+        coordinates: [35.9517, -83.9327],
+        color: "#f97316",
+        period: "2026–Present",
+        periodZh: "2026–至今",
+        en: {
+          name: "University of Tennessee, Knoxville",
+          degree: "PhD in Geography",
+          location: "Knoxville, Tennessee, USA"
+        },
+        zh: {
+          name: "田纳西大学诺克斯维尔分校",
+          degree: "地理学博士",
+          location: "美国田纳西州诺克斯维尔"
+        }
+      }
+    ];
+
+    // Initialize map
+    const map = L.map("map", {
+      scrollWheelZoom: false,
+      worldCopyJump: true
+    });
+
+    L.tileLayer(
+      "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      {
+        maxZoom: 19,
+        attribution: "&copy; OpenStreetMap contributors"
+      }
+    ).addTo(map);
+
+    const markers = [];
+
+    schools.forEach(school => {
+      const info = school[lang];
+
+      const marker = L.circleMarker(school.coordinates, {
+        radius: 9,
+        color: "#ffffff",
+        weight: 2,
+        fillColor: school.color,
+        fillOpacity: 0.95
+      }).addTo(map);
+
+      // Build bilingual popup
+      const popup = document.createElement("div");
+
+      const title = document.createElement("div");
+      title.className = "school-title";
+      title.textContent = info.name;
+
+      const degree = document.createElement("div");
+      degree.className = "school-degree";
+      degree.textContent = info.degree;
+
+      const location = document.createElement("div");
+      location.className = "school-detail";
+      location.textContent =
+        `${labels[lang].location}: ${info.location}`;
+
+      const period = document.createElement("div");
+      period.className = "school-detail";
+      period.textContent =
+        `${labels[lang].period}: ${
+          lang === "zh" && school.periodZh
+            ? school.periodZh
+            : school.period
+        }`;
+
+      popup.append(title, degree, location, period);
+
+      marker.bindPopup(popup);
+      markers.push(marker);
+    });
+
+    // Automatically fit all three schools
+    const group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.25), {
+      maxZoom: 4
+    });
+  </script>
+</body>
+</html>
