@@ -1,99 +1,34 @@
-
 {{ $block := . }}
-{{ $cfg := $block.content.map | default (dict) }}
-{{ $mapID := printf "geography-map-%s" ($block.id | default "main") }}
+{{ $lang := $block.content.lang | default site.Language.Lang }}
+{{ $title := $block.content.title | default "" }}
+{{ $mapURL := printf "/geography/?lang=%s" $lang }}
 
-<link rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<div id="geography" style="
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;">
 
-<style>
-  .geography-wrapper {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    box-sizing: border-box;
-  }
+  {{ with $title }}
+    <h2 style="
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 2rem;">
+      {{ . }}
+    </h2>
+  {{ end }}
 
-  .geography-title {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-  }
+  <iframe
+    src="{{ $mapURL }}"
+    title="{{ $title }}"
+    loading="lazy"
+    style="
+      width: 100%;
+      height: 520px;
+      display: block;
+      border: none;
+      border-radius: 14px;"
+  ></iframe>
 
-  .geography-canvas {
-    width: 100%;
-    border-radius: 14px;
-    overflow: hidden;
-    z-index: 0;
-  }
-
-  .leaflet-tooltip.geography-label {
-    background: rgba(255, 255, 255, 0.96);
-    color: #1f2937;
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    padding: 6px 12px;
-    font-size: 13px;
-    font-family: system-ui, sans-serif;
-    font-weight: 600;
-    white-space: nowrap !important;
-    max-width: none !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
-    pointer-events: none;
-  }
-
-  .leaflet-tooltip.geography-label::before {
-    display: none;
-  }
-
-  .geography-popup {
-    min-width: 180px;
-    font-family: system-ui, sans-serif;
-    line-height: 1.6;
-  }
-
-  .geography-popup-title {
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 8px;
-  }
-
-  .geography-popup-detail {
-    margin: 4px 0;
-  }
-
-  .geography-canvas {
-    width: 100%;
-    height: 520px;
-    border-radius: 14px;
-    overflow: hidden;
-    z-index: 0;
-  }
-
-  @media (max-width: 640px) {
-    .leaflet-tooltip.geography-label {
-      white-space: normal !important;
-      max-width: 170px !important;
-    }
-  }
-</style>
-
-<div class="geography-wrapper">
-    {{ with $block.content.title }}
-        <h2 class="geography-title">{{ . }}</h2>
-    {{ end }}
-
-    <div
-    id="{{ $mapID }}"
-    class="geography-canvas"
-    data-map-config="{{ $cfg | jsonify }}">
-    </div>
 </div>
-
-<script defer
-  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
-</script>
-
-<script defer src="/geography/map.js"></script>
