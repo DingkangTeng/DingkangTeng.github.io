@@ -41,15 +41,10 @@ The analysis examines EV market trends, spatial distribution patterns, accessibi
 The six study regions are defined as follows:
 
 1. **United States**
-
 2. **Europe:** 32 countries, including the 27 European Union (EU) member states, the United Kingdom, and the four member states of the European Free Trade Association (EFTA): Iceland, Liechtenstein, Norway, and Switzerland.
-
 3. **China:** Including Mainland China, Hong Kong, Macau, and Taiwan.
-
 4. **Other Developed Countries:** Canada, Japan, South Korea, New Zealand, and Australia.
-
 5. **ASEAN:** 10 Southeast Asian countries, excluding Timor-Leste from the 11 ASEAN member states.
-
 6. **Global South Countries:** Mexico, South Africa, and Brazil.
 
 ![Study Regions](map.png)
