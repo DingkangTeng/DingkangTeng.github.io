@@ -46,6 +46,31 @@
       color: #555;
       margin: 3px 0;
     }
+
+    .leaflet-tooltip.school-label {
+        background: rgba(255, 255, 255, 0.96);
+        color: #1f2937;
+
+        border: 1px solid #e5e7eb;
+        border-radius: 6px;
+
+        padding: 5px 9px;
+
+        font-family: system-ui, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+
+        white-space: normal;
+        max-width: 230px;
+        text-align: center;
+        pointer-events: none;
+        }
+
+    .leaflet-tooltip.school-label::before {
+        display: none;
+    }
   </style>
 </head>
 
@@ -126,7 +151,7 @@
 
     // Initialize map
     const map = L.map("map", {
-      scrollWheelZoom: false,
+      scrollWheelZoom: true,
       worldCopyJump: true
     });
 
@@ -140,7 +165,7 @@
 
     const markers = [];
 
-    schools.forEach(school => {
+    schools.forEach((school, index) => {
       const info = school[lang];
 
       const marker = L.circleMarker(school.coordinates, {
@@ -150,6 +175,21 @@
         fillColor: school.color,
         fillOpacity: 0.95
       }).addTo(map);
+
+      // Permanent university labels
+        const labelPositions = [
+            { direction: "top", offset: [0, -10] },
+            { direction: "bottom", offset: [0, 10] },
+            { direction: "right", offset: [12, 0] }
+        ];
+
+        marker.bindTooltip(info.name, {
+            permanent: true,
+            direction: labelPositions[index].direction,
+            offset: labelPositions[index].offset,
+            className: "school-label",
+            opacity: 1
+        });
 
       // Build bilingual popup
       const popup = document.createElement("div");
