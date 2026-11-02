@@ -64,6 +64,14 @@
     margin: 4px 0;
   }
 
+  .geography-canvas {
+    width: 100%;
+    height: 520px;
+    border-radius: 14px;
+    overflow: hidden;
+    z-index: 0;
+  }
+
   @media (max-width: 640px) {
     .leaflet-tooltip.geography-label {
       white-space: normal !important;
@@ -73,120 +81,19 @@
 </style>
 
 <div class="geography-wrapper">
+    {{ with $block.content.title }}
+        <h2 class="geography-title">{{ . }}</h2>
+    {{ end }}
 
-  {{ with $block.content.title }}
-    <h2 class="geography-title">{{ . }}</h2>
-  {{ end }}
-
-  <div
+    <div
     id="{{ $mapID }}"
     class="geography-canvas"
-    style="height: {{ $cfg.height | default 520 }}px;">
-  </div>
-
+    data-map-config="{{ $cfg | jsonify }}">
+    </div>
 </div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-<script>
-(function () {
-  // Config is generated from _index.md by Hugo.
-  const config = {{ $cfg }};
-
-  const map = L.map("{{ $mapID }}", {
-    scrollWheelZoom: config.scroll_wheel_zoom !== false,
-    worldCopyJump: true,
-    zoomControl: true
-  });
-
-  L.tileLayer(
-    "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-    {
-      maxZoom: 19,
-      attribution: "&copy; OpenStreetMap contributors"
-    }
-  ).addTo(map);
-
-  const allMarkers = [];
-
-  (config.markers || []).forEach(place => {
-    const coords = place.coordinates;
-
-    if (!Array.isArray(coords) || coords.length !== 2) {
-      return;
-    }
-
-    // Create a point from configuration
-    const marker = L.circleMarker(coords, {
-      radius: place.radius ?? 9,
-      color: "#ffffff",
-      weight: 2,
-      fillColor: place.color || "#2563eb",
-      fillOpacity: 0.95
-    }).addTo(map);
-
-    // Permanent label
-    if (place.name) {
-      marker.bindTooltip(place.name, {
-        permanent: place.show_label !== false,
-        direction: place.label_position || "top",
-        offset: place.label_offset || [0, -10],
-        className: "geography-label",
-        opacity: 1
-      });
-    }
-
-    // Build popup from arbitrary detail fields
-    const popup = document.createElement("div");
-    popup.className = "geography-popup";
-
-    if (place.name) {
-      const heading = document.createElement("div");
-      heading.className = "geography-popup-title";
-      heading.textContent = place.name;
-      popup.appendChild(heading);
-    }
-
-    (place.details || []).forEach(detail => {
-      const line = document.createElement("div");
-      line.className = "geography-popup-detail";
-
-      if (detail.label) {
-        const label = document.createElement("strong");
-        label.textContent = detail.label + ": ";
-        line.appendChild(label);
-      }
-
-      const value = document.createElement("span");
-      value.textContent = detail.value ?? "";
-      line.appendChild(value);
-
-      popup.appendChild(line);
-    });
-
-    if (place.description) {
-      const description = document.createElement("p");
-      description.textContent = place.description;
-      popup.appendChild(description);
-    }
-
-    marker.bindPopup(popup);
-    allMarkers.push(marker);
-  });
-
-  // Initial viewport
-  if (allMarkers.length && config.fit_bounds !== false) {
-    const group = L.featureGroup(allMarkers);
-
-    map.fitBounds(group.getBounds().pad(0.25), {
-      maxZoom: config.max_fit_zoom ?? 4,
-      padding: [20, 20]
-    });
-  } else {
-    map.setView(
-      config.center || [20, 0],
-      config.zoom ?? 2
-    );
-  }
-})();
+<script defer
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
 </script>
+
+<script defer src="/geography/map.js"></script>
