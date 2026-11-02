@@ -1,16 +1,19 @@
 ---
 title: 全球电动汽车充电基础设施年度报告
-date: 2026-07-10
+date: 2026-11-10
 links:
-  - type: custom
-    label: 2026年
-    url: ''
+  - type: code
+    url: https://github.com/DingkangTeng/Global-EVCS-Annual-Report
+  - type: dataset
+    url: https://globalevdata.github.io/datasets/
+  ## Web GIS
+  # - type: poster
+  #   url: https://globalevdata.github.io/News/2026-2-8.html
 tags:
   - 硕士成果
   - 白皮书
   - 电动汽车
 ---
-
 
 {{< contentCard >}}
 
@@ -18,7 +21,7 @@ tags:
   <h3 class="university">香港理工大学</h3>
   
   <div class="date-container">
-    <span class="date">2026年1月—2026年12月</span>
+    <span class="date">2026年</span>
   </div>
   
   <div class="responsibilities">
@@ -31,8 +34,16 @@ tags:
 
 ## 摘要
 
-敬请期待
-<!-- 本报告七大研究区域。具体包括（1）美国；（2）欧洲：32国；（3）中国：4个区域（中国大陆、港澳台）；（4）其他发达国家：加拿大、日本、韩国、新西兰和澳大利亚；（5）东盟：10 国（11 国除去东帝汶）；（6）全球南方国家：选取典型代表，墨西哥、南非、巴西。 -->
+本报告基于2025年全球54个国家或地区的公共充电站位置数据、2015—2025年国际能源署电动汽车市场数据、人口与兴趣点空间数据、风光资源栅格以及 2024 年中美欧用户评论，从市场追踪、空间分布、可达性与公平性、可再生能源协同和用户体验等角度，对六大研究区域进行量化比较，并据此提出政策启示:
+
+（1）美国；
+（2）欧洲：32国，含27个欧盟成员国、英国、以及欧洲自由贸易联盟（EFTA）的四个成员国即冰岛、列支敦士登、挪威、瑞士；
+（3）中国，含中国大陆、香港、澳门和台湾；
+（4）其他发达国家：包括加拿大、日本、韩国、新西兰和澳大利亚；
+（5）东盟10 国（东盟 11国中不含东帝汶）；
+（6）全球南方国家：墨西哥、南非、巴西。
+
+![报告研究区域](map.png)
 
 ## 下载连接
 

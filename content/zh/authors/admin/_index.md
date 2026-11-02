@@ -89,7 +89,7 @@ work:
     icon: "custom/utk"
     date_start: 2026-08-01
     summary: |2-
-      ***Intro to Geovisualization and GIS (GEOG 331)***：批改 GIS 实验作业，并制作分步骤 GIS 实验操作教学视频。
+      ***Intro to Geovisualization and GIS (GEOG 331)：*** 批改 GIS 实验作业，并制作分步骤 GIS 实验操作教学视频。
 
   - position: 科研助理及助教
     company_name: Technology Infrastructure Policy Lab · 香港理工大学
@@ -98,7 +98,7 @@ work:
     date_start: 2025-01-01
     date_end: 2026-08-15
     summary: |2-
-      研究主题：智慧城市的技术创新、基础设施规划和政策制定
+      ***研究主题：*** 智慧城市的技术创新、基础设施规划和政策制定
 
       在全球范围内开展与充电基础设施相关的研究项目，开展大规模空间分析。
 
@@ -106,7 +106,7 @@ work:
 
       参与撰写关于基础设施公平性与灾害脆弱性的论文。
 
-      在Intelligent Transportation Systems (LSGI3213)课程担任助教，主要负责协助每周的实验课，为数据分析和仿真建模软件提供指导
+      在 ***Intelligent Transportation Systems (LSGI3213)*** 课程担任助教，主要负责协助每周的实验课，为数据分析和仿真建模软件提供指导
 
   - position: 技术经理
     company_name: 永业行土地房地产资产评估有限公司

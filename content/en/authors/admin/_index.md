@@ -99,7 +99,7 @@ work:
     date_start: 2025-01-01
     date_end: 2025-08-15
     summary: |2-
-      Focusing on Technology innovation, Infrastructure planning and Policy making in Smart Cities
+      Focusing on ***Technology innovation, Infrastructure planning and Policy making in Smart Cities***
 
       Conduct large-scale spatial analysis on global electric vehicle charging infrastructure.
 
@@ -107,7 +107,7 @@ work:
 
       Contribute to peer-reviewed publications on infrastructure equity and disaster vulnerability
 
-      Served as TA in course Intelligent Transportation Systems (LSGI3213). Facilitated weekly lab sessions, providing hands-on guidance for data analysis and simulation modeling software.
+      Served as TA in course ***Intelligent Transportation Systems (LSGI3213)***. Facilitated weekly lab sessions, providing hands-on guidance for data analysis and simulation modeling software.
 
   - position: Technical Manager
     company_name: Realhom Land Real Estate Assets Appraisal Co., Ltd
