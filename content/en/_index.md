@@ -104,7 +104,61 @@ sections:
     id: geography
     content:
       title: '🌍 My Geography'
-      lang: 'en'
+
+      map:
+        height: 520
+        scroll_wheel_zoom: true
+        fit_bounds: true
+        max_fit_zoom: 4
+
+        markers:
+          - name: 'Huazhong Agricultural University'
+            coordinates: [30.4762, 114.3524]
+            color: '#16a34a'
+            label_position: top
+            label_offset: [0, -10]
+
+            details:
+              - label: 'Degree'
+                value: 'Bachelor'
+              - label: 'Major'
+                value: 'Land Resource Management'
+              - label: 'Period'
+                value: '2015–2019'
+              - label: 'Location'
+                value: 'Wuhan, China'
+
+          - name: 'The Hong Kong Polytechnic University'
+            coordinates: [22.3045, 114.1797]
+            color: '#2563eb'
+            label_position: bottom
+            label_offset: [0, 10]
+
+            details:
+              - label: 'Degree'
+                value: 'Master'
+              - label: 'Major'
+                value: 'Urban Informatics and Smart Cities'
+              - label: 'Period'
+                value: '2024–2026'
+              - label: 'Location'
+                value: 'Hong Kong, China'
+
+          - name: 'University of Tennessee, Knoxville'
+            coordinates: [35.9517, -83.9327]
+            color: '#f97316'
+            label_position: right
+            label_offset: [12, 0]
+
+            details:
+              - label: 'Degree'
+                value: 'PhD'
+              - label: 'Major'
+                value: 'Geography'
+              - label: 'Period'
+                value: '2026–Present'
+              - label: 'Location'
+                value: 'Knoxville, Tennessee, USA'
   
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
