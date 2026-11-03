@@ -153,9 +153,6 @@
       scrollWheelZoom: true,
       worldCopyJump: true
     });
-    map.attributionControl.setPrefix(
-      '<a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a>'
-    );
 
     L.tileLayer(
       "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
@@ -227,9 +224,8 @@
 
     // Automatically fit all three schools
     const group = L.featureGroup(markers);
-    map.fitBounds(group.getBounds().pad(0.25), {
-      maxZoom: 4
-    });
+    // Same initial view for Chinese and English
+    map.setView([29, 15], 2.5);
   </script>
 </body>
 </html>
