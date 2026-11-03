@@ -153,11 +153,15 @@
       scrollWheelZoom: true,
       worldCopyJump: true
     });
+    map.attributionControl.setPrefix(
+      '<a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a>'
+    );
 
     L.tileLayer(
       "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
       {
-        maxZoom: 19,
+        maxZoom: 17,
+        noWrap: true,
         attribution: "&copy; OpenStreetMap contributors"
       }
     ).addTo(map);

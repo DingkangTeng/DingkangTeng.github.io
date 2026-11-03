@@ -1,6 +1,13 @@
-{{ $block := . }}
-{{ $lang := $block.content.lang | default site.Language.Lang }}
-{{ $title := $block.content.title | default "" }}
+{{ $content := dict }}
+
+{{ range site.Home.Params.sections }}
+  {{ if eq .block "geography-map" }}
+    {{ $content = .content }}
+  {{ end }}
+{{ end }}
+
+{{ $title := index $content "title" | default "" }}
+{{ $lang := index $content "lang" | default site.Language.Lang }}
 {{ $mapURL := printf "/geography/?lang=%s" $lang }}
 
 <div id="geography" style="
