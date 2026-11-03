@@ -151,7 +151,8 @@
     // Initialize map
     const map = L.map("map", {
       scrollWheelZoom: true,
-      worldCopyJump: true
+      worldCopyJump: true,
+      zoomSnap: 0.2
     });
 
     L.tileLayer(
@@ -224,8 +225,21 @@
 
     // Automatically fit all three schools
     const group = L.featureGroup(markers);
-    // Same initial view for Chinese and English
-    map.setView([29, 15], 2.5);
+
+    // Calculate padding based on map width
+    const mapWidth = map.getSize().x;
+
+    const horizontalPadding = Math.min(
+      240,
+      Math.round(mapWidth * 0.20)
+    );
+
+    // Fit markers with enough space for labels
+    map.fitBounds(group.getBounds(), {
+      paddingTopLeft: [horizontalPadding, 60],
+      paddingBottomRight: [horizontalPadding, 60],
+      maxZoom: 4
+    });
   </script>
 </body>
 </html>
