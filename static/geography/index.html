@@ -152,8 +152,15 @@
     const map = L.map("map", {
       scrollWheelZoom: true,
       worldCopyJump: true,
-      zoomSnap: 0.2
+      zoomSnap: 0.2,
+      attributionControl: false
     });
+
+    // Create attribution control without the flag
+    L.control.attribution({
+      position: "bottomright",
+      prefix: '<a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a>'
+    }).addTo(map);
 
     L.tileLayer(
       "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
