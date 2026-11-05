@@ -171,47 +171,47 @@
     // ).addTo(map);
 
     async function loadBaseMap() {
-    let useAmap = lang === "zh";
+      let useChinaMap = lang === "zh";
 
-    // Only check IP location for English pages
-    if (!useAmap) {
-      const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), 2500);
+      // Only check IP location for English pages
+      if (!useChinaMap) {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 2500);
 
-      try {
-        const response = await fetch("https://ipwho.is/", {
-          signal: controller.signal
-        });
+        try {
+          const response = await fetch("https://ipwho.is/", {
+            signal: controller.signal
+          });
 
-        if (!response.ok) throw new Error("IP lookup failed");
+          if (!response.ok) throw new Error("IP lookup failed");
 
-        const data = await response.json();
-        if (!data.success) throw new Error("Invalid IP result");
+          const data = await response.json();
+          if (!data.success) throw new Error("Invalid IP result");
 
-        useAmap = data.country_code === "CN";
-      } catch (error) {
-        console.warn("IP detection failed, using OSM:", error);
-      } finally {
-        clearTimeout(timer);
+          useChinaMap = data.country_code === "CN";
+        } catch (error) {
+          console.warn("IP detection failed, using OSM:", error);
+        } finally {
+          clearTimeout(timer);
+        }
       }
+
+      const GEOVIS_TOKEN = "YOUR_G EOVIS_TOKEN".replace(" ", "");
+      const tileURL = useChinaMap
+        ? `https://api.open.geovisearth.com/map/v1/vec/{z}/{x}/{y}?token=${GEOVIS_TOKEN}&tmsIds=w&format=png`
+        : "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+
+      L.tileLayer(tileURL, {
+        maxZoom: 17,
+        minNativeZoom: useChinaMap ? 1 : 0,
+        noWrap: true,
+        attribution: useChinaMap
+          ? lang == "zh" ? "&copy; 中科星图" : "&copy; Geovisearth"
+          : "&copy; OpenStreetMap contributors"
+      }).addTo(map);
     }
 
-    const tileURL = useAmap
-      ? "https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}"
-      : "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
-
-    L.tileLayer(tileURL, {
-      subdomains: useAmap ? "1234" : "abc",
-      maxZoom: 17,
-      minNativeZoom: useAmap ? 1 : 0,
-      noWrap: true,
-      attribution: useAmap
-        ? "&copy; 高德地图"
-        : "&copy; OpenStreetMap contributors"
-    }).addTo(map);
-  }
-
-  loadBaseMap();
+    loadBaseMap();
 
     const markers = [];
 
