@@ -161,14 +161,57 @@
       prefix: '<a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a>'
     }).addTo(map);
 
-    L.tileLayer(
-      "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-      {
-        maxZoom: 17,
-        noWrap: true,
-        attribution: "&copy; OpenStreetMap contributors"
+    // L.tileLayer(
+    //   "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    //   {
+    //     maxZoom: 17,
+    //     noWrap: true,
+    //     attribution: "&copy; OpenStreetMap contributors"
+    //   }
+    // ).addTo(map);
+
+    async function loadBaseMap() {
+    let useAmap = lang === "zh";
+
+    // Only check IP location for English pages
+    if (!useAmap) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 2500);
+
+      try {
+        const response = await fetch("https://ipwho.is/", {
+          signal: controller.signal
+        });
+
+        if (!response.ok) throw new Error("IP lookup failed");
+
+        const data = await response.json();
+        if (!data.success) throw new Error("Invalid IP result");
+
+        useAmap = data.country_code === "CN";
+      } catch (error) {
+        console.warn("IP detection failed, using OSM:", error);
+      } finally {
+        clearTimeout(timer);
       }
-    ).addTo(map);
+    }
+
+    const tileURL = useAmap
+      ? "https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}"
+      : "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+
+    L.tileLayer(tileURL, {
+      subdomains: useAmap ? "1234" : "abc",
+      maxZoom: 17,
+      minNativeZoom: useAmap ? 1 : 0,
+      noWrap: true,
+      attribution: useAmap
+        ? "&copy; 高德地图"
+        : "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+  }
+
+  loadBaseMap();
 
     const markers = [];
 
