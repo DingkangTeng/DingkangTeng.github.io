@@ -69,25 +69,6 @@
     .leaflet-tooltip.school-label::before {
         display: none;
     }
-
-    /* Reset map view button */
-    .map-reset-button {
-      width: 34px;
-      height: 34px;
-      background: white;
-      border: 2px solid rgba(0, 0, 0, 0.2);
-      border-radius: 4px;
-      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-      color: #333;
-      font-size: 25px;
-      line-height: 28px;
-      text-align: center;
-      cursor: pointer;
-    }
-
-    .map-reset-button:hover {
-      background: #f4f4f4;
-    }
   </style>
 </head>
 
@@ -180,47 +161,57 @@
       prefix: '<a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a>'
     }).addTo(map);
 
-    const GEOVIS_TOKEN = "6e2c06344f8697689935f49ef3967f1e";
+    // L.tileLayer(
+    //   "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    //   {
+    //     maxZoom: 17,
+    //     noWrap: true,
+    //     attribution: "&copy; OpenStreetMap contributors"
+    //   }
+    // ).addTo(map);
 
-    // OpenStreetMap
-    const osmLayer = L.tileLayer(
-      "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-      {
+    async function loadBaseMap() {
+      let useChinaMap = lang === "zh";
+
+      // Only check IP location for English pages
+      if (!useChinaMap) {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 2500);
+
+        try {
+          const response = await fetch("https://ipwho.is/", {
+            signal: controller.signal
+          });
+
+          if (!response.ok) throw new Error("IP lookup failed");
+
+          const data = await response.json();
+          if (!data.success) throw new Error("Invalid IP result");
+
+          useChinaMap = data.country_code === "CN";
+        } catch (error) {
+          console.warn("IP detection failed, using OSM:", error);
+        } finally {
+          clearTimeout(timer);
+        }
+      }
+
+      const GEOVIS_TOKEN = "6e2c06344f8697689935f49ef3967f1e";
+      const tileURL = useChinaMap
+        ? `https://api.open.geovisearth.com/map/v1/vec/{z}/{x}/{y}?token=${GEOVIS_TOKEN}&tmsIds=w&format=png`
+        : "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+
+      L.tileLayer(tileURL, {
         maxZoom: 17,
+        minNativeZoom: useChinaMap ? 1 : 0,
         noWrap: true,
-        attribution: "&copy; OpenStreetMap contributors"
-      }
-    );
+        attribution: useChinaMap
+          ? lang == "zh" ? "&copy; 中科星图" : "&copy; Geovisearth"
+          : "&copy; OpenStreetMap contributors"
+      }).addTo(map);
+    }
 
-    // GEOVIS Earth
-    const chinaLayer = L.tileLayer(
-      `https://api.open.geovisearth.com/map/v1/vec/{z}/{x}/{y}?token=${GEOVIS_TOKEN}&tmsIds=w&format=png`,
-      {
-        maxZoom: 17,
-        minNativeZoom: 2,
-        noWrap: true,
-        attribution: lang == "zh" ? "&copy; 中科星图" : "&copy; Geovisearth"
-      }
-    );
-
-    // Basemap selector
-    const layerControl = L.control.layers(
-      {
-        "OpenStreetMap": osmLayer,
-        "星图云 GEOVIS": chinaLayer
-      },
-      null,
-      {
-        position: "topright",
-        collapsed: true
-      }
-    );
-    
-    // Select the initial basemap
-    (useChinaMap ? chinaLayer : osmLayer).addTo(map);
-
-    // Add the basemap selector after choosing the initial layer
-    layerControl.addTo(map);
+    loadBaseMap();
 
     const markers = [];
 
@@ -281,48 +272,11 @@
       markers.push(marker);
     });
 
-    // Reset the map to its initial world view
-    function resetMapView() {
-      const mapWidth = map.getSize().x;
-      const zoom = Math.log2(mapWidth * 1.03 / 256);
+    // Center the world map and fit its width
+    const mapWidth = map.getSize().x;
+    const zoom = Math.log2(mapWidth * 1.03 / 256);
 
-      map.setView([29, 0], zoom, {
-        animate: true
-      });
-    }
-
-    // Set initial view
-    resetMapView();
-
-    // Add reset-view button
-    const ResetViewControl = L.Control.extend({
-      options: {
-        position: "topleft"
-      },
-
-      onAdd: function () {
-        const button = L.DomUtil.create(
-          "button",
-          "map-reset-button"
-        );
-
-        button.type = "button";
-        button.textContent = "⌖";
-        button.title = lang === "zh"
-          ? "重置"
-          : "Reset";
-
-        button.setAttribute("aria-label", button.title);
-
-        L.DomEvent.disableClickPropagation(button);
-
-        L.DomEvent.on(button, "click", resetMapView);
-
-        return button;
-      }
-    });
-
-    new ResetViewControl().addTo(map);
+    map.setView([29, 0], zoom);
   </script>
 </body>
 </html>
