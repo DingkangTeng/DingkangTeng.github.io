@@ -69,6 +69,30 @@
     .leaflet-tooltip.school-label::before {
         display: none;
     }
+
+    /* Map home button styles */
+    .map-home-button {
+      display: block;
+      width: 34px;
+      height: 34px;
+      padding: 0;
+      border: 0;
+      background: #fff;
+      color: #333;
+      font-size: 23px;
+      line-height: 34px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .map-home-button:hover {
+      background: #f4f4f4;
+    }
+
+    .map-home-button:focus-visible {
+      outline: 2px solid #2563eb;
+      outline-offset: -2px;
+    }
   </style>
 </head>
 
@@ -197,17 +221,47 @@
       }
 
       const GEOVIS_TOKEN = "6e2c06344f8697689935f49ef3967f1e";
+      const chinaCopy = lang === "zh" ? "&copy; 中科星图" : "&copy; Geovisearth";
+
+      // Vector street map
       const tileURL = useChinaMap
         ? `https://api.open.geovisearth.com/map/v1/vec/{z}/{x}/{y}?token=${GEOVIS_TOKEN}&tmsIds=w&format=png`
         : "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
-
-      L.tileLayer(tileURL, {
+      const streetLayer = L.tileLayer(tileURL, {
         maxZoom: 17,
         minNativeZoom: useChinaMap ? 1 : 0,
         noWrap: true,
         attribution: useChinaMap
-          ? lang == "zh" ? "&copy; 中科星图" : "&copy; Geovisearth"
-          : "&copy; OpenStreetMap contributors"
+          ? chinaCopy
+          : '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      });
+
+      // Raster map
+      const rasterURL = useChinaMap
+        ? ''
+        : "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
+      const satelliteLayer = L.tileLayer(
+        rasterURL, {
+          maxZoom: 17,
+          noWrap: true,
+          attribution: useChinaMap
+            ? chinaCopy
+            : "Tiles &copy; Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community"
+        }
+      );
+
+      // Vector street map is the default layer
+      streetLayer.addTo(map);
+
+      // Set up layer control with bilingual labels
+      const baseMaps = {
+        [lang === "zh" ? "普通地图" : "Street map"]: streetLayer,
+        [lang === "zh" ? "卫星影像" : "Satellite"]: satelliteLayer
+      };
+
+      L.control.layers(baseMaps, null, {
+        position: "topright",
+        collapsed: false
       }).addTo(map);
     }
 
@@ -272,9 +326,54 @@
       markers.push(marker);
     });
 
-    // Center the world map and fit its width
-    const mapWidth = map.getSize().x;
-    const zoom = Math.log2(mapWidth * 1.03 / 256);
+    // Reset map view to default position and zoom level
+    function resetMapView() {
+      map.invalidateSize({ pan: false });
+
+      const mapWidth = map.getSize().x;
+      const zoom = Math.log2(mapWidth * 1.03 / 256);
+
+      map.closePopup();
+      map.setView([29, 0], zoom, { animate: false });
+    }
+
+    // Add a custom control button to reset the map view
+    const homeControl = L.control({
+      position: "topleft"
+    });
+
+    homeControl.onAdd = function () {
+      const container = L.DomUtil.create(
+        "div",
+        "leaflet-bar leaflet-control"
+      );
+
+      const button = L.DomUtil.create(
+        "button",
+        "map-home-button",
+        container
+      );
+
+      button.type = "button";
+      button.innerHTML = "&#8962;";
+      button.title = lang === "zh"
+        ? "回到默认位置"
+        : "Reset map view";
+      button.setAttribute("aria-label", button.title);
+
+      // Disable click and scroll propagation to prevent map interactions when clicking the button
+      L.DomEvent.disableClickPropagation(container);
+      L.DomEvent.disableScrollPropagation(container);
+
+      button.addEventListener("click", resetMapView);
+
+      return container;
+    };
+
+    homeControl.addTo(map);
+
+    // Initialize the map view to the default position and zoom level
+    resetMapView();
 
     map.setView([29, 0], zoom);
   </script>

@@ -3,7 +3,7 @@ title: 全球电动汽车充电基础设施年度报告
 date: 2026-11-01
 links:
   - type: code
-    url: https://github.com/DingkangTeng/Global-EVCS-Annual-Report
+    url: https://github.com/GlobalEVData/Global-EVCS-Annual-Report
   - type: dataset
     url: https://globalevdata.github.io/datasets/
   ## Web GIS
