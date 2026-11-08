@@ -204,7 +204,7 @@
 
       // Raster map
       const rasterURL = useChinaMap
-        ? `https://api.open.geovisearth.com/map/v1/img/{z}/{x}/{y}?token=${GEOVIS_TOKEN}&tmsIds=w&format=webp`
+        ? `https://api.open.geovisearth.com/pj/base/v1/img/{z}/{x}/{y}?token=${GEOVIS_TOKEN}&tmsIds=w&format=webp`
         : "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
       const satelliteLayer = L.tileLayer(
         rasterURL, {
