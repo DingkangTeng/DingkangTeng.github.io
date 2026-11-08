@@ -4,11 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>My Geography</title>
-
-  <link rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
   <style>
     html, body {
@@ -101,74 +98,32 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-  <script>
-    // Detect language from URL
-    const params = new URLSearchParams(window.location.search);
-    const lang = params.get("lang") === "zh" ? "zh" : "en";
+  <script type="module">
+    import { locale, t, getSchoolText } from "./i18n.js";
 
-    document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+    document.documentElement.lang = locale.htmlLang;
+    document.title = t("pageTitle");
 
-    const labels = {
-      en: {
-        location: "Location",
-        period: "Period"
-      },
-      zh: {
-        location: "地点",
-        period: "时间"
-      }
-    };
-
-    // University locations and bilingual descriptions
+    // School information with bilingual support
     const schools = [
       {
+        id: "hzau",
         coordinates: [30.4762, 114.3524],
-        color: "#16a34a",
-        period: "2015–2019",
-        en: {
-          name: "Huazhong Agricultural University",
-          degree: "B.A. in Land Resource Management",
-          location: "Wuhan, China"
-        },
-        zh: {
-          name: "华中农业大学",
-          degree: "土地资源管理 · 管理学学士",
-          location: "中国武汉"
-        }
+        color: "#16a34a"
       },
-
       {
+        id: "polyu",
         coordinates: [22.3045, 114.1797],
-        color: "#2563eb",
-        period: "2024–2026",
-        en: {
-          name: "The Hong Kong Polytechnic University",
-          degree: "MSc in Urban Informatics and Smart Cities",
-          location: "Hong Kong, China"
-        },
-        zh: {
-          name: "香港理工大学",
-          degree: "城市信息学及智慧城市 · 理学硕士",
-          location: "中国香港"
-        }
+        color: "#2563eb"
       },
-
       {
+        id: "utk",
         coordinates: [35.9517, -83.9327],
-        color: "#f97316",
-        period: "2026–Present",
-        periodZh: "2026–至今",
-        en: {
-          name: "University of Tennessee, Knoxville",
-          degree: "PhD in Geography",
-          location: "Knoxville, Tennessee, USA"
-        },
-        zh: {
-          name: "田纳西大学诺克斯维尔分校",
-          degree: "地理学博士",
-          location: "美国田纳西州诺克斯维尔"
-        }
+        color: "#f97316"
       }
+      // Add more schools here as needed,
+      // each with a unique ID, coordinates, and color for the marker
+      // Must also be defined in the i18n.js file for bilingual support
     ];
 
     // Initialize map
@@ -176,8 +131,16 @@
       scrollWheelZoom: true,
       worldCopyJump: true,
       zoomSnap: 0,
-      attributionControl: false
+      attributionControl: false,
+      zoomControl: false
     });
+
+    // Add zoom control with custom titles for i18n support 
+    L.control.zoom({
+      position: "topleft",
+      zoomInTitle: t("zoomIn"),
+      zoomOutTitle: t("zoomOut")
+    }).addTo(map);
 
     // Create attribution control without the flag
     L.control.attribution({
@@ -185,17 +148,8 @@
       prefix: '<a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a>'
     }).addTo(map);
 
-    // L.tileLayer(
-    //   "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-    //   {
-    //     maxZoom: 17,
-    //     noWrap: true,
-    //     attribution: "&copy; OpenStreetMap contributors"
-    //   }
-    // ).addTo(map);
-
     async function loadBaseMap() {
-      let useChinaMap = lang === "zh";
+      let useChinaMap = locale.mapProvider === "china";
 
       // Only check IP location for English pages
       if (!useChinaMap) {
@@ -221,7 +175,7 @@
       }
 
       const GEOVIS_TOKEN = "6e2c06344f8697689935f49ef3967f1e";
-      const chinaCopy = lang === "zh" ? "&copy; 中科星图" : "&copy; Geovisearth";
+      const chinaCopy = t("geovisCopyright");
 
       // Vector street map
       const tileURL = useChinaMap
@@ -238,7 +192,7 @@
 
       // Raster map
       const rasterURL = useChinaMap
-        ? ''
+        ? `https://api.open.geovisearth.com/map/v1/img/{z}/{x}/{y}?token=${GEOVIS_TOKEN}&tmsIds=w&format=webp`
         : "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
       const satelliteLayer = L.tileLayer(
         rasterURL, {
@@ -255,8 +209,8 @@
 
       // Set up layer control with bilingual labels
       const baseMaps = {
-        [lang === "zh" ? "普通地图" : "Street map"]: streetLayer,
-        [lang === "zh" ? "卫星影像" : "Satellite"]: satelliteLayer
+        [t("streetMap")]: streetLayer,
+        [t("satellite")]: satelliteLayer
       };
 
       L.control.layers(baseMaps, null, {
@@ -270,7 +224,7 @@
     const markers = [];
 
     schools.forEach((school, index) => {
-      const info = school[lang];
+      const info = getSchoolText(school.id);
 
       const marker = L.circleMarker(school.coordinates, {
         radius: 9,
@@ -308,17 +262,11 @@
 
       const location = document.createElement("div");
       location.className = "school-detail";
-      location.textContent =
-        `${labels[lang].location}: ${info.location}`;
+      location.textContent = `${t("location")}: ${info.location}`;
 
       const period = document.createElement("div");
       period.className = "school-detail";
-      period.textContent =
-        `${labels[lang].period}: ${
-          lang === "zh" && school.periodZh
-            ? school.periodZh
-            : school.period
-        }`;
+      period.textContent = `${t("period")}: ${info.period}`;
 
       popup.append(title, degree, location, period);
 
@@ -356,9 +304,7 @@
 
       button.type = "button";
       button.innerHTML = "&#8962;";
-      button.title = lang === "zh"
-        ? "回到默认位置"
-        : "Reset map view";
+      button.title = t("resetView");
       button.setAttribute("aria-label", button.title);
 
       // Disable click and scroll propagation to prevent map interactions when clicking the button
@@ -374,8 +320,6 @@
 
     // Initialize the map view to the default position and zoom level
     resetMapView();
-
-    map.setView([29, 0], zoom);
   </script>
 </body>
 </html>
