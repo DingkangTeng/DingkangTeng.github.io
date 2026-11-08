@@ -70,16 +70,24 @@
     /* Map home button styles */
     .map-home-button {
       display: block;
-      width: 34px;
-      height: 34px;
+      box-sizing: border-box;
+      width: 30px;
+      height: 30px;
       padding: 0;
       border: 0;
       background: #fff;
       color: #333;
-      font-size: 23px;
-      line-height: 34px;
+      font-size: 22px;
+      line-height: 30px;
       text-align: center;
       cursor: pointer;
+    }
+
+    /* Consistent with the zoom buttons in Leaflet's touch-enabled mode */
+    .leaflet-touch .map-home-button {
+      width: 34px;
+      height: 34px;
+      line-height: 34px;
     }
 
     .map-home-button:hover {
