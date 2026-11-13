@@ -15,7 +15,7 @@ sections:
       username: admin
     design:
       # Hugo date format
-      date_format: 'January 2006'
+      date_format: '2006年1月'
       # Education or Experience section first?
       is_education_first: true
   - block: resume-skills
@@ -28,10 +28,14 @@ sections:
     content:
       title: 职业资格
       username: _qualification
+    design:
+      date_format: '2006年1月'
   - block: resume-awards
     content:
       title: 主要荣誉
       username: admin
+    design:
+      date_format: '2006年1月'
   - block: resume-languages
     content:
       title: 主要语言

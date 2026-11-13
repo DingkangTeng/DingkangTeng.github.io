@@ -1,5 +1,5 @@
 ---
-title: "From Points to Patterns: Global Spatial Accessibility and Equity in Public Electric Vehicle Charging (Under Review)"
+title: "From Points to Patterns: Global Spatial Accessibility and Equity in Public Electric Vehicle Charging"
 authors:
 - RuichenMa
 - admin
@@ -9,10 +9,10 @@ authors:
 - DingChen
 - JiabaoZhao
 - ChengxiangZhuge
-date: "2026-05-04T00:01:00Z"
+date: "2026-11-11T00:01:00Z"
 
 # # Schedule page publish date (NOT publication's date).
-# publishDate: "2026-02-06T00:00:00Z"
+publishDate: "2026-11-11T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -23,7 +23,7 @@ publication_types: ["article-journal"]
 publication: "Sustainable Cities and Society"
 publication_short: "*Sustain. Cities Soc.*, Under review"
 
-# abstract: This study provides a comprehensive decadal assessment of public electric vehicle (EV) charging infrastructure in China, analysing accessibility and equity from 2015 to 2025 using a constructed dataset covering over 0.8 million location records of EV charging stations (EVCS).To evaluate the existing level of charging accessibility relative to an optimal benchmark, we propose the concept of Optimal level of Accessibility (Opt-Acc), to measure the performance of the current EVCS spatial configuration. Our results show that the Opt-Acc values converge between 0.6 and 0.7, with 76.44% of cities maintaining stable levels. While the equity increased in 99.7 % of cities, the gap between leading and lagging areas widened, suggesting an emerging spatial imbalance among cities. Further social equity analysis by gender and age uncovers continuous higher accessibility among women and older population groups. This study emphasises the need for precision-based spatial planning and inclusive, data-driven policies for EVCS.
+abstract: Tracking global electric vehicle charging station (EVCS) spatial patterns is essential yet constrained by data availability and incomparable frameworks. This study presents the first empirical analysis of EVCS siting patterns across 125 countries and regions, drawing on a best-available Global Public EVCS Location (GPEVCSL) dataset compiled from 11 platforms. A unified framework integrating network-based and location-based perspectives is proposed to assess inter-city highway charging accessibility and intra-city siting patterns. We find that China, the United States, and Europe lead in highway charging accessibility, with EVCSs concentrated around major metropolitan areas and key corridors. While chargers in mature markets have diffused beyond dense urban cores, emerging markets remain concentrated in affluent centers. Gini-based equity analysis reveals North America as the most spatially unequal region, while POI-Gini and Population-Gini divergence highlights distinct inequalities in destination and residential charging access. The findings support cross-national policy efforts toward equitable and sustainable electric mobility transitions.
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -44,22 +44,25 @@ featured: true
 
 links:
 - type: code
-  url: https://github.com/DingkangTeng/data-global-ev-2025
+  url: https://github.com/DingkangTeng/Global-EV-Acc-Patterns
 - type: dataset
   url: https://globalevdata.github.io/data.html
-# - type: custom
-#   label: ToolKit
-#   url: "toolkit/buffer-analysis-tool"
 # - type: poster
 #   url: https://globalevdata.github.io/News/2026-2-8.html
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Framework of data collection and multi-scale analytical methodology'
   focal_point: ""
   preview_only: false
 
 ---
-> [!NOTE]
-> This paper is **Under Review**.
+> [!TIP]
+> **Highlights**
+>
+> - A best-available global EVCS location dataset covering 125 countries is compiled.
+> - A comparable framework assesses EVCS siting from network and location perspectives.
+> - En-route charging concentrates in metropolitan hubs and major highway corridors.
+> - Mature markets show diffused siting; emerging markets cluster in urban cores.
+> - Diverging POI and population Gini reveal unequal destination and home charging.

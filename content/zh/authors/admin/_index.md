@@ -84,6 +84,15 @@ education:
       论文题目：_《集体经营性建设用地土地增值收益分配问题及重构研究》_，导师：张安录教授。
 
 work:
+  - position: Celestial Transportation Analytics Lab (CELTA) 组员
+    company_name: 田纳西大学诺克斯维尔分校
+    icon: "custom/celta"
+    date_start: 2026-08-01
+    summary: |2-
+      ***研究主题：*** 交通运输、区位科学、地理信息与空间分析。
+
+      开展不同空间情景下的网络分析研究。
+
   - position: 助教
     company_name: 田纳西大学诺克斯维尔分校
     icon: "custom/utk"
@@ -96,15 +105,17 @@ work:
     company_url: https://thetipteam.wixstudio.com/website
     icon: "custom/tip"
     date_start: 2025-01-01
-    date_end: 2026-08-15
+    # date_end: 2026-08-15
     summary: |2-
+      *研究助理（2025年1月 — 2026年7月）；合作研究员（2026年8月 — 现在）*
+
       ***研究主题：*** 智慧城市的技术创新、基础设施规划和政策制定
 
-      在全球范围内开展与充电基础设施相关的研究项目，开展大规模空间分析。
+      基于 Python 地理空间分析工作流及多源数据集，开展全球电动汽车充电基础设施的大规模空间分析研究。
 
-      基于Python处理与分析全球尺度多源地理空间数据集。
+      参与基础设施可达性、公平性及灾害韧性相关学术研究。
 
-      参与撰写关于基础设施公平性与灾害脆弱性的论文。
+      作为共同作者参与撰写并发表电动汽车充电基础设施（EVCS）研究白皮书，负责大规模地理空间数据分析、专题地图制作及数据可视化，以直观呈现和传达核心研究成果。
 
       在 ***Intelligent Transportation Systems (LSGI3213)*** 课程担任助教，主要负责协助每周的实验课，为数据分析和仿真建模软件提供指导
 

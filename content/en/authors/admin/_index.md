@@ -85,6 +85,15 @@ education:
       Thesis on _Research on the Distribution and Reconstruction of Land Value-added Income of Collective Operational Construction Land_. Supervised by Prof. Aanlu Zhang.
 
 work:
+  - position: Celestial Transportation Analytics Lab (CELTA) Member
+    company_name: University of Tennessee, Knoxville
+    icon: "custom/celta"
+    date_start: 2026-08-01
+    summary: |2-
+      Focusing on **transportation, location science, geographic information, and analytics**.
+
+      Conduct network analysis under different spatial scenarios.
+
   - position: Graduate Teaching Assistant
     company_name: University of Tennessee, Knoxville
     icon: "custom/utk"
@@ -97,15 +106,17 @@ work:
     company_url: https://thetipteam.wixstudio.com/website
     icon: "custom/tip"
     date_start: 2025-01-01
-    date_end: 2025-08-15
+    # date_end: 2025-08-15
     summary: |2-
+      *Research Assistant (January 2025 – July 2025); Research Collaborator (Auguest 2026 – Present)*
+
       Focusing on ***Technology innovation, Infrastructure planning and Policy making in Smart Cities***
 
-      Conduct large-scale spatial analysis on global electric vehicle charging infrastructure.
+      Conduct large-scale spatial analysis of global EV charging infrastructure using Python-based geospatial workflows and multi-source datasets.
 
-      Process and analyze multi-source geospatial datasets (global-scale) using Python-based spatial data science workflows.
-
-      Contribute to peer-reviewed publications on infrastructure equity and disaster vulnerability
+      Contribute to peer-reviewed publications on infrastructure accessibility, equity and disaster resilience.
+      
+      Co-authored a published white paper on electric vehicle charging infrastructure (EVCS), conducting large-scale geospatial data analysis and producing thematic maps and visualizations to communicate key findings
 
       Served as TA in course ***Intelligent Transportation Systems (LSGI3213)***. Facilitated weekly lab sessions, providing hands-on guidance for data analysis and simulation modeling software.
 
