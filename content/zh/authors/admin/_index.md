@@ -101,13 +101,13 @@ work:
       ***Intro to Geovisualization and GIS (GEOG 331)：*** 批改 GIS 实验作业，并制作分步骤 GIS 实验操作教学视频。
 
   - position: 科研助理及助教
-    company_name: Technology Infrastructure Policy Lab · 香港理工大学
+    company_name: '[Technology Infrastructure Policy Lab](#) · 香港理工大学'
     company_url: https://thetipteam.wixstudio.com/website
     icon: "custom/tip"
     date_start: 2025-01-01
     # date_end: 2026-08-15
     summary: |2-
-      *研究助理（2025年1月 — 2026年7月）；合作研究员（2026年8月 — 现在）*
+      *研究助理（2025年1月 - 2026年7月）；合作研究员（2026年8月 - 现在）*
 
       ***研究主题：*** 智慧城市的技术创新、基础设施规划和政策制定
 

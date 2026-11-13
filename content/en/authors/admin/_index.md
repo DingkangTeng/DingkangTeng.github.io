@@ -108,7 +108,7 @@ work:
     date_start: 2025-01-01
     # date_end: 2025-08-15
     summary: |2-
-      *Research Assistant (January 2025 – July 2025); Research Collaborator (Auguest 2026 – Present)*
+      *Research Assistant (January 2025 - July 2025); Research Collaborator (Auguest 2026 - Present)*
 
       Focusing on ***Technology innovation, Infrastructure planning and Policy making in Smart Cities***
 

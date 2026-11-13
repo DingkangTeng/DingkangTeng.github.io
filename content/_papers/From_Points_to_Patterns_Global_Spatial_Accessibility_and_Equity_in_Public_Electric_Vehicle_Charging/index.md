@@ -9,7 +9,7 @@ authors:
 - DingChen
 - JiabaoZhao
 - ChengxiangZhuge
-date: "2026-11-11T00:01:00Z"
+date: "2026-11-11T00:00:00Z"
 
 # # Schedule page publish date (NOT publication's date).
 publishDate: "2026-11-11T00:00:00Z"
@@ -21,7 +21,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Sustainable Cities and Society"
-publication_short: "*Sustain. Cities Soc.*, Under review"
+publication_short: "*Sustain. Cities Soc.*, Accepted"
 
 abstract: Tracking global electric vehicle charging station (EVCS) spatial patterns is essential yet constrained by data availability and incomparable frameworks. This study presents the first empirical analysis of EVCS siting patterns across 125 countries and regions, drawing on a best-available Global Public EVCS Location (GPEVCSL) dataset compiled from 11 platforms. A unified framework integrating network-based and location-based perspectives is proposed to assess inter-city highway charging accessibility and intra-city siting patterns. We find that China, the United States, and Europe lead in highway charging accessibility, with EVCSs concentrated around major metropolitan areas and key corridors. While chargers in mature markets have diffused beyond dense urban cores, emerging markets remain concentrated in affluent centers. Gini-based equity analysis reveals North America as the most spatially unequal region, while POI-Gini and Population-Gini divergence highlights distinct inequalities in destination and residential charging access. The findings support cross-national policy efforts toward equitable and sustainable electric mobility transitions.
 
