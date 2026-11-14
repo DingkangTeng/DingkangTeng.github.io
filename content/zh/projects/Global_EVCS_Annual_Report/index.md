@@ -6,9 +6,9 @@ links:
     url: https://github.com/GlobalEVData/Global-EVCS-Annual-Report
   - type: dataset
     url: https://globalevdata.github.io/datasets/
-  ## Web GIS
-  # - type: poster
-  #   url: https://globalevdata.github.io/News/2026-2-8.html
+  # Web GIS
+  - type: poster
+    url: https://globalevdata.github.io/Global-EVCS-Annual-Report/
 tags:
   - 硕士成果
   - 白皮书

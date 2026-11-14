@@ -86,6 +86,7 @@ education:
 work:
   - position: Celestial Transportation Analytics Lab (CELTA) 组员
     company_name: 田纳西大学诺克斯维尔分校
+    company_url: https://hyunkimutk.wixsite.com/hyunkim
     icon: "custom/celta"
     date_start: 2026-08-01
     summary: |2-
@@ -95,13 +96,14 @@ work:
 
   - position: 助教
     company_name: 田纳西大学诺克斯维尔分校
+    company_url: https://geography.utk.edu/people/instructional-faculty/dingkang-teng/
     icon: "custom/utk"
     date_start: 2026-08-01
     summary: |2-
       ***Intro to Geovisualization and GIS (GEOG 331)：*** 批改 GIS 实验作业，并制作分步骤 GIS 实验操作教学视频。
 
   - position: 科研助理及助教
-    company_name: '[Technology Infrastructure Policy Lab](#) · 香港理工大学'
+    company_name: Technology Infrastructure Policy Lab · 香港理工大学
     company_url: https://thetipteam.wixstudio.com/website
     icon: "custom/tip"
     date_start: 2025-01-01

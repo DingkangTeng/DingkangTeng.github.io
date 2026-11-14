@@ -21,26 +21,26 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Sustainable Cities and Society"
-publication_short: "*Sustain. Cities Soc.*, Accepted"
+publication_short: "*Sustain. Cities Soc.*, In Press, 108112"
 
-abstract: Tracking global electric vehicle charging station (EVCS) spatial patterns is essential yet constrained by data availability and incomparable frameworks. This study presents the first empirical analysis of EVCS siting patterns across 125 countries and regions, drawing on a best-available Global Public EVCS Location (GPEVCSL) dataset compiled from 11 platforms. A unified framework integrating network-based and location-based perspectives is proposed to assess inter-city highway charging accessibility and intra-city siting patterns. We find that China, the United States, and Europe lead in highway charging accessibility, with EVCSs concentrated around major metropolitan areas and key corridors. While chargers in mature markets have diffused beyond dense urban cores, emerging markets remain concentrated in affluent centers. Gini-based equity analysis reveals North America as the most spatially unequal region, while POI-Gini and Population-Gini divergence highlights distinct inequalities in destination and residential charging access. The findings support cross-national policy efforts toward equitable and sustainable electric mobility transitions.
+abstract: Tracking spatial patterns of global electric vehicle charging stations (EVCSs) is essential yet constrained by limited data availability and inconsistent analytical frameworks. This study presents a data-driven empirical analysis of EVCS siting patterns across 58 countries or regions. A unified framework integrating both inter- and intra-city perspectives is proposed to assess highway charging accessibility and intra-city siting patterns, respectively. The results reveal persistent regional inequalities in global EVCS development. Chinese Mainland, the United States, and European countries lead in highway charging accessibility, with EVCSs concentrated around major city clusters and key corridors. Diverse EVCS proximity patterns are also observed across the lived, productive, and activity spaces. While EVCSs in high‑adoption regions have diffused beyond dense urban cores, those in low‑adoption regions remain concentrated in affluent urban centers. The Gini-based analysis further reveals that high-adoption regions face greater spatial distributional inequalities in EVCS locations, particularly across activity facilities. The findings support cross-national knowledge transfer and inform policy efforts toward equitable and sustainable electric mobility transitions worldwide.
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "This study examines the spatial distribution of electric vehicle charging stations across 58 countries and regions, revealing global disparities in charging accessibility, siting patterns, and spatial equity to inform sustainable and equitable charging infrastructure development."
 
 tags:
 - Electric vehicles
 - Charging infrastructure
 - Highway charging
 - Spatial patterns
-- Social equity
+- Spatial distributional inequality
 - Global comparative analysis
 
 featured: true
 
-# hugoblox:
-#   ids:
-#     doi: 10.1016/j.scs.2026.107217
+hugoblox:
+  ids:
+    doi: 10.1016/j.scs.2026.108112
 
 links:
 - type: code
@@ -66,3 +66,11 @@ image:
 > - En-route charging concentrates in metropolitan hubs and major highway corridors.
 > - Mature markets show diffused siting; emerging markets cluster in urban cores.
 > - Diverging POI and population Gini reveal unequal destination and home charging.
+
+This study provides a comprehensive, data-driven assessment of the global spatial siting patterns of public **electric vehicle charging stations (EVCS)** across **58 countries and regions**, drawing on a newly compiled dataset of over **698,000 EVCS locations** from 11 data sources. By integrating inter-city highway charging accessibility with intra-city spatial distribution analyses, the study reveals significant regional disparities in charging infrastructure development, spatial accessibility, and distributional equity:
+
+- **Significant regional disparities in highway charging accessibility:** Europe, Chinese Mainland, and the United States lead globally in highway charging accessibility, while emerging EV markets in Latin America, Oceania, and Africa generally lag behind. Despite comparable accessibility levels, China and Europe demonstrate more equitable highway charging distributions than the U.S., where substantial infrastructure gaps persist.
+- **Strong spatial clustering along major urban corridors:** Highway charging infrastructure is concentrated around major metropolitan clusters and transportation corridors, including China's southeastern coastal regions, the U.S. West Coast and Northeast Corridor, and Europe's Blue Banana megalopolis. These patterns highlight persistent spatial inequalities in inter-city charging opportunities.
+- **Divergent intra-city siting patterns and spatial inequalities:** In mature EV markets such as China, Europe, and the U.S., charging infrastructure has progressively expanded beyond high-density and affluent urban cores. In contrast, emerging markets such as Brazil exhibit stronger concentrations of EVCSs in densely populated and economically developed areas. U.S. charging stations show stronger integration with urban activity facilities but considerable inequalities relative to residential and economic distributions, while China exhibits greater inequality in charging accessibility across activity facilities.
+
+The research highlights that **expanding charging infrastructure alone does not guarantee equitable access to electric mobility**. Instead, EVCS deployment strategies should account for regional development stages, urban spatial structures, and diverse charging needs. By providing a unified global assessment framework, the study offers evidence-based insights to help policymakers, urban planners, and infrastructure developers identify underserved areas, optimize highway charging networks, improve integration with daily activity destinations, and promote a more equitable and sustainable global transition toward electric mobility.

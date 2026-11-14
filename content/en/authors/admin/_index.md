@@ -87,6 +87,7 @@ education:
 work:
   - position: Celestial Transportation Analytics Lab (CELTA) Member
     company_name: University of Tennessee, Knoxville
+    company_url: https://hyunkimutk.wixsite.com/hyunkim
     icon: "custom/celta"
     date_start: 2026-08-01
     summary: |2-
@@ -96,6 +97,7 @@ work:
 
   - position: Graduate Teaching Assistant
     company_name: University of Tennessee, Knoxville
+    company_url: https://geography.utk.edu/people/instructional-faculty/dingkang-teng/
     icon: "custom/utk"
     date_start: 2026-08-01
     summary: |2-
