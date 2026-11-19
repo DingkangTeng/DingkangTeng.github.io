@@ -69,14 +69,8 @@ image:
 This study presents a comprehensive, data-driven assessment of the global spatial siting patterns of public **electric vehicle charging stations (EVCS)** across **58 countries and regions**, drawing on a newly compiled **2025 dataset containing over 698,000 station location records from 11 data platforms**. By integrating **inter-city highway charging accessibility** with **intra-city spatial siting analyses**, the study identifies shared challenges and substantial regional differences in charging infrastructure deployment:
 
 - **Regional disparities in highway charging accessibility:** Chinese Mainland, the United States, and Europe lead in highway charging accessibility. However, charging opportunities remain concentrated around major metropolitan areas and key transportation corridors, leaving substantial gaps in less-served regions. These patterns highlight persistent spatial disparities in charging provision for inter-city travel.
-| | |
-|:---:|:---:|
-| ![A](A.png) | ![B](B.png) |
-| ![C](C.png) | ![D \| E](DE.png) |
-*Figure 1. Patterns of city-pair highway charging accessibility across the five representative regions in 2025.*
 
 - **Contrasting urban siting patterns across EV markets:** In regions with high EV adoption, charging stations extend beyond affluent, densely populated urban cores, reflecting a more spatially dispersed deployment pattern. In contrast, emerging EV markets exhibit stronger concentrations of charging infrastructure in areas with higher population density and economic activity.
-
 - **Distinct relationships with urban activities and spatial inequality:** EVCS locations exhibit varying relationships with residential population, economic activity, and everyday destinations. In U.S. cities, charging stations are more closely aligned with activity destinations than with residential population distributions. Comparisons between population-based and facility-based distributions further reveal that even extensive charging networks can exhibit substantial spatial inequalities, underscoring the importance of considering both residential and destination charging needs.
 
 The findings demonstrate that **extensive charging infrastructure deployment does not necessarily translate into spatially equitable charging provision**. Effective planning should therefore address highway charging gaps while accounting for regional development stages, urban spatial structures, and diverse charging needs. By providing a **unified framework for international comparison**, this study offers evidence to support cross-regional learning, identify underserved areas, improve charging integration with everyday destinations, and guide more equitable and sustainable EV charging infrastructure development.
