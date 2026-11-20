@@ -38,25 +38,9 @@ hugoblox:
   ids:
     doi: 10.1016/j.trd.2026.105307
 
-# links:
-# - type: preprint
-#   provider: arxiv
-#   id: 1512.04133v1
-# - type: code
-#   url: https://github.com/HugoBlox/hugo-blox-builder
-# - type: slides
-#   url: https://www.slideshare.net/
-# - type: dataset
-#   url: "#"
-# - type: poster
-#   url: "#"
-# - type: source
-#   url: "#"
-# - type: video
-#   url: https://youtube.com
-# - type: custom
-#   label: Custom Link
-#   url: http://example.org
+links:
+- type: poster
+  url: https://globalevdata.github.io/News/2026-3-31.html
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -75,3 +59,5 @@ image:
 > - Asians saw improved accessibility, while Black Americans faced widening disparities.
 > - White Americans benefit more from DC over the past decade.
 > - Elderly have greater access to both DC and AC chargers than younger adults.
+
+This study focuses on the evolution of social equity in EV charging from 2014 to 2023, revealing persistent disparities in charger access despite the expansion of infrastructure and shifts in socioeconomic and demographic characteristics, which reveals long-term changes in EV charging social disparities, and the insights derived from these disparities can help inform more equitable EV charger deployment strategies and support inclusive EV adoption across diverse population groups in the U.S.
