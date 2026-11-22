@@ -7,7 +7,8 @@ links:
   - type: dataset
     url: https://globalevdata.github.io/datasets/
   # Web GIS
-  - type: poster
+  - type: custom
+    label: WebGIS
     url: https://globalevdata.github.io/Global-EVCS-Annual-Report/
 tags:
   - Master Project
