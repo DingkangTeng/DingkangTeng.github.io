@@ -1,5 +1,5 @@
 ---
-title: "From Points to Patterns: Global Spatial Accessibility and Equity in Public Electric Vehicle Charging"
+title: "From Points to Patterns: Global Spatial Siting Patterns of Public Electric Vehicle Charging Stations"
 authors:
 - RuichenMa
 - admin

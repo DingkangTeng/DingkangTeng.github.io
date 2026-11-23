@@ -53,3 +53,7 @@ The six study regions are defined as follows:
 ## Download
 
 - [Global Public EV Charging Infrastructure Annual Report 2026 (Coming Soon)](#)
+
+## Suggested Citation
+
+Ma, R., Teng, D., Chen, D., Yang, X., Bai, T., & Zhuge, C. (2026). *Global Public EV Charging Infrastructure Annual Report*. Global Sustainable Transport Innovation and Knowledge Center; The Hong Kong Polytechnic University. <!-- https://doi.org/ -->
